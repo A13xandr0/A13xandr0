@@ -22,7 +22,7 @@ A repeatable portfolio cycle includes:
 
 ## 3. Portfolio taxonomy
 
-Open-source adoption, contribution or ecosystem investment may appear across any category below; classify it by the outcome it serves and make ongoing stewardship costs visible.
+Open-source adoption, contribution or ecosystem investment may appear across any category below; classify it by the outcome it serves and make ongoing stewardship costs visible. Digital infrastructure choices should also expose energy, water, emissions, site, lifecycle and service-efficiency assumptions.
 
 A useful portfolio view can distinguish:
 
@@ -168,3 +168,6 @@ Use the score to structure a conversation, not to automate selection. First veri
 
 
 For open-source initiatives, include community and upstream dependencies, licence and security review, internal ownership, maintenance horizon, and contribution or support budget in the initiative record. See [Open Source Strategy & Governance](open-source-strategy-governance.md).
+
+
+For material data centre, cloud and digital infrastructure investments, add energy and resource assumptions, measurement boundaries, service-output measures and operational ownership to the portfolio record. See [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
