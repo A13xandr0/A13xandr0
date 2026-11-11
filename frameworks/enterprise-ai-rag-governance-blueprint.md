@@ -16,7 +16,7 @@ It covers:
 - Security, privacy and access control.
 - Evaluation, operational governance and lifecycle management.
 
-It is technology-neutral. Specific products and model providers should be selected only after requirements, constraints and evaluation criteria are established.
+It is technology-neutral. Specific products, model providers and open-source components should be selected only after requirements, constraints and evaluation criteria are established. Open-source availability does not remove obligations for licence review, security maintenance, model evaluation, operational ownership or supply-chain controls.
 
 ## 2. Start with the problem, not the model
 
@@ -189,3 +189,6 @@ Each gate should produce a documented decision, conditions, accountable owner an
 For an organisation-wide decision process covering investment prioritisation, decision authority, accountable roles, delivery tolerances, KPI definitions and benefit reviews, see the [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md). Apply that playbook alongside the AI-specific content above; specialist security, privacy, legal and operational review remains necessary for the actual context.
 
 Any examples, thresholds or role patterns used during tailoring should be labelled as assumptions until approved and evidenced.
+
+
+For the broader decision on open-source adoption, community participation and lifecycle stewardship, see [Open Source Strategy & Governance](open-source-strategy-governance.md).
