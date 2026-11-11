@@ -1,3 +1,10 @@
+---
+version: 1.0.0
+status: reference
+license: CC-BY-4.0
+last_reviewed: 2026-11-12
+---
+
 # Digital Sustainability and Data Centre Energy Governance
 
 **An executive framework for connecting digital service demand with infrastructure capacity, energy, water, resilience, lifecycle economics and useful outcomes.**
