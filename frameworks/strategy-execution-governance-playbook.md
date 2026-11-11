@@ -1,12 +1,12 @@
 # Strategy & Execution Governance — Executive Playbook
 
-**A practical, technology-neutral method for turning strategic intent into governed change and verified outcomes.**
+**A practical, technology-neutral method for turning strategic intent into governed change, including open-source adoption and ecosystem stewardship.**
 
 > **How to read this document.** Sections labelled **Guidance** propose reusable practices. The case in Section 8 is **Illustrative only**: every organisation, figure, threshold, role assignment and result in it is invented to demonstrate use. It is not a claim of implementation experience or an observed result.
 
 ## 1. The leadership method
 
-The leadership contribution is to make the direction clear, decisions timely, ownership explicit and delivery evidence visible—while enabling qualified teams to design and deliver the change.
+The leadership contribution is to make direction clear, decisions timely, ownership explicit and delivery evidence visible—while enabling qualified teams to design and deliver change. For open-source-dependent work, this also means setting a responsible adoption and participation model, with technical implementation and community contributions owned by the people who perform them.
 
 ```mermaid
 flowchart LR
@@ -238,7 +238,13 @@ Targets and thresholds must be set from the organisation’s baseline and contex
 - [ ] Capacity and portfolio trade-offs are considered.
 - [ ] Adoption and outcome evidence informs the next action.
 
-## 8. Worked example — fictional service-request improvement
+## 8. Open-source strategy and governance
+
+Open source is both a way to consume software and a network of projects, maintainers, users and organisations. Treat it as a strategic operating choice, not simply a procurement label or a free substitute for a commercial product. Adoption, internal use, upstream contribution and community leadership are distinct participation modes; select and resource the mode intentionally.
+
+Use the [Open Source Strategy & Governance framework](open-source-strategy-governance.md) for a detailed decision model, operating roles, risk controls, scorecard, participation ladder and fictional case. Apply the same portfolio discipline in this playbook: establish the need and alternatives, assess total lifecycle cost and organisational capability, assign owners for legal/security/operations, and measure outcomes. Do not imply direct code contributions or maintainer responsibilities unless those activities are evidenced and specifically claimed.
+
+## 9. Worked example — fictional service-request improvement
 
 > **Illustrative assumptions only.** “Northstar Services”, its people, measures, costs, ratings, targets, timeline and all outcomes below are fictional. This example demonstrates a decision process; it is not evidence of a real programme or result.
 
@@ -274,7 +280,7 @@ The hypothetical pilot would establish a validated baseline, then track median r
 **Revisit when:** 90-day evidence is available, a material risk emerges, or pilot cost/capacity tolerance is forecast to breach.  
 **Evidence status:** all figures and results remain assumptions until measured.
 
-## 9. Tailoring and boundaries
+## 10. Tailoring and boundaries
 
 Apply governance in proportion to investment, complexity, risk and reversibility. A small reversible change may use a one-page canvas and delegated review; a critical enterprise change may need formal independent assurance and more frequent controls. Do not copy illustrative scoring weights, RACI assignments, cadences or thresholds without adapting them.
 
