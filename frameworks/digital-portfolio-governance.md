@@ -155,3 +155,11 @@ Begin with the minimum information needed to make better decisions. Avoid creati
 ---
 
 *Independent professional reference material. It is not an official standard, financial advice or a representation of any organisation's internal portfolio processes.*
+
+
+
+## 12. Applying the portfolio method
+
+The [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md) provides a weighted discretionary comparison, separate treatment for obligations, a one-page initiative canvas, RACI, decision record, KPI definitions and a fictional worked example.
+
+Use the score to structure a conversation, not to automate selection. First verify mandatory obligations, then assess evidence and confidence, and finally test the proposed order against funding, shared capacity, dependencies, risk and portfolio balance. Record what was deferred or stopped and why. Set escalation tolerances at mandate approval and review forecasts against them before breaches become actuals.
