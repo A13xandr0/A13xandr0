@@ -16,7 +16,7 @@ It covers:
 - Security, privacy and access control.
 - Evaluation, operational governance and lifecycle management.
 
-It is technology-neutral. Specific products, model providers and open-source components should be selected only after requirements, constraints and evaluation criteria are established. Open-source availability does not remove obligations for licence review, security maintenance, model evaluation, operational ownership or supply-chain controls.
+It is technology-neutral. Specific products, model providers and open-source components should be selected only after requirements, constraints and evaluation criteria are established. Open-source availability does not remove obligations for licence review, security maintenance, model evaluation, operational ownership or supply-chain controls. AI and data workloads should also be assessed for compute demand, energy and water implications, and resource use per useful outcome where measurable.
 
 ## 2. Start with the problem, not the model
 
@@ -192,3 +192,5 @@ Any examples, thresholds or role patterns used during tailoring should be labell
 
 
 For the broader decision on open-source adoption, community participation and lifecycle stewardship, see [Open Source Strategy & Governance](open-source-strategy-governance.md).
+
+Digital sustainability and data centre capacity decisions are covered in [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
