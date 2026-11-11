@@ -2,7 +2,9 @@
 
 **A practical, technology-neutral method for turning strategic intent into governed change, including open-source adoption and ecosystem stewardship.**
 
-> **How to read this document.** Sections labelled **Guidance** propose reusable practices. The case in Section 8 is **Illustrative only**: every organisation, figure, threshold, role assignment and result in it is invented to demonstrate use. It is not a claim of implementation experience or an observed result.
+*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+
+> **How to read this document.** Sections labelled **Guidance** propose reusable practices. The case in Section 9 is **Illustrative only**: every organisation, figure, threshold, role assignment and result in it is invented to demonstrate use. It is not a claim of implementation experience or an observed result.
 
 ## 1. The leadership method
 
@@ -238,11 +240,17 @@ Targets and thresholds must be set from the organisation’s baseline and contex
 - [ ] Capacity and portfolio trade-offs are considered.
 - [ ] Adoption and outcome evidence informs the next action.
 
-## 8. Open-source strategy and governance
+## 8. Related frameworks
 
-Open source is both a way to consume software and a network of projects, maintainers, users and organisations. Digital infrastructure sustainability is also a strategic concern: energy, water and lifecycle impacts should be considered alongside service outcomes, resilience and cost. Treat it as a strategic operating choice, not simply a procurement label or a free substitute for a commercial product. Adoption, internal use, upstream contribution and community leadership are distinct participation modes; select and resource the mode intentionally.
+This playbook is the reference method for decisions, prioritisation, governance forums, controls and KPI definitions. The documents below apply it at a specific level or to a specific topic and should be read consistently with it:
 
-Use the [Open Source Strategy & Governance framework](open-source-strategy-governance.md) for a detailed decision model, operating roles, risk controls, scorecard, participation ladder and fictional case. For data centre energy and broader digital sustainability, use the [Digital Sustainability and Data Centre Energy Governance framework](digital-sustainability-data-centre-governance.md), which includes investment gates, accountability, KPI definitions and a fictional case. Apply the same portfolio discipline in this playbook: establish the need and alternatives, assess total lifecycle cost and organisational capability, assign owners for legal/security/operations, and measure outcomes. Do not imply direct code contributions or maintainer responsibilities unless those activities are evidenced and specifically claimed.
+- [Technology Strategy & Execution Governance](technology-strategy-execution-governance.md) — connects strategic outcomes to capabilities, investment and delivery.
+- [Digital Portfolio Governance](digital-portfolio-governance.md) — portfolio selection, sequencing, delivery confidence and rebalancing.
+- [Open Source Strategy & Governance](open-source-strategy-governance.md) — adoption, contribution and stewardship as strategic operating choices with explicit participation modes and lifecycle ownership, not a procurement label or a free substitute for a commercial product.
+- [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md) — energy, water and lifecycle impacts considered alongside service outcomes, resilience and cost.
+- [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md) — use-case selection, information governance, controls and lifecycle for enterprise AI.
+
+Apply the same discipline throughout: establish the need and alternatives, assess lifecycle cost and organisational capability, assign owners for legal, security and operations, and measure outcomes.
 
 ## 9. Worked example — fictional service-request improvement
 
@@ -256,8 +264,8 @@ Three options are considered: (A) clarify process and ownership; (B) add workflo
 
 | Option | Strategy 25 | User value 20 | Risk reduction 15 | Time to evidence 10 | Readiness 15 | Affordability 15 | Weighted |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| A — process and ownership pilot | 4 | 4 | 2 | 5 | 5 | 5 | 81 |
-| B — targeted workflow after pilot | 4 | 4 | 3 | 3 | 3 | 3 | 68 |
+| A — process and ownership pilot | 4 | 4 | 2 | 5 | 5 | 5 | 82 |
+| B — targeted workflow after pilot | 4 | 4 | 3 | 3 | 3 | 3 | 69 |
 | C — broad platform now | 3 | 4 | 3 | 2 | 2 | 2 | 56 |
 
 Scores are fictional discussion inputs, not measured facts. The board chooses A as a time-boxed discovery/pilot, reserves the separate mandatory capacity, and defers B and C until evidence on process adherence, data quality, integration needs and adoption is available. This is a staged option, not a claim that a tool or benefit has been delivered.

@@ -2,6 +2,8 @@
 
 **An executive framework for making energy, water, environmental and resilience considerations part of digital infrastructure decisions.**
 
+*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+
 > **How to use this framework.** This is independent guidance, not a policy or regulatory interpretation. Recommendations should be tailored and validated by energy, engineering, environmental, finance, security and operational specialists. The fictional example in Section 8 is illustrative only; no implementation or results are claimed.
 
 ## 1. Executive purpose
@@ -128,14 +130,14 @@ Use risk-proportionate governance. Record decision authority, thresholds, eviden
 
 ## 6. KPI dictionary
 
-Define a consistent boundary, measurement period, data source, owner and baseline for each indicator. Targets should be locally set and should not be inferred from this list.
+Define a consistent boundary, measurement period, data source, owner and baseline for each indicator. Targets should be locally set and should not be inferred from this list. Where relevant, align definitions with recognised data centre metrics (for example PUE, WUE and CUE, and the ISO/IEC 30134 series) and state any deviation.
 
 | KPI | Suggested definition | Interpretation |
 |---|---|---|
 | Facility energy use | Metered energy consumed within the stated facility boundary per period (kWh) | Show boundary, period, weather and material capacity changes |
 | Energy per useful output | Metered energy attributable to a workload or service ÷ defined completed service units | Define service unit and allocation method; compare like with like |
-| Facility efficiency ratio | Facility energy ÷ IT equipment energy, when both are measured on compatible boundaries | Use as a facility indicator; it does not alone describe total sustainability |
-| Water-use intensity | Direct water consumed within the stated boundary ÷ chosen IT energy or other disclosed denominator | State water source, boundary, period and local context |
+| Facility efficiency ratio (commonly PUE) | Facility energy ÷ IT equipment energy, when both are measured on compatible boundaries | Use as a facility indicator; it does not alone describe total sustainability |
+| Water-use intensity (commonly WUE) | Direct water consumed within the stated boundary ÷ chosen IT energy or other disclosed denominator | State water source, boundary, period and local context |
 | Operational emissions | Emissions associated with energy and other operational sources within a stated boundary (tCO₂e) | State factors, scope, location/market method and period |
 | Renewable electricity share | Eligible renewable electricity accounted for ÷ total electricity in the stated boundary | Explain procurement instrument and accounting method |
 | IT equipment utilisation | Used compute capacity ÷ available capacity over a stated interval | Segment by workload; low utilisation may indicate consolidation potential, but not automatically |
@@ -171,6 +173,16 @@ The team defines an outcome measure based on successful service transactions and
 
 At review, leaders compare measured energy per successful transaction, absolute energy use, service quality, cost and capacity forecast accuracy. If demand evidence changes or an option cannot meet service requirements, the board revises the sequence and records the trade-off.
 
+### Illustrative decision record
+
+| Field | Entry (fictional) |
+|---|---|
+| Decision | Approve a time-bounded optimisation and feasibility phase; defer the expansion decision |
+| Rationale | Demand evidence and capacity forecast are not yet credible enough to justify new capacity |
+| Conditions | Baseline for energy, utilisation, water and cost agreed; named infrastructure and service owners; defined measurement boundary |
+| Revisit when | Demand evidence changes, measured energy per successful transaction is available, or an option cannot meet service requirements |
+| Evidence status | No saving is assumed; all results remain to be measured |
+
 ## 9. Executive checklist
 
 ### Before approving an initiative
@@ -190,7 +202,14 @@ At review, leaders compare measured energy per successful transaction, absolute 
 - [ ] Benefits are assessed using measured service output and resource use.
 - [ ] Unused capacity, equipment and data are periodically reviewed.
 
-## 10. Boundaries and tailoring
+## 10. Related frameworks
+
+- [Executive Playbook](strategy-execution-governance-playbook.md): decision rights, prioritisation, escalation and KPI discipline.
+- [Digital Portfolio Governance](digital-portfolio-governance.md): recording energy and resource assumptions in the portfolio.
+- [Open Source Strategy & Governance](open-source-strategy-governance.md): reuse and shared maintenance, with lifecycle ownership.
+- [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md): compute demand and resource use of AI workloads.
+
+## 11. Boundaries and tailoring
 
 This framework is independent executive guidance, not an engineering design, environmental assessment, legal interpretation, procurement specification or regulatory compliance opinion. Validate methods, targets, local conditions and obligations with qualified specialists. Adapt decision rights and measures to the scale, criticality, geography and maturity of the service.
 
