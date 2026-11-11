@@ -22,6 +22,8 @@ A repeatable portfolio cycle includes:
 
 ## 3. Portfolio taxonomy
 
+Open-source adoption, contribution or ecosystem investment may appear across any category below; classify it by the outcome it serves and make ongoing stewardship costs visible.
+
 A useful portfolio view can distinguish:
 
 - **Run and resilience:** keeping essential services secure, reliable and supported.
@@ -163,3 +165,6 @@ Begin with the minimum information needed to make better decisions. Avoid creati
 The [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md) provides a weighted discretionary comparison, separate treatment for obligations, a one-page initiative canvas, RACI, decision record, KPI definitions and a fictional worked example.
 
 Use the score to structure a conversation, not to automate selection. First verify mandatory obligations, then assess evidence and confidence, and finally test the proposed order against funding, shared capacity, dependencies, risk and portfolio balance. Record what was deferred or stopped and why. Set escalation tolerances at mandate approval and review forecasts against them before breaches become actuals.
+
+
+For open-source initiatives, include community and upstream dependencies, licence and security review, internal ownership, maintenance horizon, and contribution or support budget in the initiative record. See [Open Source Strategy & Governance](open-source-strategy-governance.md).
