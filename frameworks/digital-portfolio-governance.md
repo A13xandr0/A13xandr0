@@ -1,171 +1,71 @@
 # Digital Portfolio Governance Framework
 
-**A practical reference model for prioritising, steering and measuring a portfolio of digital and technology initiatives.**
-
-*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+**A practical reference model for deciding where to invest, how to sequence change and when to rebalance a digital and technology portfolio.**
 
 ## 1. Purpose
 
-A portfolio is more than a collection of project status reports. It is a mechanism for deciding where to invest limited resources, balancing strategic outcomes, mandatory commitments, risk, capacity and delivery confidence.
+A portfolio is not a consolidated project-status report. Its purpose is to make choices across competing demands for funding, capability and management attention. It should show which outcomes the organisation is investing in, which obligations cannot be avoided, where shared dependencies or skills constrain delivery, and where evidence suggests that an initiative should be accelerated, reshaped, deferred or stopped.
 
-This framework describes how to establish portfolio-level visibility and decision-making without replacing the accountability of individual sponsors, product owners or delivery teams.
+This framework therefore complements the core technology strategy framework rather than repeating it. The core defines how strategy becomes governed change; the portfolio view decides how limited resources are distributed across that change.
 
-## 2. Portfolio management cycle
+## 2. Portfolio cycle
 
-A repeatable portfolio cycle includes:
+A useful cycle is **Frame → Assess → Select → Mobilise → Steer → Realise → Rebalance**.
 
-1. **Frame** — capture the problem, strategic outcome and accountable sponsor.
-2. **Assess** — evaluate value, urgency, feasibility, cost, risk and dependencies.
-3. **Select** — make explicit investment and sequencing decisions.
-4. **Mobilise** — confirm ownership, capacity, funding and delivery approach.
-5. **Steer** — review progress, forecast, risks and cross-portfolio constraints.
-6. **Realise** — measure adoption, outcomes and benefits.
-7. **Rebalance** — stop, defer, reshape or accelerate initiatives as evidence changes.
+Frame the problem and strategic outcome before accepting an initiative into the portfolio. Assess value, necessity, feasibility, cost, risk, dependencies and confidence. Select and sequence against real funding and capacity. Mobilise only when ownership and critical prerequisites are credible. Steer through evidence and forecast rather than reporting ritual. Measure adoption and benefits, then rebalance when assumptions change.
 
 ## 3. Portfolio taxonomy
 
-A useful portfolio view can distinguish:
+A simple taxonomy can distinguish run and resilience, mandatory or regulatory change, transformation, innovation and growth, and technical renewal. The categories should reveal balance rather than impose target percentages.
 
-- **Run and resilience:** keeping essential services secure, reliable and supported.
-- **Regulatory and mandatory change:** meeting legal, policy or contractual obligations.
-- **Transformation:** changing processes, operating models and capabilities.
-- **Innovation and growth:** testing new services, products and technology opportunities.
-- **Technical renewal:** addressing obsolescence, technical debt and architectural constraints.
+Strategic technology domains cut across this taxonomy. Open-source contribution might be resilience work or an ecosystem investment; an AI initiative might be transformation or innovation; a data-centre programme might combine renewal, resilience and sustainability. Classify initiatives by the outcome they serve, then make domain-specific dependencies and lifecycle commitments visible.
 
-The categories should be adapted to the organisation. They are intended to reveal the portfolio balance, not impose a universal allocation. Cross-cutting topics such as open source and digital infrastructure sustainability should be classified by the outcome they serve; see Section 12.
+## 4. Initiative record
 
-## 4. Initiative definition
+Each initiative should have a concise and comparable record containing its strategic outcome, problem statement, sponsor, delivery and benefit owners, scope and exclusions, lifecycle cost and funding, milestones, dependencies, principal risks and assumptions, baseline and measures, and current forecast.
 
-Each initiative should have a concise, consistent record:
-
-| Field | Description |
-|---|---|
-| Initiative | Name and unique identifier |
-| Strategic outcome | Outcome or priority supported |
-| Problem statement | Need, opportunity or obligation |
-| Sponsor | Accountable executive |
-| Delivery owner | Person accountable for integrated delivery |
-| Benefit owner | Person accountable for outcome measurement |
-| Scope and exclusions | What is and is not included |
-| Cost and funding | Estimate, funding source and confidence |
-| Timeline | Key milestones and decision dates |
-| Dependencies | Internal and external prerequisites |
-| Risks and assumptions | Material uncertainties and mitigations |
-| Measures | Baseline, target and measurement method |
-| Status and forecast | Evidence-based current view and expected outcome |
+For strategic technology choices, add the dependencies that could materially affect future options. These may include suppliers, open-source ecosystems, AI model or data providers, shared platforms, energy and infrastructure, standards or scarce internal skills.
 
 ## 5. Prioritisation and sequencing
 
-Use a transparent assessment that considers:
+Prioritisation should consider strategic contribution, user or service value, mandatory timing, risk reduction and resilience, affordability, delivery capacity, dependencies, time to evidence and reversibility.
 
-- Strategic contribution.
-- User, service or operational value.
-- Mandatory timing and consequences of delay.
-- Risk reduction and resilience.
-- Cost and affordability.
-- Delivery capacity and capability.
-- Dependencies and sequencing.
-- Time to value and reversibility.
+Do not let a score conceal the decision. Record why an initiative was selected, what it displaced, which assumptions matter and what new evidence could change the order. Portfolio sequencing is especially important where multiple initiatives compete for the same architects, security specialists, data capabilities, infrastructure or operational teams.
 
-Do not let a scoring model conceal trade-offs. Record why an initiative was selected, deferred or stopped and which assumptions influenced the decision.
+## 6. Strategic dependencies across the portfolio
 
-## 6. Decision rights and governance
+A portfolio view should reveal dependencies that are invisible when initiatives are reviewed individually. This includes common vendors, fragile open-source projects, concentration around a system integrator, shared AI or data platforms, common APIs and standards, capacity constraints, grid or site dependencies and specialist skills.
 
-| Forum | Typical decisions |
-|---|---|
-| Executive portfolio board | Portfolio direction, investment trade-offs, major starts/stops |
-| Portfolio management function | Consolidated visibility, analysis, challenge and recommendations |
-| Programme / initiative board | Scope, delivery forecast, risks and corrective action within delegated authority |
-| Architecture / design authority | Material architecture decisions and exceptions |
-| Finance and assurance | Affordability, controls, compliance and independent challenge |
-| Benefit review | Adoption, outcome evidence and corrective action |
+For a material dependency, the portfolio should know which initiatives rely on it, who owns the dependency risk, whether an alternative exists and what investment is required to sustain, influence or exit it. This is where the domain frameworks connect directly to portfolio governance.
 
-Decision thresholds and delegated authority should be explicit. Escalation should be based on defined tolerances, not simply on reporting cycles.
+## 7. Decision rights and steering
 
-## 7. Portfolio dashboard
+An executive portfolio authority should make start, stop, defer, accelerate and major rebalance decisions within delegated authority. The portfolio function should provide consolidated analysis and challenge, not become the owner of every initiative. Initiative boards retain delivery accountability; architecture and assurance authorities manage specialist decisions and exceptions; benefit owners remain accountable for outcome evidence.
 
-A useful dashboard should answer management questions rather than merely display traffic lights.
+Escalation should be based on agreed tolerances and forecast change, not simply monthly reporting cycles.
 
-Suggested views:
+## 8. Portfolio dashboard
 
-- Strategic alignment and coverage.
-- Investment by strategic outcome and portfolio category.
-- Delivery confidence and forecast changes.
-- Milestone predictability and slippage.
-- Cost, forecast and estimate to complete.
-- Critical dependencies and shared-resource constraints.
-- Top risks, issues and decisions required.
-- Adoption and benefits realisation.
-- Initiatives recommended for acceleration, remediation, deferral or closure.
+The dashboard should answer management questions. Useful views include investment by strategic outcome, category and strategic domain; delivery confidence and forecast movement; shared capacity constraints; critical dependencies; lifecycle commitments; top risks and decisions; adoption and benefit realisation; and initiatives recommended for adjustment.
 
-Every indicator should have a definition, data owner, refresh frequency and interpretation guidance.
+Every indicator should have a definition, owner, source and interpretation. The dashboard should distinguish actual progress, forecast, confidence and decision required.
 
-## 8. Delivery confidence and escalation
+## 9. Benefits and rebalancing
 
-Distinguish between:
+Benefits are not created merely because a project is complete. Each material benefit needs a baseline, target, owner, source, expected realisation period and explicit dependencies.
 
-- **Progress:** what has actually been completed.
-- **Forecast:** what is expected to happen and when.
-- **Confidence:** how reliable that forecast is.
-- **Risk:** what could materially change the outcome.
-- **Decision required:** what management action is needed.
+Rebalancing should be normal portfolio behaviour. If evidence weakens, a dependency becomes fragile, cost increases materially, a better option emerges or expected value is no longer credible, leadership should be prepared to reduce scope, pause, replace or stop an initiative. Sunk cost should not become a governance principle.
 
-Escalation triggers may include forecast milestone variance, material cost change, unresolved critical dependency, security or compliance exposure, resource shortfall, scope change or failure to achieve agreed outcomes.
+## 10. Maturity
 
-Thresholds should be tailored and agreed in advance.
+Portfolio governance can mature from visibility, to control, to value management, and finally to continuous optimisation. Start with reliable ownership, common definitions and the small set of information needed to make better decisions. Add sophistication only when the underlying data and management behaviours justify it.
 
-## 9. Benefits realisation
+## 11. Links to the wider framework
 
-Benefits should not be treated as automatic consequences of project completion.
+Use [Technology Strategy & Execution Governance](technology-strategy-execution-governance.md) for the overall strategy-to-outcomes logic and the [Strategy & Execution Governance — Executive Playbook](strategy-execution-governance-playbook.md) for practical decision records, initiative mandates, tolerances and benefits methods.
 
-For each benefit, record:
+For open-source initiatives, use [Open Source Strategy & Governance](open-source-strategy-governance.md) to assess governance health, strategic dependency, stewardship, procurement and continuity. For AI/RAG, use [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md). For material cloud, data-centre and infrastructure investments, use [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
 
-- Baseline and target.
-- Measurement source and method.
-- Accountable benefit owner.
-- Expected realisation timeline.
-- Adoption and process changes required.
-- Dependencies and external influences.
-- Actual result and confidence in attribution.
+## 12. Boundaries
 
-Review benefits after deployment at intervals appropriate to the expected time to value.
-
-## 10. Maturity and implementation
-
-A proportionate implementation can evolve through four levels:
-
-- **Visibility:** establish a reliable inventory, owners and common status definitions.
-- **Control:** introduce prioritisation, decision rights, dependency and risk management.
-- **Value management:** connect investment to outcomes, adoption and benefits.
-- **Optimisation:** continuously rebalance capacity and investment using delivery and outcome evidence.
-
-Begin with the minimum information needed to make better decisions. Avoid creating a reporting burden that exceeds the value of the portfolio insight.
-
-## 11. Executive checklist
-
-- [ ] Every initiative has a sponsor and delivery owner.
-- [ ] Strategic alignment and intended outcomes are explicit.
-- [ ] Mandatory commitments are visible.
-- [ ] Costs, capacity and dependencies are considered together.
-- [ ] Prioritisation decisions and trade-offs are recorded.
-- [ ] Forecasts distinguish actual progress from expectations.
-- [ ] Escalation thresholds and delegated authority are clear.
-- [ ] Benefits have owners, baselines and measurement plans.
-- [ ] The portfolio is periodically rebalanced.
-- [ ] Initiatives can be stopped or reshaped when evidence changes.
-
-## 12. Applying the portfolio method and related frameworks
-
-The [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md) provides a weighted discretionary comparison, separate treatment for obligations, a one-page initiative canvas, RACI, decision record, KPI definitions and a fictional worked example.
-
-Use the score to structure a conversation, not to automate selection. First verify mandatory obligations, then assess evidence and confidence, and finally test the proposed order against funding, shared capacity, dependencies, risk and portfolio balance. Record what was deferred or stopped and why. Set escalation tolerances at mandate approval and review forecasts against them before breaches become actuals.
-
-Cross-cutting topics:
-
-- **Open source:** classify open-source adoption, contribution or ecosystem investment by the outcome it serves and make ongoing stewardship costs visible. Include community and upstream dependencies, licence and security review, internal ownership, maintenance horizon, and contribution or support budget in the initiative record. See [Open Source Strategy & Governance](open-source-strategy-governance.md).
-- **Digital infrastructure:** for material data centre, cloud and infrastructure investments, add energy and resource assumptions, measurement boundaries, service-output measures and operational ownership to the portfolio record. See [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
-- **AI:** see the [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md).
-
----
-
-*Independent professional reference material. It is not an official standard, financial advice or a representation of any organisation's internal portfolio processes.*
+This framework is independent professional reference material. It is not an official standard, financial advice or a representation of any organisation's internal portfolio process.

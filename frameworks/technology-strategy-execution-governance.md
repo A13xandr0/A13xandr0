@@ -1,226 +1,93 @@
 # Technology Strategy & Execution Governance Framework
 
-**An executive reference framework for connecting strategic intent, technology choices and measurable delivery.**
-
-*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+**An executive reference framework for connecting strategic intent, technology choices, investment and measurable delivery.**
 
 ## 1. Purpose
 
-Technology strategy creates value only when strategic intent is translated into decisions, funded initiatives, accountable delivery and measurable outcomes.
+Technology strategy creates value only when strategic intent can be translated into choices that an organisation is able to fund, deliver, operate and evaluate. A strategy that moves directly from ambition to a list of projects usually hides the most important questions: which capabilities are actually required, which dependencies will be created, what alternatives exist, who is accountable, and what evidence will show that the expected outcome has been achieved.
 
-This framework provides a practical management structure for connecting:
-
-1. Business or organisational priorities.
-2. Technology strategy and target capabilities.
-3. Investment choices and a prioritised change portfolio.
-4. Architecture, delivery and governance.
-5. Performance measurement and benefits realisation.
-
-It is intended for executive sponsors, technology leaders, transformation offices, portfolio managers and multidisciplinary delivery teams.
-
-## 2. Strategy-to-execution logic
+This framework provides the common structure used across the repository. It is deliberately technology-neutral. Open source, AI, cloud, data centres and other technology domains have different specialist concerns, but they benefit from the same discipline of connecting outcomes, capabilities, investment, governance and evidence.
 
 A useful operating chain is:
 
-**Strategic outcomes → Required capabilities → Technology choices → Initiatives and investments → Governed delivery → Measured outcomes**
+**Strategic outcomes → Required capabilities → Technology choices → Initiatives and investments → Governed delivery → Adoption → Measured outcomes**
 
-Each transition requires an explicit decision. A strategy should not move directly from aspiration to a list of projects without validating capabilities, dependencies, affordability, risks and organisational readiness.
+Each transition should represent an explicit decision rather than an automatic progression.
 
-### Core questions
+## 2. From strategic intent to technology choices
+
+The starting point is the problem or opportunity, not the preferred technology. Leaders should be able to explain who benefits, what should change, how that change will be observed and which organisational capabilities are needed before evaluating products or architectures.
+
+A sound strategy therefore combines a small number of explicit choices with enough room for specialist teams to design solutions. It should describe the current position, the target capabilities, the main architectural and sourcing principles, material constraints and dependencies, and the measures by which progress will be judged.
+
+Useful questions include:
 
 | Stage | Questions |
 |---|---|
-| Strategic context | What problem or opportunity matters? Who benefits? |
-| Outcomes | What should measurably change, and by when? |
-| Capabilities | Which business, data, people and technology capabilities are required? |
-| Options | What are the viable solution options, including process change and no-build options? |
-| Investment | What value, cost, risk and opportunity cost are associated with each option? |
-| Delivery | Who is accountable? What dependencies and constraints apply? |
-| Benefits | How will adoption, outcomes and sustained value be verified? |
+| Strategic context | What problem or opportunity matters, and for whom? |
+| Outcomes | What should measurably change, by when and against which baseline? |
+| Capabilities | Which business, people, data, operational and technology capabilities are required? |
+| Options | Which process, reuse, buy, build, partner, open-source or managed-service options are realistic? |
+| Dependencies | Which suppliers, ecosystems, standards, platforms, skills or infrastructures would become material? |
+| Investment | What value, cost, capacity, risk and opportunity cost follow from each option? |
+| Delivery | Who is accountable and what constraints or tolerances apply? |
+| Lifecycle | How will the capability be operated, changed, supported and, if necessary, exited? |
+| Benefits | How will adoption and sustained value be verified? |
 
-## 3. Strategic direction and principles
+## 3. Decision principles
 
-A technology strategy should establish a small number of explicit choices rather than attempt to prescribe every technical detail. Those choices may include when to adopt open-source capabilities, how to participate in relevant ecosystems and what stewardship the organisation must fund.
+Principles are useful when they help people make choices, not when they become slogans. A practical set might include simplifying a process before automating it, reusing proven capabilities when they genuinely fit, favouring interoperability and open interfaces where appropriate, designing security, privacy, resilience and accessibility from the outset, and making lifecycle cost and operational ownership visible.
 
-Recommended strategy components:
+Avoiding unnecessary lock-in should be understood broadly. Dependence may arise from a commercial supplier, a proprietary data model, an open-source project with concentrated governance, scarce specialist skills, an energy or infrastructure constraint, or an AI provider. The relevant question is therefore whether the dependency is visible, proportionate and manageable, and whether credible alternatives or exit paths exist.
 
-- A clear statement of organisational outcomes.
-- A current-state assessment based on evidence.
-- A target capability and architecture perspective.
-- A set of technology and design principles.
-- Strategic choices, constraints and areas of optionality.
-- A prioritised roadmap with dependencies and decision points.
-- An investment and sourcing perspective.
-- Measures of progress and intended benefits.
+## 4. Investment and prioritisation
 
-### Example decision principles
+Prioritisation is a management judgement supported by evidence. A numerical score may help structure discussion, but cannot decide whether an initiative is mandatory, affordable, strategically coherent or deliverable with the available capacity.
 
-1. Simplify and improve processes before automating them.
-2. Prefer interoperability and open interfaces where appropriate.
-3. Reuse proven capabilities when they meet requirements.
-4. Design for security, privacy, resilience and accessibility from the outset.
-5. Avoid unnecessary vendor or technology lock-in.
-6. Make lifecycle cost and operational ownership visible.
-7. Select technology according to the problem, not fashion.
+Assess strategic alignment, user and service value, regulatory or operational necessity, feasibility, lifecycle cost, risk reduction, dependencies, time to useful evidence and reversibility. Record the evidence and confidence behind each judgement. Mandatory work should be visible as such rather than forced into the same scoring model as discretionary investment.
 
-These are proposed reference principles and should be tailored to the organisation.
+Portfolio-level methods, including sequencing and rebalancing, are developed in [Digital Portfolio Governance](digital-portfolio-governance.md). Practical scoring, decision records and initiative templates are provided in the [Strategy & Execution Governance — Executive Playbook](strategy-execution-governance-playbook.md).
 
-## 4. Prioritisation and investment decisions
+## 5. Governance and decision rights
 
-Prioritisation should combine strategic alignment with delivery feasibility and risk. A single numerical score can support discussion, but should not replace executive judgement.
+Governance should help qualified people make decisions at the right level and should make escalation easier when assumptions no longer hold. It should not duplicate delivery management.
 
-### Suggested assessment dimensions
+A typical model separates strategic direction, portfolio allocation, initiative sponsorship, technical design, delivery management, specialist assurance and benefits ownership. Smaller organisations may combine roles, but accountability should remain clear.
 
-| Dimension | Assessment |
-|---|---|
-| Strategic alignment | Contribution to agreed strategic outcomes |
-| User and service value | Expected improvement for users, customers or operators |
-| Regulatory or operational necessity | Mandatory obligations or critical operational needs |
-| Feasibility | Technical, organisational and delivery readiness |
-| Cost and affordability | Total lifecycle cost and funding profile |
-| Risk reduction | Security, resilience, compliance and operational risk |
-| Dependencies | Prerequisites, shared platforms and sequencing |
-| Time to value | How soon meaningful benefits can be demonstrated |
+The important design question is not how many boards or committees exist. It is whether each material decision has an accountable owner, defined evidence, delegated authority and a review trigger. Strategic, portfolio, architecture, delivery and benefits reviews should exist only where they improve decision quality or resolve cross-cutting constraints.
 
-For each initiative, document the evidence, assumptions, confidence level and accountable decision-maker. Treat mandatory initiatives and discretionary investments transparently rather than forcing them into an artificial common ranking.
+## 6. Delivery and lifecycle governance
 
-For a weighted comparison method and a worked example, see the [Executive Playbook](strategy-execution-governance-playbook.md), Section 3. The dimensions above are the questions that method scores.
+Delivery governance should make actual progress, forecast, uncertainty, dependencies and decisions visible. At minimum, material initiatives should maintain an integrated view of outcomes, milestones, budget, estimate to complete, dependencies, risks, assumptions, critical skills, operational readiness, adoption and benefits.
 
-## 5. Governance model
+Lifecycle ownership starts before go-live. Technology choices should consider support, maintenance, supplier or ecosystem health, security response, skills, interoperability, portability and exit. Domain frameworks add specialist questions: governance health and stewardship for open-source dependencies, evaluation and information governance for AI/RAG, and capacity, energy and resource constraints for digital infrastructure.
 
-Governance should make decisions faster and more reliable. It should not duplicate delivery management or create approval layers without a clear purpose.
+## 7. Performance and benefits
 
-### Illustrative accountability
+Delivery output and realised outcome are not the same thing. Measure both.
 
-| Role | Primary accountability |
-|---|---|
-| Executive sponsor | Strategic intent, sponsorship and outcome ownership |
-| Strategy / portfolio board | Priorities, investment balance, major trade-offs and portfolio decisions |
-| Technology leadership | Technology direction, architecture principles and technical coherence |
-| Programme or initiative lead | Integrated plan, dependencies, risks, delivery coordination and reporting |
-| Product / service owner | User needs, scope priorities, adoption and service outcomes |
-| Delivery teams | Design, implementation, testing and operational readiness |
-| Risk, security and assurance functions | Independent challenge and proportionate controls |
+A useful measurement model distinguishes strategic outcomes, portfolio health, delivery predictability, technology performance, adoption and benefits. Each material benefit should have a baseline, target, date, accountable owner, measurement source and explicit assumptions. Technology is seldom the sole cause of a benefit, so attribution should be treated carefully.
 
-One person may hold more than one role in smaller organisations. The key is to make decision rights explicit.
+The operating rhythm is straightforward: define outcomes, assess options, prioritise and mandate, deliver within tolerances, measure adoption and benefits, and then learn and rebalance. The value of the cycle lies in the quality of the decisions, not the volume of reporting.
 
-### Governance forums
+## 8. Applying the framework across strategic domains
 
-- **Strategic review:** validates outcomes, direction and major changes.
-- **Portfolio review:** manages priorities, capacity, dependencies and investment trade-offs.
-- **Architecture and design review:** addresses material design decisions, standards and exceptions.
-- **Delivery review:** examines progress, forecast, risks, issues and decisions required.
-- **Benefits review:** checks adoption and whether intended outcomes are being realised.
+The common model is intentionally reusable, but domain-specific governance still matters.
 
-Each forum should have a defined remit, inputs, decision authority and recorded outcomes. The Executive Playbook, Section 4, gives the reference forum set; adapt names and cadence locally.
+For open source, the relevant questions include ecosystem and governance health, strategic dependency, contribution, shared stewardship, supply-chain visibility, procurement and credible fork or exit capability. See [Open Source Strategy & Governance](open-source-strategy-governance.md).
 
-## 6. Delivery governance
+For enterprise AI and RAG, the focus moves to use-case suitability, information readiness, model and retrieval choices, access control, evaluation, human oversight and lifecycle changes. See [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md).
 
-Delivery governance should focus on transparency, early escalation and resolution of cross-team constraints.
+For data centres and digital infrastructure, service demand must be considered together with capacity, energy, water, emissions, resilience, procurement and useful output. See [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
 
-A minimum integrated view should include:
+These domains should not become separate governance silos. Where an initiative crosses them, use one investment and accountability model and add the specialist evidence needed for each material dependency.
 
-- Scope, outcomes and acceptance criteria.
-- Milestones and forecast dates.
-- Budget, actuals and estimate to complete.
-- Dependencies and critical path.
-- Risks, assumptions, issues and decisions.
-- Resource and capability constraints.
-- Quality, security and operational readiness.
-- Adoption and change-management activities.
+## 9. Implementation
 
-Status reporting should distinguish facts, forecasts, assumptions and management judgement. Green status should not be used where material risks are merely being deferred or hidden.
+A proportionate implementation can begin by establishing strategic outcomes and decision rights, then applying the model to a small number of representative initiatives. The organisation can introduce portfolio and performance views once the underlying ownership and data are reliable. Controls that improve decisions should be retained; controls that merely create reporting overhead should be removed or simplified.
 
-## 7. Performance and benefits realisation
+Before approving a significant initiative, leadership should be able to answer five questions in plain language: What outcome are we funding? Why is this option preferable to realistic alternatives? Which dependencies and lifecycle obligations are we accepting? Who is accountable for delivery, operation and benefits? What evidence will cause us to continue, change course or stop?
 
-Measure both delivery performance and the outcomes enabled by delivery.
+## 10. Boundaries
 
-| Measurement layer | Example indicators |
-|---|---|
-| Strategic outcomes | Service quality, user satisfaction, productivity or mission outcomes |
-| Portfolio | Strategic alignment, investment distribution, value at risk and portfolio balance |
-| Delivery | Milestone predictability, lead time, forecast accuracy and unresolved dependencies |
-| Technology | Availability, resilience, security posture, interoperability and technical debt |
-| Adoption | Active use, process adoption, training and user feedback |
-| Benefits | Cost avoidance, time saved, quality improvement and realised service value |
-
-For every material benefit, define:
-
-- A baseline and measurement method.
-- A target and expected realisation date.
-- An accountable benefit owner.
-- Dependencies and assumptions.
-- The source and frequency of measurement.
-
-Do not attribute a benefit to a technology initiative without considering process, organisational and external factors.
-
-## 8. Implementation roadmap
-
-A proportionate adoption can proceed in four stages:
-
-**Stage 1 — Understand**
-- Confirm strategic outcomes and constraints.
-- Assess current capabilities, portfolio and governance maturity.
-- Identify major risks, dependencies and decision bottlenecks.
-
-**Stage 2 — Design**
-- Agree principles and target capabilities.
-- Define decision rights and governance forums.
-- Establish prioritisation and performance methods.
-
-**Stage 3 — Apply**
-- Pilot the framework on a representative set of initiatives.
-- Introduce integrated portfolio and delivery reporting.
-- Validate that governance improves decisions rather than adding overhead.
-
-**Stage 4 — Improve**
-- Review decision quality, delivery predictability and benefits.
-- Remove redundant controls.
-- Adjust the model as organisational maturity evolves.
-
-## 9. Practical executive checklist
-
-Before approving a significant technology initiative, confirm that:
-
-- [ ] The problem and intended outcome are clear.
-- [ ] The initiative is linked to strategic priorities.
-- [ ] Options, including process change and reuse, have been considered.
-- [ ] Costs, lifecycle implications and funding are understood.
-- [ ] Architecture, security, privacy and operational implications are addressed.
-- [ ] An accountable sponsor, delivery lead and benefit owner are identified.
-- [ ] Dependencies, risks and assumptions are visible.
-- [ ] Success measures and a benefits baseline are defined.
-- [ ] The organisation has the capacity and capability to deliver and adopt the change.
-
-## 10. Tailoring and limitations
-
-This framework is a starting point for discussion and adaptation. It does not prescribe a specific delivery methodology, organisational structure, technology stack or regulatory interpretation. The governance model should be proportionate to the scale, complexity, criticality and risk of the initiative.
-
-## 11. Related frameworks and operating practice
-
-Use the [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md) for the decision record, prioritisation method, governance cadence, RACI, tolerance-based escalation, KPI dictionary, benefits profile and fictional worked example.
-
-A practical operating rhythm is:
-
-```mermaid
-flowchart LR
-  A[Set outcomes] --> B[Assess options]
-  B --> C[Prioritise and mandate]
-  C --> D[Deliver within tolerances]
-  D --> E[Measure adoption and benefits]
-  E --> F[Learn and rebalance]
-  F --> A
-```
-
-At each transition, name the decision owner, evidence required and next review date. Record material assumptions separately from confirmed facts. The playbook's example and scoring weights are illustrative; calibrate all targets, thresholds and role assignments to the organisation.
-
-Related topics:
-
-- **Portfolio:** [Digital Portfolio Governance](digital-portfolio-governance.md) applies this framework to portfolio selection, sequencing and rebalancing.
-- **Open source:** adoption and ecosystem participation, including lifecycle costs, operating ownership, contribution choices and sustainability, are covered in [Open Source Strategy & Governance](open-source-strategy-governance.md).
-- **Sustainability:** consider service demand, energy, water, emissions, lifecycle costs, resilience and useful service output together; see [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md) for a decision model and KPI dictionary.
-- **AI:** see the [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md) for AI-specific controls.
-
----
-
-*Independent professional reference material. It is not an official standard, legal advice or a representation of any organisation's internal policies or practices.*
+This framework is independent professional reference material. It does not prescribe a delivery methodology, organisational structure, technology stack, procurement model or regulatory interpretation. Apply it proportionately to scale, complexity, criticality and reversibility, and use qualified specialist advice where required.

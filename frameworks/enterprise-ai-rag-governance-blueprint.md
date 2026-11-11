@@ -1,195 +1,75 @@
 # Enterprise AI & RAG — Strategic and Governance Blueprint
 
-**An executive blueprint for assessing, shaping and governing enterprise knowledge assistants and retrieval-augmented generation solutions.**
+**An executive blueprint for deciding when enterprise AI and retrieval-augmented generation are useful, and for governing the information, technology and lifecycle dependencies they create.**
 
-*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+## 1. Purpose
 
-## 1. Purpose and scope
+RAG can make organisational knowledge easier to discover and use by combining retrieval with a generative model. It does not make weak information authoritative, remove access-control requirements or guarantee accurate answers. The governance problem therefore begins before model selection.
 
-Retrieval-augmented generation (RAG) can make organisational knowledge easier to discover and use by combining information retrieval with a generative model. It does not, by itself, guarantee accuracy, completeness, security or appropriate use.
+This blueprint applies the repository's common sequence to AI: define the user outcome, assess realistic options, understand the information and technology dependencies, establish accountable ownership, test with evidence and govern the solution over its lifecycle.
 
-This blueprint helps decision-makers and delivery teams frame an AI/RAG initiative before selecting products or starting implementation.
+## 2. Start with the task, not the model
 
-It covers:
+For each candidate use case, describe the user, task, current friction, authoritative sources, consequence of error, required human oversight, measurable value and information readiness. Compare RAG with simpler alternatives such as better information architecture, conventional search, workflow redesign or targeted automation.
 
-- Use-case selection and value assessment.
-- Information readiness and content governance.
-- Reference architecture and design decisions.
-- Security, privacy and access control.
-- Evaluation, operational governance and lifecycle management.
+Use cases with clear users, authoritative accessible information and measurable value are easier to govern. Where errors can affect rights, safety, material financial decisions or other high-impact outcomes, stronger controls and specialist assessment are needed and autonomous generation may be inappropriate.
 
-It is technology-neutral. Specific products, model providers and open-source components should be selected only after requirements, constraints and evaluation criteria are established. Open-source availability does not remove obligations for licence review, security maintenance, model evaluation, operational ownership or supply-chain controls. AI and data workloads should also be assessed for compute demand, energy and water implications, and resource use per useful outcome where measurable.
+## 3. Information before generation
 
-## 2. Start with the problem, not the model
+The quality of an AI assistant is bounded by its sources. Each source collection should have an owner, an authorised basis for use, classification and retention rules, version and freshness expectations, provenance, permission mapping and a process for resolving outdated or conflicting material.
 
-Potential use cases include policy and procedure discovery, technical knowledge retrieval, customer-support assistance, internal research and document-based question answering.
+Technical accessibility is not equivalent to authority to index, process or disclose. Content governance should therefore be treated as part of the service design, not as a preparatory data-cleaning exercise.
 
-For each candidate use case, define:
+## 4. Architecture and strategic dependencies
 
-| Assessment area | Questions |
-|---|---|
-| User and task | Who needs help, with which task and in what context? |
-| Current friction | What is slow, costly, inconsistent or difficult today? |
-| Knowledge sources | Which authoritative sources contain the required information? |
-| Consequence of error | What happens if the answer is incomplete or wrong? |
-| Human oversight | Which decisions require review or must remain with a person? |
-| Value | What measurable improvement is expected? |
-| Feasibility | Are content, permissions, metadata and ownership adequate? |
+A typical RAG service includes source systems, ingestion, content preparation, indexes, retrieval, model orchestration, user experience and governance or observability. Preserve source identifiers and versions, enforce permissions during retrieval, treat retrieved documents as untrusted input, provide an abstention path and retain traceability across content, retrieval and model versions.
 
-Prioritise use cases with clear users, accessible authoritative content, measurable value and manageable consequences of error. High-impact or rights-affecting decisions require stronger controls and may be unsuitable for autonomous generation.
+The architecture should also expose strategic dependencies. A solution may depend on model providers, open-weight or open-source components, embedding services, vector or lexical indexes, proprietary APIs, data platforms, cloud infrastructure and scarce expertise. For each material dependency, ask what can be substituted, what data or configuration can be moved, which change would require re-evaluation and what exit would realistically involve.
 
-## 3. Reference architecture
-
-A typical RAG solution contains the following logical capabilities:
-
-1. **Source systems** — approved repositories, document stores, knowledge bases and structured data.
-2. **Ingestion** — connectors, extraction, format handling and content validation.
-3. **Content preparation** — classification, metadata, deduplication, chunking and version tracking.
-4. **Indexing** — embeddings and lexical indexes, with traceability to source documents.
-5. **Retrieval** — query understanding, filtering, hybrid search, ranking and access enforcement.
-6. **Generation** — model orchestration, context assembly, prompt controls and answer generation.
-7. **User experience** — answer, citations, source preview, feedback and escalation.
-8. **Governance and observability** — access logs, evaluation, monitoring, incident handling and audit evidence.
-
-### Critical design requirements
-
-- Enforce user permissions at retrieval time; do not rely on prompts to protect restricted content.
-- Preserve source identifiers, versions and relevant page or section references.
-- Make freshness, ownership and authoritative status visible.
-- Separate retrieved content from system instructions and treat documents as untrusted input.
-- Provide a clear abstention path when evidence is missing, conflicting or insufficient.
-- Keep model, retrieval and content versions traceable for investigation and evaluation.
-
-## 4. Content and information governance
-
-The quality of a RAG solution is bounded by the quality and governance of its knowledge sources.
-
-Before ingestion, establish:
-
-- A named owner for each source collection.
-- A lawful and authorised basis for processing and access.
-- Classification, retention and deletion rules.
-- Versioning and update frequency.
-- Metadata quality and document provenance.
-- Permission mapping and revocation behaviour.
-- Procedures for outdated, duplicated or conflicting content.
-
-A document being technically accessible does not automatically mean it is appropriate to index or disclose through an AI assistant.
+Open source and open models require careful distinction. Open-source software, open weights, open model architectures and accessible training information are not interchangeable concepts and do not carry identical rights, risks or governance consequences. Apply [Open Source Strategy & Governance](open-source-strategy-governance.md) to software and ecosystem dependencies while retaining AI-specific evaluation and responsible-use controls here.
 
 ## 5. Security, privacy and responsible use
 
-Threat modelling should cover the complete workflow, not only the language model.
+Threat modelling should cover the complete workflow. Consider identity, access control, tenant and data segregation, personal or sensitive data, prompt injection, malicious retrieved content, data exfiltration, secrets, connector security, provider data handling, logging, human review and incident response.
 
-Consider at least:
+Where third-party models or services are used, contract terms and operational design should make material data handling, retention, service changes and exit constraints visible. Where open models are used, internal ownership of security, evaluation and lifecycle maintenance does not disappear.
 
-- Identity, authentication and role-based or attribute-based access.
-- Tenant and data segregation.
-- Personal and sensitive data handling.
-- Prompt injection in user input and retrieved documents.
-- Data exfiltration and unauthorised disclosure.
-- Secrets management and secure connector configuration.
-- Logging minimisation, retention and auditability.
-- Model-provider data handling and contractual controls.
-- Human review, escalation and incident response.
+## 6. Evaluation
 
-Security and privacy requirements should be reviewed by the relevant specialists and mapped to applicable law, policy and organisational risk controls. This blueprint is not legal advice or a compliance certification.
+Evaluate retrieval and generation separately and end-to-end. A representative evaluation set should test retrieval relevance, context coverage, faithfulness, citation quality, completeness, abstention, permission boundaries, robustness, latency and cost per accepted useful outcome.
 
-## 6. Evaluation framework
+Include normal, ambiguous, unanswerable, conflicting and adversarial cases. Record the corpus, configuration, model, retrieval settings and evaluation version so that changes can be compared rather than judged impressionistically.
 
-Evaluation must test the retrieval pipeline and generated answers separately as well as end-to-end.
+Evaluation is not a one-time acceptance gate. Re-evaluate when models, prompts, indexes, source collections, permissions or material orchestration logic change.
 
-| Evaluation area | Example question |
-|---|---|
-| Retrieval relevance | Are the right passages retrieved for the question? |
-| Context coverage | Does retrieved context contain the evidence needed to answer? |
-| Faithfulness | Is the answer supported by the retrieved evidence? |
-| Citation quality | Do citations lead to the passages that support each claim? |
-| Answer completeness | Does the answer address the material parts of the question? |
-| Abstention | Does the system decline when evidence is insufficient? |
-| Access control | Can users retrieve only information they are authorised to see? |
-| Robustness | How does the system handle ambiguity, conflicting sources and malicious content? |
-| Performance | Are latency and availability acceptable for the task? |
-| Cost | What is the cost per useful, accepted outcome? |
+## 7. Operating model
 
-Create a representative evaluation set before launch. Include normal questions, ambiguous questions, unanswerable questions, conflicting documents, permission-boundary tests and adversarial inputs. Record the dataset version, configuration and evaluation results so changes can be compared.
+The executive sponsor owns purpose and investment; the product or service owner owns user value and prioritisation; knowledge owners remain accountable for source authority and lifecycle; architecture and AI/data specialists own technical design; security and privacy specialists provide assurance; delivery integrates change; and operations owns continuity, monitoring and incidents.
 
-## 7. Operating model and accountability
-
-| Role | Accountability |
-|---|---|
-| Executive sponsor | Business purpose, risk appetite and investment |
-| Product / service owner | User needs, prioritisation and service outcomes |
-| Knowledge owner | Source quality, authority, lifecycle and access rules |
-| Architecture lead | Solution coherence and design decisions |
-| AI / data specialists | Retrieval, model integration and evaluation |
-| Security and privacy specialists | Risk assessment and required controls |
-| Delivery lead | Integrated plan, dependencies and delivery reporting |
-| Operations owner | Monitoring, support, incidents and service continuity |
-
-The same person may hold multiple roles, but accountability for content, access, model behaviour and service operation should remain explicit.
+One person may hold several roles, but accountability for content, access, model behaviour and service operation should remain explicit.
 
 ## 8. Lifecycle governance
 
-**Discover**
-- Define the user problem, intended value and risk classification.
-- Identify authoritative sources and content owners.
-- Establish baseline measures and acceptance criteria.
+During discovery, define the user problem, value, risk, authoritative sources and baseline. During design, agree architecture, permissions, data flows, evaluation and human oversight. During a pilot, use bounded content and representative users to test quality and failure modes. Before deployment, complete proportionate assurance and establish support, monitoring and rollback. During operation, monitor quality, adoption, cost, incidents, source freshness and dependency changes.
 
-**Design**
-- Agree architecture, access model and data flows.
-- Define evaluation datasets and threat scenarios.
-- Set human oversight and escalation requirements.
+Retirement is also part of lifecycle governance. Sources, models, indexes, integrations and whole capabilities should be removed when they are no longer authorised, useful, supportable or proportionate to the outcome.
 
-**Pilot**
-- Use a bounded corpus and representative users.
-- Test retrieval, citations, permissions, abstention and failure modes.
-- Capture user feedback and operational evidence.
+## 9. Decision gates
 
-**Deploy**
-- Complete security, privacy, architecture and operational reviews.
-- Establish monitoring, support, change control and rollback.
-- Communicate limitations and appropriate use to users.
+A useful sequence asks five questions. Is AI/RAG suitable for the task? Is the information ready and appropriately governed? Is the design acceptable from architecture, security, privacy and dependency perspectives? Does pilot evidence demonstrate acceptable value and quality? Is operational ownership funded and realistic?
 
-**Operate and improve**
-- Monitor quality, usage, cost, incidents and source freshness.
-- Re-evaluate after model, prompt, index or corpus changes.
-- Retire sources and capabilities when they are no longer authorised or useful.
+Each gate should result in a decision, conditions, accountable owner, unresolved uncertainties and a review trigger.
 
-## 9. Executive decision gates
+## 10. Sustainability and portfolio fit
 
-A practical governance process can use five gates:
+AI is also a portfolio and infrastructure choice. Model size, retrieval design, data movement, workload patterns and provider architecture influence cost, capacity and resource use. Prefer the least complex approach that meets the task and measure cost or resource use against useful accepted outcomes where feasible.
 
-1. **Value and suitability:** Is RAG appropriate for the problem?
-2. **Information readiness:** Are sources authoritative, accessible and governed?
-3. **Design assurance:** Are architecture, access, privacy and security controls adequate?
-4. **Pilot acceptance:** Does evidence demonstrate acceptable quality, risk and usability?
-5. **Operational readiness:** Are ownership, monitoring, support and lifecycle controls in place?
+Use [Digital Portfolio Governance](digital-portfolio-governance.md) for investment sequencing and [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md) where compute, cloud or infrastructure capacity and environmental impacts are material.
 
-Each gate should produce a documented decision, conditions, accountable owner and unresolved risks.
+## 11. Executive checklist
 
-## 10. Executive checklist
+Before deployment, confirm that the user, task and intended outcome are clear; simpler options were considered; authoritative sources and permissions are known; access control is enforced before content reaches the model; provenance and citations can be tested; injection and disclosure risks are assessed; evaluation includes adverse cases; human oversight is explicit; strategic dependencies and exit implications are understood; and operations, monitoring and benefits review are funded.
 
-- [ ] The use case has a defined user, task and measurable outcome.
-- [ ] RAG has been compared with simpler alternatives, including conventional search.
-- [ ] Source owners, permissions and lifecycle rules are known.
-- [ ] Access controls are enforced before retrieved content reaches the model.
-- [ ] Citations and source provenance are available and testable.
-- [ ] Prompt injection and data disclosure risks have been assessed.
-- [ ] An evaluation set includes unanswerable and adversarial questions.
-- [ ] Human oversight and escalation are defined.
-- [ ] Operating ownership, monitoring and incident response are funded.
-- [ ] Benefits, quality and cost will be reviewed after deployment.
+## 12. Boundaries
 
-## 11. Portfolio governance and related frameworks
-
-For an organisation-wide decision process covering investment prioritisation, decision authority, accountable roles, delivery tolerances, KPI definitions and benefit reviews, see the [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md). Apply it alongside the AI-specific content above; specialist security, privacy, legal and operational review remains necessary for the actual context. Any examples, thresholds or role patterns used during tailoring should be labelled as assumptions until approved and evidenced.
-
-Related topics:
-
-- **Open source:** for the broader decision on open-source adoption, community participation and lifecycle stewardship, see [Open Source Strategy & Governance](open-source-strategy-governance.md).
-- **Sustainability:** digital sustainability and data centre capacity decisions are covered in [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
-- **External references:** organisations may map this blueprint to recognised references such as the NIST AI Risk Management Framework and ISO/IEC 42001, and to applicable law and regulation in their jurisdictions, with specialist review.
-
----
-
-*Independent professional reference material. This document is a strategic and governance blueprint, not an implementation specification, legal opinion, security certification or endorsement of a particular vendor.*
+This is independent professional reference material. It is a strategic and governance blueprint, not an implementation specification, legal opinion, security certification or endorsement of a vendor, model or technology stack.

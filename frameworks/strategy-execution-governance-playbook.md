@@ -1,295 +1,90 @@
 # Strategy & Execution Governance — Executive Playbook
 
-**A practical, technology-neutral method for turning strategic intent into governed change, including open-source adoption and ecosystem stewardship.**
+**A practical, technology-neutral method for turning strategic intent into governed change.**
 
-*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+## 1. What this playbook is for
 
-> **How to read this document.** Sections labelled **Guidance** propose reusable practices. The case in Section 9 is **Illustrative only**: every organisation, figure, threshold, role assignment and result in it is invented to demonstrate use. It is not a claim of implementation experience or an observed result.
+The core framework explains how strategy, technology and outcomes connect. This playbook focuses on the operating practice needed to make that connection real. Its purpose is to make direction clear, decisions timely, ownership explicit and delivery evidence visible without moving specialist judgement away from the teams that hold it.
 
-## 1. The leadership method
+A useful leadership sequence is: **Frame → Specify outcomes → Compare options → Prioritise → Mandate → Steer → Realise → Learn**. The order matters. A solution should not receive delivery authority before the problem, expected outcome, key assumptions and accountable owners are understood.
 
-The leadership contribution is to make direction clear, decisions timely, ownership explicit and delivery evidence visible—while enabling qualified teams to design and deliver change. For open-source-dependent work, this also means setting a responsible adoption and participation model, with technical implementation and community contributions owned by the people who perform them.
+## 2. Decision rights
 
-```mermaid
-flowchart LR
-  A[Strategic intent] --> B[Outcomes and baseline]
-  B --> C[Options and priorities]
-  C --> D[Accountability and mandate]
-  D --> E[Governed delivery]
-  E --> F[Adoption and benefits]
-  F -->|Evidence and learning| A
-  C -. decision record .-> G[Portfolio board]
-  E -. exceptions and forecasts .-> G
-  F -. outcome evidence .-> G
-```
+Decision classes should have named authority. Executive leadership normally owns strategic direction and risk appetite; a portfolio authority allocates investment within delegated limits; sponsors mandate initiatives; design authorities manage material technical exceptions; delivery leaders correct execution within tolerance; and benefit owners validate outcomes.
 
-**Guidance — working sequence**
+When authority is unclear, the answer is not another status meeting. The decision should be reframed with options, evidence, a recommendation, the latest safe decision date and the person who has authority to decide.
 
-1. **Frame:** describe the problem, affected users, strategic outcome and constraints.
-2. **Specify outcomes:** baseline, target, date, measure and accountable benefit owner.
-3. **Compare options:** include process redesign, reuse, buy, build, partner, defer and do nothing where relevant.
-4. **Prioritise:** show value, urgency, confidence, capacity, risk and dependencies; make trade-offs explicit.
-5. **Mandate:** name sponsor, delivery owner, benefit owner, decision authority and tolerances.
-6. **Steer:** review evidence and forecast, resolve cross-team constraints, and escalate exceptions.
-7. **Realise:** verify adoption and outcomes after delivery; continue, adapt or stop based on evidence.
+### Decision record
 
-The executive role is to set direction and guardrails, make or delegate decisions, align stakeholders, secure capacity, challenge evidence and remove systemic barriers. Specialist teams retain accountability for professional design, implementation, testing and operations.
+For each material decision, record:
 
-## 2. Decision framework
+- context and intended outcome;
+- decision owner and required-by date;
+- realistic options, including defer or do nothing where relevant;
+- evidence, assumptions and uncertainty;
+- recommendation and rationale;
+- cost, capacity, risk and dependency implications;
+- dissenting or unresolved views;
+- decision, conditions, action owners and review trigger.
 
-### 2.1 Decision classes and authority
-
-| Decision class | Examples | Accountable decision-maker | Required input |
-|---|---|---|---|
-| Strategic direction | Outcomes, principles, risk appetite | Executive leadership | Strategy, finance, risk and affected business leaders |
-| Portfolio allocation | Start, stop, defer, accelerate; funding envelope | Portfolio board within delegated authority | Portfolio lead, sponsors, finance, capacity owners |
-| Initiative mandate | Scope, outcome, owner, tolerances | Executive sponsor | Product/service owner, delivery lead, architecture and assurance |
-| Material design exception | Deviation from agreed principles or material risk | Named design authority or delegated executive | Architecture, security, operations, delivery |
-| Delivery correction | Recovery actions within approved scope and tolerance | Delivery/initiative lead | Team evidence and impacted owners |
-| Benefit acceptance | Confirm outcome evidence and next action | Benefit owner; sponsor accountable for response | Service data, finance and users |
-
-**Guidance:** publish monetary and schedule limits, risk thresholds, and matters reserved for senior decision. If authority is unclear or a tolerance is forecast to be breached, escalate with options and a recommendation. Do not present an unresolved decision as a status update.
-
-### 2.2 Decision record template
-
-Copy for each material decision:
-
-| Field | Entry |
-|---|---|
-| Decision ID / date | |
-| Decision required by | |
-| Decision owner | |
-| Context and intended outcome | |
-| Options considered, including defer / do nothing | |
-| Evidence and assumptions | |
-| Recommendation and rationale | |
-| Cost, capacity, risk and dependency implications | |
-| Dissenting view / unresolved uncertainty | |
-| Decision and conditions | |
-| Accountable action owner and due date | |
-| Review trigger / date | |
+This record should be concise enough to use routinely and complete enough to explain later why the choice was made.
 
 ## 3. Prioritisation and investment
 
-### 3.1 First separate obligations from choices
+First separate obligations from choices. Legal, safety, resilience, contractual or time-critical obligations still consume scarce capacity, but they should not be disguised as discretionary initiatives with artificially high scores.
 
-**Guidance:** identify legal, safety, contractual, resilience and time-critical obligations first. Confirm the source, deadline, consequence of delay and minimum compliant scope with the accountable specialist. Mandatory work still competes for capacity; expose its cost and what it displaces. Rank discretionary work in a separate, transparent comparison.
+For discretionary investments, assess strategic contribution, user or service value, risk reduction, time to useful evidence, readiness, affordability and capacity. Rate evidence and confidence as well as expected value. High expected value with low confidence is usually a case for discovery or a bounded pilot, not immediate scale investment.
 
-### 3.2 Scored comparison for discretionary initiatives
-
-Rate each factor from 1 (low) to 5 (high), attach evidence and confidence, and calculate a discussion score:
-
-| Factor | Weight | Rating question |
-|---|---:|---|
-| Strategic contribution | 25% | How directly does this advance an agreed outcome? |
-| User / service value | 20% | How material is the expected improvement for users or operations? |
-| Risk reduction / resilience | 15% | How much material risk is reduced? |
-| Time to useful evidence | 10% | How soon can a meaningful outcome be tested? |
-| Feasibility and readiness | 15% | Are skills, information, design and change readiness available? |
-| Affordability and capacity fit | 15% | Can lifecycle cost and scarce capacity be accommodated? |
-
-**Weighted score = sum of (rating ÷ 5 × weight).** The score ranges from 0 to 100. It is a screening aid, not an investment answer or a forecast of benefits. Record rating evidence and confidence (high / medium / low). A low-confidence high score should trigger discovery or a bounded experiment, not automatic approval.
-
-Then apply the capacity and sequencing screen:
-
-| Expected value | Readiness / confidence | Suggested treatment |
-|---|---|---|
-| High | High | Consider investment, subject to affordability and dependency fit |
-| High | Low | Fund discovery, validation or a bounded pilot with an explicit exit decision |
-| Low | High | Defer, reduce scope or proceed only for a stated enabling reason |
-| Low | Low | Stop or hold pending new evidence |
-
-**Decision rules:** no score overrides mandatory obligations, unacceptable risk, lack of accountable ownership or unavailable capacity. Compare initiatives as a portfolio: dependencies, shared teams, operational load and strategic balance can change the order. Record selected, deferred and rejected options and the reason.
-
-### 3.3 One-page initiative canvas
-
-- **Problem / affected users:**
-- **Strategic outcome and measure:**
-- **Baseline / target / date:**
-- **Options considered (including process change and no change):**
-- **Expected value and confidence:**
-- **Mandatory obligation (if any) and source:**
-- **Indicative lifecycle cost / funding / capacity:**
-- **Key dependencies and assumptions:**
-- **Principal risks and mitigations:**
-- **Sponsor / delivery owner / benefit owner:**
-- **Proposed decision, conditions and next review:**
+A one-page initiative canvas should capture the problem, strategic outcome, baseline and target, options considered, expected value and confidence, mandatory obligations, lifecycle cost, dependencies, principal risks, accountable owners and the proposed decision.
 
 ## 4. Governance operating model
 
-### 4.1 Minimum viable forums
+The minimum viable governance model normally needs only the forums that can make a decision or resolve an impediment. Strategic review confirms outcomes and direction. Portfolio review balances investment and capacity. Initiative review addresses delivery within mandate. Design and assurance review deals with material architecture, security, privacy, resilience and operational questions. Benefits review examines adoption and outcome evidence after delivery.
 
-| Forum | Cadence (illustrative) | Purpose and decisions | Core inputs | Outputs |
-|---|---|---|---|---|
-| Executive strategy review | Quarterly or on trigger | Confirm outcomes, direction, risk appetite and major trade-offs | Outcome trends, strategic changes, material exceptions | Direction, reserved decisions, mandate changes |
-| Portfolio review | Monthly | Balance investment, capacity and dependencies; start/stop/defer/accelerate | Initiative canvases, forecasts, capacity, risks, benefit evidence | Prioritised portfolio, decisions, owners and dates |
-| Initiative review | Fortnightly or monthly, proportionate to risk | Correct delivery within mandate; escalate tolerance breaches | Milestones, cost forecast, RAID, dependencies, quality/adoption | Actions, decisions, escalation requests |
-| Design / assurance review | At material decisions and changes | Challenge architecture, security, privacy, resilience and operability | Options, impact, exceptions, specialist assessments | Approval, conditions, exception or escalation |
-| Benefits review | At agreed post-change intervals | Validate adoption and outcome evidence; adapt or stop | Baseline, actuals, attribution limits, user feedback | Benefit action, owner, next measurement |
+Every forum should have a remit, delegated authority, expected inputs, decision log and escalation path. Cadence should follow the decision need rather than an arbitrary calendar.
 
-Cadence is a starting point, not a prescribed standard. A forum should meet only when it can make decisions or resolve impediments. Publish its remit, chair, attendees, delegated authority, quorum, inputs and decision log.
+### Accountability pattern
 
-### 4.2 RACI and accountability
-
-R = does the work; A = one role answerable for the result; C = consulted; I = informed.
-
-| Activity | Executive sponsor | Portfolio board | Portfolio lead | Delivery lead | Product / service owner | Benefit owner | Specialist assurance |
-|---|---|---|---|---|---|---|---|
-| Set strategic outcomes and guardrails | A | C | C | I | C | C | C |
-| Assess and recommend portfolio order | C | A | R | C | C | C | C |
-| Approve initiative mandate | A | C | R | C | C | C | C |
-| Deliver within approved mandate | I | I | C | A/R | C | I | C |
-| Prioritise product scope and adoption | C | I | I | C | A/R | C | C |
-| Define and measure benefit | C | I | C | C | R | A | C |
-| Assure material risks / exceptions | A* | C | I | R | C | I | R |
-| Rebalance / stop / materially reset | C | A | R | C | C | C | C |
-
-**Accountability notes:** assign one named individual to each A role for each initiative. The table is a reference pattern; adapt it to local delegations. *The accountable authority for a particular assurance decision must be explicitly designated; independent assurance advises and challenges but does not silently assume business ownership.*
+Use RACI where it improves clarity, but avoid treating it as a substitute for named ownership. Each initiative should have one accountable sponsor, a delivery owner, a service or product owner and a benefit owner. Specialist assurance functions provide evidence and challenge; they do not silently inherit business accountability.
 
 ## 5. Portfolio and delivery controls
 
-### 5.1 Common control set
+Every material initiative should maintain a coherent view of approved outcome and scope, milestones and forecast, budget and estimate to complete, dependencies, risks and assumptions, critical skills, adoption, service transition, architecture and assurance evidence, benefit baseline and decision history.
 
-Every material initiative should have:
+Set tolerances at mandate approval. Escalation should be triggered by forecast breach, not only after failure has occurred. Typical triggers include a key milestone or cost forecast outside tolerance, a critical dependency without a credible recovery path, material change to outcome or risk, unavailable operational ownership, or benefit assumptions that no longer remain credible.
 
-- An approved outcome, scope boundary, sponsor and benefit owner.
-- A milestone plan with baseline, current forecast and changes explained.
-- Budget, actual spend, estimate to complete and confidence range.
-- Named dependencies, required-by dates and owning parties.
-- Risks, assumptions, issues and decisions (RAID), each with owner and next action.
-- Capacity and critical skills view across shared teams.
-- Change, adoption, service transition and operational ownership plan.
-- Proportionate architecture, security, privacy, resilience and quality evidence.
-- Benefit baseline, target, data source and post-change review date.
-- Decision and change log, including stop / defer / reset rationale.
+Status should distinguish actual progress, forecast, confidence, top risks, decisions required and outcome evidence. A traffic-light colour can summarise a defined rule but should never replace the explanation.
 
-### 5.2 Tolerance-based escalation
+## 6. Measures and benefits
 
-Set tolerances at mandate approval. A usable default pattern (to be tailored) is to escalate when a forecast—not only an actual—shows:
+A compact KPI set is more useful than a large dashboard. Common measures include outcome attainment, milestone predictability, forecast variance, critical-dependency health, adoption, benefit realisation, risk-action timeliness and decision lead time.
 
-- A key milestone will exceed its approved tolerance.
-- Cost at completion will exceed the delegated funding envelope.
-- A critical dependency has no credible owner or recovery date.
-- A material scope change affects the intended outcome or risk.
-- Security, privacy, safety, regulatory or service exposure exceeds accepted appetite.
-- Required capacity, adoption or operational ownership is unavailable.
-- Benefit assumptions are no longer credible.
+For each benefit, define the baseline, target, unit, date, measurement source, accountable owner, dependencies, disbenefits and attribution assumptions. Separate what was delivered from what was adopted and what actually improved.
 
-**Escalation brief:** exception; evidence and forecast; impact if unresolved; options and trade-offs; recommended decision; decision owner; latest safe decision date. The receiving authority records the decision and conditions.
+## 7. Applying the playbook to strategic technology domains
 
-### 5.3 Status discipline
+The playbook supplies the common governance mechanics. Domain frameworks add the evidence appropriate to the technology choice.
 
-Report separately: **actual progress**, **forecast**, **confidence**, **top risk / issue**, **decision needed**, **outcome evidence**. RAG colours may summarise a defined rule, but never replace these statements. A green label means within agreed tolerances with evidence; it does not mean “no issues”.
+For open-source-dependent initiatives, add project and governance health, strategic dependency classification, supply-chain and licence evidence, participation mode, maintenance ownership and continuity options. For enterprise AI/RAG, add source governance, access model, evaluation evidence, model and retrieval changes, human oversight and incident paths. For digital infrastructure, add capacity forecasts, energy and water assumptions, resilience, service-output measures and infrastructure exit considerations.
 
-## 6. KPI dictionary and benefits realisation
+This avoids creating multiple parallel governance systems. One initiative can be governed through the same investment, accountability and benefits process while drawing specialist controls from more than one domain.
 
-Targets and thresholds must be set from the organisation’s baseline and context; the examples below define measures, not universal targets.
+## 8. Worked example: bounded service-improvement decision
 
-| Measure | Definition / calculation | Owner and source | Review / interpretation |
-|---|---|---|---|
-| Outcome attainment | Actual outcome value ÷ target value, with direction defined per measure | Benefit owner; agreed operational source | Monthly / quarterly; pair with baseline and attribution limits |
-| Milestone predictability | Milestones achieved within approved tolerance ÷ milestones due in period | Delivery lead; baseline and forecast log | Monthly; segment by initiative type and do not hide rebaselines |
-| Forecast variance | (Forecast cost at completion − approved budget) ÷ approved budget | Delivery lead with finance; financial forecast | Monthly; show absolute value and confidence range |
-| Critical dependency health | Critical dependencies on track ÷ critical dependencies due or active | Portfolio lead; dependency log | Monthly; identify blocked items and owners |
-| Adoption rate | Eligible intended users completing the defined target behaviour ÷ eligible intended users | Product/service owner; usage or process data | After launch at agreed intervals; use a meaningful behaviour, not logins alone |
-| Benefit realisation | Verified benefit to date ÷ benefit planned to date, with valuation method stated | Benefit owner and finance; operational and finance sources | At benefits reviews; distinguish cash, capacity, quality and service effects |
-| Risk action timeliness | High-priority actions completed by due date ÷ high-priority actions due | Risk owner; risk/action log | Monthly; overdue actions need explicit disposition |
-| Decision lead time | Median calendar days from complete decision request to recorded decision | Governance chair / secretariat; decision log | Quarterly; segment by decision class and exclude incomplete submissions transparently |
+Consider a fictional organisation with slow internal service-request resolution. Rather than starting with a platform procurement, leadership compares process clarification, targeted workflow tooling and an immediate broad platform replacement. The process option is used first as a bounded pilot because it provides faster evidence with less commitment. Technology investment remains conditional on baseline quality, adoption, integration needs and evidence from the pilot.
 
-### Benefits profile (copyable)
+The example illustrates a wider principle: sequence commitments so uncertainty is reduced before irreversible cost increases. The sponsor owns the intended outcome; the delivery lead coordinates change; the service owner owns adoption; the benefit owner validates the measure; and the portfolio authority decides whether evidence justifies further investment.
 
-| Field | Entry |
-|---|---|
-| Benefit statement and category | |
-| Baseline, date and source | |
-| Target, unit and date | |
-| Measurement method and frequency | |
-| Benefit owner (one named person) | |
-| Delivery and adoption assumptions | |
-| Dependencies / external influences | |
-| Disbenefits, costs or balancing measures | |
-| Attribution method and confidence | |
-| Actual result / evidence link | |
-| Next review and action if off track | |
+Figures, thresholds and outcomes in such worked examples should always be treated as assumptions until measured.
 
-**Guidance:** separate output (what was delivered), adoption (what changed in use or process) and outcome (what improved). Benefits often depend on process redesign, behaviour and external conditions as well as technology. Record contribution and uncertainty; do not claim sole causation without evidence.
+## 9. Executive checklist
 
-## 7. Executive checklists
+Before an investment decision, confirm that the problem, user, outcome, baseline and accountable owner are explicit; realistic alternatives have been considered; obligations are separated from choices; lifecycle cost, capacity and dependencies are visible; and authority and review triggers are clear.
 
-### Before an investment decision
-- [ ] Problem, user and strategic outcome are explicit.
-- [ ] Baseline, target, date and benefit owner are stated.
-- [ ] Viable options include process change, reuse and defer / do nothing.
-- [ ] Mandatory status, evidence and deadline are verified.
-- [ ] Scoring evidence, confidence, lifecycle cost and capacity are visible.
-- [ ] Dependencies, material risks and assurance needs have owners.
-- [ ] Decision authority, conditions and review trigger are clear.
+Before delivery authorisation, confirm that scope, acceptance evidence and tolerances are agreed; owners are named; the integrated plan and skills are credible; specialist assurance is proportionate; and adoption, support and benefit measurement are planned.
 
-### Before delivery authorisation
-- [ ] Scope boundaries, acceptance evidence and tolerances are approved.
-- [ ] Sponsor, delivery lead, service owner and benefit owner are named.
-- [ ] Integrated plan, funding, skills and dependencies are credible.
-- [ ] Security, privacy, architecture, quality and operational readiness are addressed proportionately.
-- [ ] Adoption, communications, support and benefits measurement are planned.
+At each review, distinguish actuals from forecasts, surface decisions instead of hiding them in status, escalate forecast tolerance breaches and use adoption and outcome evidence to determine the next action.
 
-### At each governance review
-- [ ] Actuals are separated from forecasts and assumptions.
-- [ ] Top risks and dependencies have owners and next actions.
-- [ ] Tolerance breaches are escalated to the right authority.
-- [ ] Decisions have options, recommendation, owner and due date.
-- [ ] Capacity and portfolio trade-offs are considered.
-- [ ] Adoption and outcome evidence informs the next action.
+## 10. Boundaries
 
-## 8. Related frameworks
-
-This playbook is the reference method for decisions, prioritisation, governance forums, controls and KPI definitions. The documents below apply it at a specific level or to a specific topic and should be read consistently with it:
-
-- [Technology Strategy & Execution Governance](technology-strategy-execution-governance.md) — connects strategic outcomes to capabilities, investment and delivery.
-- [Digital Portfolio Governance](digital-portfolio-governance.md) — portfolio selection, sequencing, delivery confidence and rebalancing.
-- [Open Source Strategy & Governance](open-source-strategy-governance.md) — adoption, contribution and stewardship as strategic operating choices with explicit participation modes and lifecycle ownership, not a procurement label or a free substitute for a commercial product.
-- [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md) — energy, water and lifecycle impacts considered alongside service outcomes, resilience and cost.
-- [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md) — use-case selection, information governance, controls and lifecycle for enterprise AI.
-
-Apply the same discipline throughout: establish the need and alternatives, assess lifecycle cost and organisational capability, assign owners for legal, security and operations, and measure outcomes.
-
-## 9. Worked example — fictional service-request improvement
-
-> **Illustrative assumptions only.** “Northstar Services”, its people, measures, costs, ratings, targets, timeline and all outcomes below are fictional. This example demonstrates a decision process; it is not evidence of a real programme or result.
-
-### Situation and framing
-A fictional organisation receives 12,000 internal service requests per month. Its assumed baseline median resolution time is 8 business days. Leaders want to improve staff experience and reduce avoidable rework. The baseline and counts are hypothetical and would need validation in a real decision.
-
-### Options and portfolio decision
-Three options are considered: (A) clarify process and ownership; (B) add workflow and knowledge tooling after process changes; (C) procure a broad service platform immediately. A fictional mandatory security update is treated separately as an obligation and reserved capacity before discretionary scoring.
-
-| Option | Strategy 25 | User value 20 | Risk reduction 15 | Time to evidence 10 | Readiness 15 | Affordability 15 | Weighted |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| A — process and ownership pilot | 4 | 4 | 2 | 5 | 5 | 5 | 82 |
-| B — targeted workflow after pilot | 4 | 4 | 3 | 3 | 3 | 3 | 69 |
-| C — broad platform now | 3 | 4 | 3 | 2 | 2 | 2 | 56 |
-
-Scores are fictional discussion inputs, not measured facts. The board chooses A as a time-boxed discovery/pilot, reserves the separate mandatory capacity, and defers B and C until evidence on process adherence, data quality, integration needs and adoption is available. This is a staged option, not a claim that a tool or benefit has been delivered.
-
-### Mandate and control
-- **Sponsor:** fictional COO; owns the outcome and escalation.
-- **Delivery lead:** fictional transformation lead; coordinates process, service and technology contributors.
-- **Service owner:** fictional shared-services lead; owns workflow and adoption.
-- **Benefit owner:** fictional operations manager; validates resolution-time and rework measures.
-- **Decision authority:** fictional portfolio board approves pilot scope and any later investment.
-- **Pilot guardrail:** no automated decision affecting employment or entitlements; human handling remains for exceptions. This is an example guardrail, not a universal policy.
-
-### Illustrative measures and review
-The hypothetical pilot would establish a validated baseline, then track median resolution time, rework rate (requests reopened or returned ÷ requests closed), adoption of the agreed intake process (eligible requests using it ÷ eligible requests), cost and staff feedback. A hypothetical target might be a 20% reduction in median resolution time within 90 days of the changed process becoming operational. This target is illustrative and should be reset after baseline validation. Review at 30/60/90 days; expand only if service quality does not worsen, adoption is credible and benefit evidence is acceptable. If the process change fails, stop or redesign before buying technology.
-
-### Example decision record
-**Decision:** approve a bounded process pilot and discovery; defer platform procurement.  
-**Rationale:** faster evidence, lower initial commitment, and better information for any later design choice.  
-**Conditions:** confirm data quality; preserve service continuity; assign operational owner; report weekly exceptions.  
-**Revisit when:** 90-day evidence is available, a material risk emerges, or pilot cost/capacity tolerance is forecast to breach.  
-**Evidence status:** all figures and results remain assumptions until measured.
-
-## 10. Tailoring and boundaries
-
-Apply governance in proportion to investment, complexity, risk and reversibility. A small reversible change may use a one-page canvas and delegated review; a critical enterprise change may need formal independent assurance and more frequent controls. Do not copy illustrative scoring weights, RACI assignments, cadences or thresholds without adapting them.
-
-This playbook is independent professional guidance. It is not an official standard, legal or financial advice, a procurement specification, or an assertion that the author has implemented the example or achieved its illustrative outcomes. No employer-specific or confidential material is included.
+This playbook is independent professional guidance. It is not an official standard, legal or financial advice, or a procurement specification. Cadences, thresholds, scoring weights and role patterns must be adapted to context rather than copied mechanically.
