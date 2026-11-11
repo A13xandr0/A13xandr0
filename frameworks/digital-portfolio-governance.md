@@ -1,3 +1,10 @@
+---
+version: 1.0.0
+status: reference
+license: CC-BY-4.0
+last_reviewed: 2026-11-12
+---
+
 # Digital Portfolio Governance Framework
 
 **A practical reference model for deciding where to invest, how to sequence change and when to rebalance a digital and technology portfolio.**
