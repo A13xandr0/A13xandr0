@@ -2,6 +2,8 @@
 
 **An executive reference framework for connecting strategic intent, technology choices and measurable delivery.**
 
+*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+
 ## 1. Purpose
 
 Technology strategy creates value only when strategic intent is translated into decisions, funded initiatives, accountable delivery and measurable outcomes.
@@ -82,6 +84,8 @@ Prioritisation should combine strategic alignment with delivery feasibility and 
 
 For each initiative, document the evidence, assumptions, confidence level and accountable decision-maker. Treat mandatory initiatives and discretionary investments transparently rather than forcing them into an artificial common ranking.
 
+For a weighted comparison method and a worked example, see the [Executive Playbook](strategy-execution-governance-playbook.md), Section 3. The dimensions above are the questions that method scores.
+
 ## 5. Governance model
 
 Governance should make decisions faster and more reliable. It should not duplicate delivery management or create approval layers without a clear purpose.
@@ -108,7 +112,7 @@ One person may hold more than one role in smaller organisations. The key is to m
 - **Delivery review:** examines progress, forecast, risks, issues and decisions required.
 - **Benefits review:** checks adoption and whether intended outcomes are being realised.
 
-Each forum should have a defined remit, inputs, decision authority and recorded outcomes.
+Each forum should have a defined remit, inputs, decision authority and recorded outcomes. The Executive Playbook, Section 4, gives the reference forum set; adapt names and cadence locally.
 
 ## 6. Delivery governance
 
@@ -192,13 +196,7 @@ Before approving a significant technology initiative, confirm that:
 
 This framework is a starting point for discussion and adaptation. It does not prescribe a specific delivery methodology, organisational structure, technology stack or regulatory interpretation. The governance model should be proportionate to the scale, complexity, criticality and risk of the initiative.
 
----
-
-*Independent professional reference material. It is not an official standard, legal advice or a representation of any organisation's internal policies or practices.*
-
-
-
-## 11. From framework to operating practice
+## 11. Related frameworks and operating practice
 
 Use the [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md) for the decision record, prioritisation method, governance cadence, RACI, tolerance-based escalation, KPI dictionary, benefits profile and fictional worked example.
 
@@ -216,8 +214,13 @@ flowchart LR
 
 At each transition, name the decision owner, evidence required and next review date. Record material assumptions separately from confirmed facts. The playbook's example and scoring weights are illustrative; calibrate all targets, thresholds and role assignments to the organisation.
 
+Related topics:
 
-Open-source adoption and ecosystem participation are addressed in the [Open Source Strategy & Governance framework](open-source-strategy-governance.md), including lifecycle costs, operating ownership, contribution choices and sustainability. The [Executive Playbook](strategy-execution-governance-playbook.md) provides the common decision and portfolio controls.
+- **Portfolio:** [Digital Portfolio Governance](digital-portfolio-governance.md) applies this framework to portfolio selection, sequencing and rebalancing.
+- **Open source:** adoption and ecosystem participation, including lifecycle costs, operating ownership, contribution choices and sustainability, are covered in [Open Source Strategy & Governance](open-source-strategy-governance.md).
+- **Sustainability:** consider service demand, energy, water, emissions, lifecycle costs, resilience and useful service output together; see [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md) for a decision model and KPI dictionary.
+- **AI:** see the [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md) for AI-specific controls.
 
+---
 
-Digital infrastructure sustainability should be part of technology strategy and investment choices. Consider service demand, energy, water, emissions, lifecycle costs, resilience and useful service output together. The [Digital Sustainability and Data Centre Energy Governance framework](digital-sustainability-data-centre-governance.md) offers a decision model and KPI dictionary.
+*Independent professional reference material. It is not an official standard, legal advice or a representation of any organisation's internal policies or practices.*

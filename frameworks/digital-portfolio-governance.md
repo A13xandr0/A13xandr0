@@ -2,6 +2,8 @@
 
 **A practical reference model for prioritising, steering and measuring a portfolio of digital and technology initiatives.**
 
+*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+
 ## 1. Purpose
 
 A portfolio is more than a collection of project status reports. It is a mechanism for deciding where to invest limited resources, balancing strategic outcomes, mandatory commitments, risk, capacity and delivery confidence.
@@ -22,8 +24,6 @@ A repeatable portfolio cycle includes:
 
 ## 3. Portfolio taxonomy
 
-Open-source adoption, contribution or ecosystem investment may appear across any category below; classify it by the outcome it serves and make ongoing stewardship costs visible. Digital infrastructure choices should also expose energy, water, emissions, site, lifecycle and service-efficiency assumptions.
-
 A useful portfolio view can distinguish:
 
 - **Run and resilience:** keeping essential services secure, reliable and supported.
@@ -32,7 +32,7 @@ A useful portfolio view can distinguish:
 - **Innovation and growth:** testing new services, products and technology opportunities.
 - **Technical renewal:** addressing obsolescence, technical debt and architectural constraints.
 
-The categories should be adapted to the organisation. They are intended to reveal the portfolio balance, not impose a universal allocation.
+The categories should be adapted to the organisation. They are intended to reveal the portfolio balance, not impose a universal allocation. Cross-cutting topics such as open source and digital infrastructure sustainability should be classified by the outcome they serve; see Section 12.
 
 ## 4. Initiative definition
 
@@ -154,20 +154,18 @@ Begin with the minimum information needed to make better decisions. Avoid creati
 - [ ] The portfolio is periodically rebalanced.
 - [ ] Initiatives can be stopped or reshaped when evidence changes.
 
----
-
-*Independent professional reference material. It is not an official standard, financial advice or a representation of any organisation's internal portfolio processes.*
-
-
-
-## 12. Applying the portfolio method
+## 12. Applying the portfolio method and related frameworks
 
 The [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md) provides a weighted discretionary comparison, separate treatment for obligations, a one-page initiative canvas, RACI, decision record, KPI definitions and a fictional worked example.
 
 Use the score to structure a conversation, not to automate selection. First verify mandatory obligations, then assess evidence and confidence, and finally test the proposed order against funding, shared capacity, dependencies, risk and portfolio balance. Record what was deferred or stopped and why. Set escalation tolerances at mandate approval and review forecasts against them before breaches become actuals.
 
+Cross-cutting topics:
 
-For open-source initiatives, include community and upstream dependencies, licence and security review, internal ownership, maintenance horizon, and contribution or support budget in the initiative record. See [Open Source Strategy & Governance](open-source-strategy-governance.md).
+- **Open source:** classify open-source adoption, contribution or ecosystem investment by the outcome it serves and make ongoing stewardship costs visible. Include community and upstream dependencies, licence and security review, internal ownership, maintenance horizon, and contribution or support budget in the initiative record. See [Open Source Strategy & Governance](open-source-strategy-governance.md).
+- **Digital infrastructure:** for material data centre, cloud and infrastructure investments, add energy and resource assumptions, measurement boundaries, service-output measures and operational ownership to the portfolio record. See [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
+- **AI:** see the [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md).
 
+---
 
-For material data centre, cloud and digital infrastructure investments, add energy and resource assumptions, measurement boundaries, service-output measures and operational ownership to the portfolio record. See [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
+*Independent professional reference material. It is not an official standard, financial advice or a representation of any organisation's internal portfolio processes.*

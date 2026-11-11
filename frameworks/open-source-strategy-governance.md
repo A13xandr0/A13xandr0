@@ -2,6 +2,8 @@
 
 **An executive reference framework for adopting, contributing to and stewarding open-source technologies and ecosystems.**
 
+*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+
 > **Scope and evidence.** This document provides independent guidance. The case in Section 8 is fictional and all figures, ratings and outcomes are illustrative assumptions. It does not claim that the author has implemented these practices, contributed code or achieved the example results.
 
 ## 1. Why open source belongs in technology strategy
@@ -33,7 +35,7 @@ Choose the role deliberately. Participation can evolve, but each step adds commi
 | **Collaborate** | Participate in working groups, roadmaps or shared initiatives | Does the organisation have a mandate, representative and decision process? |
 | **Steward** | Take sustained responsibility for project governance, releases or maintenance | Are long-term accountability, resources and succession explicit? |
 
-Contribution is broader than code, but any public contribution should be accurately described. Internal leadership that enables teams to contribute is valuable; it should not be presented as personal code authorship or maintainer experience unless factually true.
+Contribution is broader than code. Describe any public contribution accurately, and distinguish the organisation's enabling role from the work of the people who contribute.
 
 ## 3. Decision framework: adopt, contribute, support or exit
 
@@ -102,7 +104,7 @@ One person may hold multiple roles in a small organisation; decision accountabil
 - **Contribution review:** rights, security, quality, public communication and maintainer coordination.
 - **Renewal / exit review:** project health, cost, adoption, risk and continued strategic fit.
 
-Keep a decision log and an inventory appropriate to organisational risk. A software bill of materials or other component record may be required in some contexts; determine requirements with relevant specialists.
+Keep a decision log and an inventory appropriate to organisational risk. A software bill of materials or other component record may be required in some contexts; determine requirements with relevant specialists. Common formats include SPDX and CycloneDX, and tools such as the OpenSSF Scorecard can support project-health reviews; treat their outputs as inputs to judgement, not verdicts.
 
 ## 5. Controls across the lifecycle
 
@@ -184,6 +186,16 @@ A fictional transport operator depends on an open-source data processing compone
 
 Every conclusion remains pending evidence in this illustrative scenario. No adoption, contribution or outcome is represented as having occurred.
 
+### Illustrative decision record
+
+| Field | Entry (fictional) |
+|---|---|
+| Decision | Approve a bounded hardening and support assessment; do not commit to long-term support or public contribution yet |
+| Rationale | Strong functional fit and an active project, but gaps in internal ownership and vulnerability response |
+| Conditions | Named service and technical owners; advisory intake and patch process in place; licence review completed by qualified counsel |
+| Revisit when | Assessment results are available, a critical advisory affects the service, or project health changes materially |
+| Evidence status | All findings remain assumptions until measured |
+
 ## 9. Executive checklist
 
 ### Adoption decision
@@ -208,11 +220,16 @@ Every conclusion remains pending evidence in this illustrative scenario. No adop
 - [ ] Actual costs and service outcomes are visible.
 - [ ] The organisation can adjust participation or exit when evidence changes.
 
-## 10. Tailoring and boundaries
+## 10. Related frameworks
+
+- [Executive Playbook](strategy-execution-governance-playbook.md): common decision, portfolio and escalation controls.
+- [Digital Portfolio Governance](digital-portfolio-governance.md): how to record open-source initiatives in the portfolio.
+- [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md): open-source reuse can reduce duplication, but energy and environmental effects require measurement.
+- [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md): open-source models and components in AI solutions.
+
+## 11. Tailoring and boundaries
 
 Apply controls according to criticality, exposure, distribution, reversibility and organisational capability. This framework does not prescribe a specific licence, legal interpretation, security standard, technology stack, contribution model or organisational structure. Obtain appropriate specialist advice for the actual context.
 
 This is independent professional guidance, not an official standard, legal opinion, security certification or representation of any employer's policies. All examples are fictional; no confidential information or unverified implementation claims are included.
 
-
-Open-source reuse can be one input to reducing duplication, but energy and environmental effects require measurement. For data centre, cloud and broader digital sustainability governance, see [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).

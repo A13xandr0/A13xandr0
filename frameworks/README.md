@@ -2,6 +2,8 @@
 
 Independent professional guidance for leaders connecting technology strategy, investment choices, governance and outcomes.
 
+*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+
 ## Start with the executive playbook
 
 [**Strategy & Execution Governance — Executive Playbook**](strategy-execution-governance-playbook.md) is the practical entry point. It includes decision rights, prioritisation rules, a governance operating model, RACI, delivery controls, KPI definitions, benefits templates, checklists and a fictional worked example. For open-source strategy, ecosystem participation and stewardship, see the dedicated [Open Source Strategy & Governance](open-source-strategy-governance.md) framework. For energy and resource considerations in digital infrastructure, see [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
@@ -15,6 +17,22 @@ Independent professional guidance for leaders connecting technology strategy, in
 | [Open Source Strategy & Governance](open-source-strategy-governance.md) | Govern open-source adoption, contribution, ecosystem relationships, risk and sustainability. |
 | [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md) | Bring energy, water, emissions, infrastructure, procurement and service outcomes into digital investment decisions. |
 | [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md) | Assess and govern enterprise AI/RAG use cases, information, controls and lifecycle. |
+
+## How the frameworks fit together
+
+The Executive Playbook is the reference method. The Technology Strategy and Digital Portfolio frameworks apply it at strategy and portfolio level; the thematic frameworks add topic-specific controls.
+
+```mermaid
+flowchart TB
+  P["Executive Playbook (reference method)"] --> T["Technology Strategy and Execution Governance"]
+  P --> D["Digital Portfolio Governance"]
+  T --> O["Open Source Strategy and Governance"]
+  D --> O
+  T --> S["Digital Sustainability and Data Centre Energy Governance"]
+  D --> S
+  T --> A["Enterprise AI and RAG Governance Blueprint"]
+  D --> A
+```
 
 ## How to use these materials
 

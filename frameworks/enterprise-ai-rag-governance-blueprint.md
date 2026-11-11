@@ -2,6 +2,8 @@
 
 **An executive blueprint for assessing, shaping and governing enterprise knowledge assistants and retrieval-augmented generation solutions.**
 
+*Version 1.1 · Status: draft for review · Updated: November 2026 · Licence: to be confirmed*
+
 ## 1. Purpose and scope
 
 Retrieval-augmented generation (RAG) can make organisational knowledge easier to discover and use by combining information retrieval with a generative model. It does not, by itself, guarantee accuracy, completeness, security or appropriate use.
@@ -178,19 +180,16 @@ Each gate should produce a documented decision, conditions, accountable owner an
 - [ ] Operating ownership, monitoring and incident response are funded.
 - [ ] Benefits, quality and cost will be reviewed after deployment.
 
+## 11. Portfolio governance and related frameworks
+
+For an organisation-wide decision process covering investment prioritisation, decision authority, accountable roles, delivery tolerances, KPI definitions and benefit reviews, see the [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md). Apply it alongside the AI-specific content above; specialist security, privacy, legal and operational review remains necessary for the actual context. Any examples, thresholds or role patterns used during tailoring should be labelled as assumptions until approved and evidenced.
+
+Related topics:
+
+- **Open source:** for the broader decision on open-source adoption, community participation and lifecycle stewardship, see [Open Source Strategy & Governance](open-source-strategy-governance.md).
+- **Sustainability:** digital sustainability and data centre capacity decisions are covered in [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
+- **External references:** organisations may map this blueprint to recognised references such as the NIST AI Risk Management Framework and ISO/IEC 42001, and to applicable law and regulation in their jurisdictions, with specialist review.
+
 ---
 
 *Independent professional reference material. This document is a strategic and governance blueprint, not an implementation specification, legal opinion, security certification or endorsement of a particular vendor.*
-
-
-
-## 11. Portfolio and executive governance
-
-For an organisation-wide decision process covering investment prioritisation, decision authority, accountable roles, delivery tolerances, KPI definitions and benefit reviews, see the [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md). Apply that playbook alongside the AI-specific content above; specialist security, privacy, legal and operational review remains necessary for the actual context.
-
-Any examples, thresholds or role patterns used during tailoring should be labelled as assumptions until approved and evidenced.
-
-
-For the broader decision on open-source adoption, community participation and lifecycle stewardship, see [Open Source Strategy & Governance](open-source-strategy-governance.md).
-
-Digital sustainability and data centre capacity decisions are covered in [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
