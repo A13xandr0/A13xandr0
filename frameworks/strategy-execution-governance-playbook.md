@@ -96,7 +96,7 @@ At each review, distinguish actuals from forecasts, surface decisions instead of
 
 ## 10. Governance flow
 
-\`\`\`mermaid
+```mermaid
 flowchart LR
     A[Frame outcome] --> B[Assess options]
     B --> C[Prioritise and decide]
@@ -105,7 +105,7 @@ flowchart LR
     E --> F[Measure adoption and benefits]
     F --> G[Learn, continue, change or stop]
     G --> B
-\`\`\`
+```
 
 ## 11. Boundaries
 
