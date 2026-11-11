@@ -1,3 +1,10 @@
+---
+version: 1.0.0
+status: template
+license: CC-BY-4.0
+last_reviewed: 2026-11-12
+---
+
 # Initiative Canvas — Template
 
 **Version:** 1.0.0 | **Licence:** CC BY 4.0
