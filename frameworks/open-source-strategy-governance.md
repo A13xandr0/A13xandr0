@@ -1,3 +1,10 @@
+---
+version: 1.0.0
+status: reference
+license: CC-BY-4.0
+last_reviewed: 2026-11-12
+---
+
 # Open Source Strategy & Governance
 
 **An executive reference framework for using, supporting, contributing to and stewarding open-source technologies and ecosystems as part of a wider technology strategy.**
