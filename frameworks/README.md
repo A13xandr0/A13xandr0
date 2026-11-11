@@ -4,7 +4,7 @@ Independent professional guidance for leaders connecting technology strategy, in
 
 ## Start with the executive playbook
 
-[**Strategy & Execution Governance — Executive Playbook**](strategy-execution-governance-playbook.md) is the practical entry point. It includes decision rights, prioritisation rules, a governance operating model, RACI, delivery controls, KPI definitions, benefits templates, checklists and a fictional worked example.
+[**Strategy & Execution Governance — Executive Playbook**](strategy-execution-governance-playbook.md) is the practical entry point. It includes decision rights, prioritisation rules, a governance operating model, RACI, delivery controls, KPI definitions, benefits templates, checklists and a fictional worked example. For open-source strategy, ecosystem participation and stewardship, see the dedicated [Open Source Strategy & Governance](open-source-strategy-governance.md) framework.
 
 ## Reference frameworks
 
@@ -12,6 +12,7 @@ Independent professional guidance for leaders connecting technology strategy, in
 |---|---|
 | [Technology Strategy & Execution Governance](technology-strategy-execution-governance.md) | Connect strategic outcomes to capabilities, investment, delivery and benefits. |
 | [Digital Portfolio Governance](digital-portfolio-governance.md) | Make portfolio selection, sequencing, delivery confidence and rebalancing visible. |
+| [Open Source Strategy & Governance](open-source-strategy-governance.md) | Govern open-source adoption, contribution, ecosystem relationships, risk and sustainability. |
 | [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md) | Assess and govern enterprise AI/RAG use cases, information, controls and lifecycle. |
 
 ## How to use these materials
