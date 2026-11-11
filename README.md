@@ -31,18 +31,12 @@ My approach is pragmatic:
 
 ## Knowledge & Professional Work
 
-This profile is a space for independent professional work and knowledge sharing. It will include practical frameworks, reference models and decision tools covering:
+This profile is a space for independent professional work and knowledge sharing. It presents practical frameworks, reference models and decision tools covering technology strategy, portfolio governance, AI governance, delivery and benefits realisation.
 
-- Technology strategy and strategy-to-execution
-- Enterprise architecture and digital platforms
-- AI adoption, RAG architecture and governance
-- Programme, portfolio and delivery governance
-- Performance management and benefits realisation
-- Open-source technology and digital ecosystems
+**Start here:** [Frameworks & Reference Models](frameworks/README.md)  
+**Practical leadership method:** [Strategy & Execution Governance — Executive Playbook](frameworks/strategy-execution-governance-playbook.md)
 
-**Start here:** [Frameworks & Reference Models](frameworks/README.md)
-
-The materials are intended to support professional discussion and practical application. They describe approaches and reference models, not claims of implementation at any particular organisation.
+The playbook shows how strategic intent can be translated into decisions, accountabilities, portfolio controls and outcome measures. Its worked example is explicitly fictional. These materials describe independent guidance and reference models; they do not claim implementation at a particular organisation or results not stated here.
 
 ## Professional Background
 
