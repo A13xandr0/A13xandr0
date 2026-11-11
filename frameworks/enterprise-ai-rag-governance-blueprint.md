@@ -1,3 +1,10 @@
+---
+version: 1.0.0
+status: reference
+license: CC-BY-4.0
+last_reviewed: 2026-11-12
+---
+
 # Enterprise AI & RAG — Strategic and Governance Blueprint
 
 **An executive blueprint for deciding when enterprise AI and retrieval-augmented generation are useful, and for governing the information, technology and lifecycle dependencies they create.**
