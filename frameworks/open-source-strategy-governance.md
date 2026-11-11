@@ -18,7 +18,7 @@ A responsible strategy considers both sides across the full lifecycle. It asks n
 - Should the organisation merely use the project, support it, contribute upstream, or participate in governance?
 - What internal capability and budget will sustain the choice?
 
-Open source is not synonymous with free, risk-free, community-supported, or automatically preferable to proprietary alternatives. A particular project may be highly suitable, unsuitable, or appropriate only with controls.
+Open source is not synonymous with free, risk-free, community-supported, or automatically preferable to proprietary alternatives. Nor does it guarantee lower energy use: assess actual workload, infrastructure and service outcomes. A particular project may be highly suitable, unsuitable, or appropriate only with controls.
 
 ## 2. Participation modes
 
@@ -213,3 +213,6 @@ Every conclusion remains pending evidence in this illustrative scenario. No adop
 Apply controls according to criticality, exposure, distribution, reversibility and organisational capability. This framework does not prescribe a specific licence, legal interpretation, security standard, technology stack, contribution model or organisational structure. Obtain appropriate specialist advice for the actual context.
 
 This is independent professional guidance, not an official standard, legal opinion, security certification or representation of any employer's policies. All examples are fictional; no confidential information or unverified implementation claims are included.
+
+
+Open-source reuse can be one input to reducing duplication, but energy and environmental effects require measurement. For data centre, cloud and broader digital sustainability governance, see [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
