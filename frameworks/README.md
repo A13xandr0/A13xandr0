@@ -39,7 +39,7 @@ The frameworks describe the management logic; reusable working artefacts are mai
 
 ## Framework relationships
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     A[Strategic outcomes] --> B[Technology strategy]
     B --> C[Portfolio governance]
@@ -51,7 +51,7 @@ flowchart TD
     G --> I[Enterprise AI and RAG]
     G --> J[Digital sustainability]
     D --> K[Reusable templates]
-\`\`\`
+```
 
 ## Common governance lenses
 
