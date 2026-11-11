@@ -4,7 +4,7 @@ Independent professional guidance for leaders connecting technology strategy, in
 
 ## Start with the executive playbook
 
-[**Strategy & Execution Governance — Executive Playbook**](strategy-execution-governance-playbook.md) is the practical entry point. It includes decision rights, prioritisation rules, a governance operating model, RACI, delivery controls, KPI definitions, benefits templates, checklists and a fictional worked example. For open-source strategy, ecosystem participation and stewardship, see the dedicated [Open Source Strategy & Governance](open-source-strategy-governance.md) framework.
+[**Strategy & Execution Governance — Executive Playbook**](strategy-execution-governance-playbook.md) is the practical entry point. It includes decision rights, prioritisation rules, a governance operating model, RACI, delivery controls, KPI definitions, benefits templates, checklists and a fictional worked example. For open-source strategy, ecosystem participation and stewardship, see the dedicated [Open Source Strategy & Governance](open-source-strategy-governance.md) framework. For energy and resource considerations in digital infrastructure, see [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
 
 ## Reference frameworks
 
@@ -13,6 +13,7 @@ Independent professional guidance for leaders connecting technology strategy, in
 | [Technology Strategy & Execution Governance](technology-strategy-execution-governance.md) | Connect strategic outcomes to capabilities, investment, delivery and benefits. |
 | [Digital Portfolio Governance](digital-portfolio-governance.md) | Make portfolio selection, sequencing, delivery confidence and rebalancing visible. |
 | [Open Source Strategy & Governance](open-source-strategy-governance.md) | Govern open-source adoption, contribution, ecosystem relationships, risk and sustainability. |
+| [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md) | Bring energy, water, emissions, infrastructure, procurement and service outcomes into digital investment decisions. |
 | [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md) | Assess and govern enterprise AI/RAG use cases, information, controls and lifecycle. |
 
 ## How to use these materials
