@@ -218,3 +218,6 @@ At each transition, name the decision owner, evidence required and next review d
 
 
 Open-source adoption and ecosystem participation are addressed in the [Open Source Strategy & Governance framework](open-source-strategy-governance.md), including lifecycle costs, operating ownership, contribution choices and sustainability. The [Executive Playbook](strategy-execution-governance-playbook.md) provides the common decision and portfolio controls.
+
+
+Digital infrastructure sustainability should be part of technology strategy and investment choices. Consider service demand, energy, water, emissions, lifecycle costs, resilience and useful service output together. The [Digital Sustainability and Data Centre Energy Governance framework](digital-sustainability-data-centre-governance.md) offers a decision model and KPI dictionary.
