@@ -38,7 +38,7 @@ Each transition requires an explicit decision. A strategy should not move direct
 
 ## 3. Strategic direction and principles
 
-A technology strategy should establish a small number of explicit choices rather than attempt to prescribe every technical detail.
+A technology strategy should establish a small number of explicit choices rather than attempt to prescribe every technical detail. Those choices may include when to adopt open-source capabilities, how to participate in relevant ecosystems and what stewardship the organisation must fund.
 
 Recommended strategy components:
 
@@ -215,3 +215,6 @@ flowchart LR
 ```
 
 At each transition, name the decision owner, evidence required and next review date. Record material assumptions separately from confirmed facts. The playbook's example and scoring weights are illustrative; calibrate all targets, thresholds and role assignments to the organisation.
+
+
+Open-source adoption and ecosystem participation are addressed in the [Open Source Strategy & Governance framework](open-source-strategy-governance.md), including lifecycle costs, operating ownership, contribution choices and sustainability. The [Executive Playbook](strategy-execution-governance-playbook.md) provides the common decision and portfolio controls.
