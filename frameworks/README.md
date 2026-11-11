@@ -9,33 +9,37 @@ last_reviewed: 2026-11-12
 
 **Connected executive frameworks for turning technology choices into investment decisions, governed execution and measurable outcomes.**
 
-This repository connects strategy, architecture, investment, delivery, risk, ecosystems, sustainability and operational ownership through a technology-neutral governance approach.
+Technology decisions rarely sit in isolation. Strategy, architecture, investment, delivery, risk, ecosystems, sustainability and operational ownership interact, and choices made in one area often create dependencies in another. This repository brings those dimensions together in a single, technology-neutral governance approach.
 
-## Frameworks
+The material is organised around a simple idea: start from the outcome that matters, understand the capabilities and dependencies required, compare realistic options, make investment and accountability explicit, and then govern delivery and lifecycle choices using evidence. The same logic can be applied to different technology domains without pretending that those domains have identical risks or operating models.
 
-- [Technology Strategy & Execution Governance](technology-strategy-execution-governance.md) — the overall strategy-to-outcomes model.
-- [Strategy & Execution Governance — Executive Playbook](strategy-execution-governance-playbook.md) — decision rights, prioritisation, RACI, escalation, KPIs and benefits.
-- [Digital Portfolio Governance](digital-portfolio-governance.md) — investment balance, sequencing and rebalancing.
-- [Open Source Strategy & Governance](open-source-strategy-governance.md) — adoption, dependencies, ecosystem health, contribution and stewardship.
-- [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md) — information readiness, model and retrieval choices, access, evaluation and lifecycle governance.
-- [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md) — service demand, energy, water, emissions, capacity and resilience.
+## How the repository is organised
+
+### Core framework
+
+[**Technology Strategy & Execution Governance**](technology-strategy-execution-governance.md) provides the overall logic. It connects strategic outcomes, capabilities, technology choices, investments, delivery, adoption and benefits. Use it to frame the questions leaders should ask before technology choices become projects or commitments.
+
+### Turning strategy into operating practice
+
+[**Strategy & Execution Governance — Executive Playbook**](strategy-execution-governance-playbook.md) translates the core framework into practical governance. It covers decision rights, prioritisation, initiative mandates, RACI, tolerance-based escalation, KPI definitions, benefit reviews and reusable decision templates.
+
+[**Digital Portfolio Governance**](digital-portfolio-governance.md) focuses on the portfolio level: deciding where limited funding and capability should be applied, sequencing initiatives, managing shared dependencies and rebalancing investment when evidence changes.
+
+### Strategic technology domains
+
+[**Open Source Strategy & Governance**](open-source-strategy-governance.md) applies the common governance logic to open-source adoption, strategic dependencies, ecosystem health, contribution, shared stewardship, procurement and credible exit or fork options.
+
+[**Enterprise AI & RAG Governance Blueprint**](enterprise-ai-rag-governance-blueprint.md) applies it to enterprise AI and retrieval-augmented generation, with particular attention to information readiness, model and retrieval choices, access control, evaluation, human oversight and lifecycle governance.
+
+[**Digital Sustainability and Data Centre Energy Governance**](digital-sustainability-data-centre-governance.md) applies it to digital infrastructure, connecting service demand with energy, water, emissions, capacity, resilience, procurement and useful service output.
 
 ## Operational templates
 
-Frameworks describe the management logic; reusable working artefacts are maintained in the [templates folder](../templates/README.md):
-
-- [RACI matrix](../templates/raci-matrix.md)
-- [KPI dictionary](../templates/kpi-dictionary.md)
-- [Benefit profile](../templates/benefit-profile.md)
-- [Initiative canvas](../templates/initiative-canvas.md)
-- [Weighted scoring matrix](../templates/weighted-scoring-matrix.md)
-- [Completed illustrative decision record](../templates/decision-record-example.md)
-
-The scoring example is fictional and its calculations are shown transparently. Mandatory obligations are separated from discretionary scoring.
+The frameworks describe the management logic; reusable working artefacts are maintained separately in the [templates folder](../templates/README.md): [RACI](../templates/raci-matrix.md), [KPI dictionary](../templates/kpi-dictionary.md), [benefit profile](../templates/benefit-profile.md), [initiative canvas](../templates/initiative-canvas.md), [weighted scoring matrix](../templates/weighted-scoring-matrix.md) and [completed illustrative decision record](../templates/decision-record-example.md). The scoring example is fictional and its calculations are shown transparently.
 
 ## Framework relationships
 
-```mermaid
+\`\`\`mermaid
 flowchart TD
     A[Strategic outcomes] --> B[Technology strategy]
     B --> C[Portfolio governance]
@@ -47,22 +51,39 @@ flowchart TD
     G --> I[Enterprise AI and RAG]
     G --> J[Digital sustainability]
     D --> K[Reusable templates]
-```
+\`\`\`
+
+## Common governance lenses
+
+The frameworks are intentionally connected. Across different domains, the same management questions recur: What outcome are we trying to achieve? What evidence supports the need? Which dependencies are being created? Who decides and who remains accountable? How do architecture, interoperability, security and procurement affect future choices? What is the full lifecycle cost? What happens if assumptions change, a supplier or ecosystem becomes fragile, or an exit becomes necessary? How will value actually be measured?
+
+These common lenses are not separate approval layers. They are a way to make trade-offs visible and to apply proportionate governance according to materiality, criticality and reversibility.
+
+## A simple reading path
+
+If you are starting from a strategic question, begin with **Technology Strategy & Execution Governance**. If you need to operationalise decisions, move to the **Executive Playbook**. If the issue is investment balance and sequencing, use **Digital Portfolio Governance**. Then use the relevant domain framework where the decision concerns open source, enterprise AI/RAG, or digital infrastructure and sustainability.
 
 ## Principles
 
-- Start from outcomes and user or service needs, not technology preferences.
+The repository is built around a small number of recurring principles:
+
+- Start from outcomes and user or service needs, not from technology preferences.
 - Keep strategy, investment, architecture and execution connected.
 - Make decision rights and accountability explicit.
 - Apply governance in proportion to risk, scale, criticality and reversibility.
 - Prefer evidence to assumptions, while making uncertainty visible.
 - Treat interoperability, portability and exit as strategic design concerns.
 - Consider lifecycle economics rather than acquisition cost alone.
+- Distinguish technical openness from practical control and ecosystem influence.
 - Measure adoption and realised outcomes, not only delivery activity.
+- Use operational evidence to learn, rebalance and, when necessary, stop.
 
-## Scope and metadata
+## Scope
 
-These are independently authored professional reference materials, not universal prescriptions or legal, financial, security, procurement or regulatory advice. Illustrative examples are not evidence of real implementations or results.
+These are independently authored professional reference materials. They are starting points for adaptation, not universal prescriptions. They do not constitute legal, financial, security, procurement or regulatory advice, and they do not represent the policies or practices of any employer or organisation. Illustrative examples are identified as such and should not be read as evidence of real implementations or results.
+
+
+## Document metadata
 
 - Version: 1.0.0
 - Status: Reference edition
