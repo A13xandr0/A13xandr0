@@ -181,3 +181,11 @@ Each gate should produce a documented decision, conditions, accountable owner an
 ---
 
 *Independent professional reference material. This document is a strategic and governance blueprint, not an implementation specification, legal opinion, security certification or endorsement of a particular vendor.*
+
+
+
+## 11. Portfolio and executive governance
+
+For an organisation-wide decision process covering investment prioritisation, decision authority, accountable roles, delivery tolerances, KPI definitions and benefit reviews, see the [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md). Apply that playbook alongside the AI-specific content above; specialist security, privacy, legal and operational review remains necessary for the actual context.
+
+Any examples, thresholds or role patterns used during tailoring should be labelled as assumptions until approved and evidenced.
