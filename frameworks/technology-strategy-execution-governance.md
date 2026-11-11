@@ -1,3 +1,10 @@
+---
+version: 1.0.0
+status: reference
+license: CC-BY-4.0
+last_reviewed: 2026-11-12
+---
+
 # Technology Strategy & Execution Governance Framework
 
 **An executive reference framework for connecting strategic intent, technology choices, investment and measurable delivery.**
