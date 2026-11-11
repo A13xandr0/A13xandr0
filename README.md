@@ -1,47 +1,57 @@
 # Alexandro Sances
 
-**Senior Technology Executive | Digital Transformation | AI, SaaS, IoT & Data Platforms**
+**Senior Technology Executive | Strategy & Execution Governance | Digital Transformation**
 
-Technology executive with 30+ years of international experience across telecommunications, insurtech, mobility, telematics, space technologies and digital platforms.
+I am a senior technology executive with over 30 years of international experience across telecommunications, satellite communications, insurtech, mobility, telematics, IoT and digital platforms.
 
-I work at the intersection of technology, business strategy and operations, helping organisations turn complex challenges into practical, sustainable solutions. My experience spans executive leadership, technology and operational transformation, product and platform development, and advisory roles.
+My work focuses on connecting business strategy, technology and organisational execution. I help shape strategic direction, define technology roadmaps, establish governance frameworks and guide multidisciplinary teams in turning complex objectives into practical, measurable outcomes.
 
-## Areas of Interest
+I combine strategic leadership with execution governance: framing problems, setting priorities, guiding technology and architectural choices, aligning stakeholders and delivery teams, and maintaining focus on outcomes.
 
-- **Digital Transformation** — technology strategy, operating models and organisational change
-- **Artificial Intelligence** — Generative AI, retrieval-augmented generation (RAG) and applied AI
-- **Software & Platforms** — SaaS, cloud platforms, enterprise architecture and systems integration
-- **IoT & Data** — connected services, telematics, data platforms and analytics
-- **Digital Government** — public-sector innovation, interoperability and technology governance
-- **Open Source** — open technologies, digital commons and sustainable software ecosystems
+## Areas of Focus
+
+- **Technology Strategy** — strategic direction, roadmaps, investment priorities and technology leadership
+- **Strategy & Execution Governance** — programme and portfolio governance, delivery models, performance, risk and benefits realisation
+- **Enterprise Architecture** — architecture principles, interoperability, platforms and systems integration
+- **AI & Digital Innovation** — applied AI, Generative AI, RAG, data platforms and knowledge management
+- **Organisational Transformation** — operating models, stakeholder alignment, organisational capabilities and change
+- **Digital Ecosystems** — SaaS, IoT, open source, partnerships and technology ventures
+
+## Professional Perspective
+
+Successful digital transformation requires more than adopting technology. It requires a clear understanding of the problem, explicit outcomes, sound architectural choices, effective governance, empowered teams and continuous attention to delivery.
+
+My approach is pragmatic:
+
+- Simplify processes before digitising or automating them.
+- Connect strategic objectives to prioritised, actionable initiatives.
+- Establish clear decision rights, accountability and governance.
+- Enable specialists and multidisciplinary teams to deliver.
+- Measure progress through outcomes and realised benefits.
+
+## Knowledge & Professional Work
+
+This profile is a space for independent professional work and knowledge sharing. It will include practical frameworks, reference models and decision tools covering:
+
+- Technology strategy and strategy-to-execution
+- Enterprise architecture and digital platforms
+- AI adoption, RAG architecture and governance
+- Programme, portfolio and delivery governance
+- Performance management and benefits realisation
+- Open-source technology and digital ecosystems
+
+**Start here:** [Frameworks & Reference Models](frameworks/README.md)
+
+The materials are intended to support professional discussion and practical application. They describe approaches and reference models, not claims of implementation at any particular organisation.
 
 ## Professional Background
 
-My professional journey includes international executive, advisory and mentoring roles across:
-
-- Telecommunications and satellite communications
-- Insurance technology and connected mobility
-- Telematics, IoT and data-driven services
-- Digital platforms and software businesses
-- Technology strategy, programme governance and operational transformation
-
-I have also supported technology ventures through board, advisory and startup mentoring activities.
-
-## What You'll Find Here
-
-This profile is a space for selected personal projects, experiments and technical explorations, including:
-
-- AI applications, knowledge management and RAG
-- SaaS concepts and digital platform prototypes
-- IoT, energy monitoring and home automation
-- Open-source tools and practical technology solutions
-
-Projects will be published progressively as they become ready to share.
+My experience includes international executive, advisory, board and mentoring roles across telecommunications, satellite communications, insurtech, connected mobility, telematics, IoT, data-driven services and digital platforms.
 
 ## Personal Note
 
-The views, experiments and projects published here are personal and do not necessarily represent the positions or policies of any organisation with which I am or have been associated.
+The views, frameworks and materials published here are personal and do not necessarily represent the positions or policies of any organisation with which I am or have been associated. No confidential, proprietary or non-public organisational information is intentionally included.
 
 ---
 
-*Connecting technology, people and organisations to turn complexity into practical solutions.*
+*Connecting strategy, technology and people to turn complexity into measurable outcomes.*
