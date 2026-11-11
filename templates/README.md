@@ -1,3 +1,10 @@
+---
+version: 1.0.0
+status: template
+license: CC-BY-4.0
+last_reviewed: 2026-11-12
+---
+
 # Executive Governance Templates
 
 Reusable working artefacts supporting the frameworks in this repository. Adapt them to context; they are not universal prescriptions.
