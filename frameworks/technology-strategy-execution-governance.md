@@ -195,3 +195,23 @@ This framework is a starting point for discussion and adaptation. It does not pr
 ---
 
 *Independent professional reference material. It is not an official standard, legal advice or a representation of any organisation's internal policies or practices.*
+
+
+
+## 11. From framework to operating practice
+
+Use the [Strategy & Execution Governance Executive Playbook](strategy-execution-governance-playbook.md) for the decision record, prioritisation method, governance cadence, RACI, tolerance-based escalation, KPI dictionary, benefits profile and fictional worked example.
+
+A practical operating rhythm is:
+
+```mermaid
+flowchart LR
+  A[Set outcomes] --> B[Assess options]
+  B --> C[Prioritise and mandate]
+  C --> D[Deliver within tolerances]
+  D --> E[Measure adoption and benefits]
+  E --> F[Learn and rebalance]
+  F --> A
+```
+
+At each transition, name the decision owner, evidence required and next review date. Record material assumptions separately from confirmed facts. The playbook's example and scoring weights are illustrative; calibrate all targets, thresholds and role assignments to the organisation.
