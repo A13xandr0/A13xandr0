@@ -5,63 +5,138 @@ license: CC-BY-4.0
 last_reviewed: 2026-11-12
 ---
 
-# Alexandro Sances
+# Technology Strategy, Execution & Governance
 
-**Senior Technology Executive | Strategy & Execution Governance | Open Source & Sustainable Digital Infrastructure**
+**A connected set of executive frameworks and practical governance tools for turning technology strategy into investment choices, governed execution and measurable outcomes.**
 
-I am a senior technology executive with over 30 years of international experience across telecommunications, satellite communications, insurtech, mobility, telematics, IoT and digital platforms.
+**Developed and maintained by Alexandro Sances.**
 
-My work focuses on connecting business strategy, technology and organisational execution, including open-source ecosystems and the sustainability of digital infrastructure. I help shape direction, define roadmaps, establish decision frameworks and guide multidisciplinary teams in turning complex objectives into practical, measurable outcomes.
+Technology decisions rarely stand in isolation. Strategy, architecture, investment, delivery, risk, ecosystems, digital assets, infrastructure and operational ownership interact, while choices made in one area often create dependencies somewhere else.
 
-I combine strategic leadership with execution governance: framing problems, setting priorities, guiding technology and architectural choices, aligning stakeholders and delivery teams, and maintaining focus on outcomes.
+This repository brings those dimensions together around a simple idea: start from the outcome that matters, understand the capabilities, assets and dependencies required, compare realistic options, make investment and accountability explicit, and then govern delivery and lifecycle choices through evidence.
 
-## Areas of Focus
+The approach is deliberately technology-neutral. Open source, enterprise AI, digital infrastructure and other technology domains have different characteristics and risks, but they can be governed through a common logic without forcing them into identical models.
 
-- **Technology Strategy** — strategic direction, roadmaps, investment priorities and technology leadership
-- **Strategy & Execution Governance** — programme and portfolio governance, delivery models, performance, risk and benefits realisation
-- **Enterprise Architecture** — architecture principles, interoperability, platforms and systems integration
-- **AI & Digital Innovation** — applied AI, Generative AI, RAG, data platforms and knowledge management
-- **Organisational Transformation** — operating models, stakeholder alignment, organisational capabilities and change
-- **Open Source Strategy & Governance** — technology adoption, ecosystem choices, community engagement, contribution models and long-term stewardship
-- **Digital Sustainability** — energy and resource considerations in data centres, cloud services and digital portfolios
-- **Digital Ecosystems** — SaaS, IoT, partnerships and technology ventures
+## How the repository is organised
 
-## Professional Perspective
+The repository has two complementary parts.
 
-Successful digital transformation requires more than adopting technology. It requires a clear understanding of the problem, explicit outcomes, sound architectural choices, effective governance, empowered teams and continuous attention to delivery.
+### [Frameworks](frameworks/README.md)
 
-My approach is pragmatic:
+The **frameworks** provide the strategic and governance model.
 
-- Simplify processes before digitising or automating them.
-- Connect strategic objectives to prioritised, actionable initiatives.
-- Establish clear decision rights, accountability and governance.
-- Enable specialists and multidisciplinary teams to deliver.
-- Measure progress through outcomes and realised benefits.
+They start from a common foundation for connecting strategy, technology choices, investment, execution and outcomes. That foundation is then translated into executive operating practice, portfolio governance and domain-specific frameworks addressing open source, enterprise AI and RAG, and digital infrastructure and sustainability.
 
-## Knowledge & Professional Work
+The objective is not to create separate governance systems for each technology domain. It is to use a common management approach while adding the specialist evidence and controls that each domain actually requires.
 
-This profile is a space for independent professional work and knowledge sharing. It presents practical frameworks, reference models and decision tools covering technology strategy, open-source adoption and governance, portfolio decisions, AI governance, delivery and benefits realisation.
+### [Templates](templates/README.md)
 
-**Start here:** [Frameworks & Reference Models](frameworks/README.md)  
-**Operational templates:** [Executive Governance Templates](templates/README.md)  
-**Practical leadership method:** [Strategy & Execution Governance — Executive Playbook](frameworks/strategy-execution-governance-playbook.md)  
-**Open source focus:** [Open Source Strategy & Governance](frameworks/open-source-strategy-governance.md)  
-**Digital sustainability:** [Digital Sustainability and Data Centre Energy Governance](frameworks/digital-sustainability-data-centre-governance.md)
+The **templates** translate the frameworks into reusable working artefacts.
 
-The playbook shows how strategic intent can be translated into decisions, accountabilities, portfolio controls and outcome measures. Reusable RACI, KPI, benefit, initiative, scoring and decision-record tools are available in the [templates folder](templates/README.md). The open-source framework addresses adoption, contribution, community relationships, risk and stewardship. The digital sustainability framework applies a lifecycle view to energy, water, emissions, siting, procurement and service outcomes. Examples are explicitly fictional. These materials describe independent guidance and reference models; they do not imply direct code authorship, implementation at a particular organisation or results not stated here.
+They support a practical sequence for framing an initiative, comparing alternatives, documenting decisions, assigning accountability, defining measures and validating benefits.
+
+They are designed to keep governance connected to real decisions rather than becoming an additional reporting layer.
+
+## The governance model
+
+Across the repository, the underlying logic is:
+
+**Strategic outcomes → Capabilities → Technology choices → Investment → Governed execution → Adoption → Measurable outcomes**
+
+At an operational level, the same logic becomes:
+
+**Frame → Compare → Decide → Assign → Deliver → Measure → Realise → Learn**
+
+The first sequence explains how technology strategy creates a line of sight from strategic intent to outcomes. The second provides a practical way to work through individual decisions and initiatives.
+
+## Common governance lenses
+
+Different technology choices create different specialist questions, but a number of management concerns recur across almost all of them.
+
+The frameworks therefore consider strategy and user outcomes alongside digital assets, provenance, supply-chain transparency, investment, architecture, interoperability, accessibility, security, procurement, lifecycle economics, ecosystem and supplier dependencies, sustainability, portability and exit.
+
+These should not become independent approval layers. They are different lenses through which a material technology decision can be understood.
+
+The more critical, expensive, difficult to reverse or strategically dependent a choice becomes, the stronger the evidence and governance should normally be.
+
+## Strategic technology domains
+
+Three domains are currently developed in greater depth.
+
+**Open Source Strategy & Governance** looks beyond licence and source availability to ecosystem and governance health, strategic dependencies, effective reuse, supply-chain transparency, contribution, shared stewardship, procurement and credible continuity or exit options.
+
+**Enterprise AI & RAG Governance** connects AI use cases with information readiness, AI asset chains, provenance, architecture, access control, model and provider dependencies, evaluation, human oversight, accessibility and lifecycle governance.
+
+**Digital Sustainability and Data Centre Energy Governance** connects digital service demand with infrastructure capacity, energy, water, resilience, lifecycle economics and useful service outcomes.
+
+These are not intended as separate practices. They show how the same technology-governance principles can be applied to materially different domains.
+
+## How to use the repository
+
+If the starting point is a strategic technology question, begin with [**Technology Strategy & Execution Governance**](frameworks/technology-strategy-execution-governance.md).
+
+If the challenge is translating strategy into decisions, accountability and delivery, continue with the [**Strategy & Execution Governance — Executive Playbook**](frameworks/strategy-execution-governance-playbook.md).
+
+If the question concerns investment balance, shared digital assets, competing initiatives, scarce capacity or sequencing, use [**Digital Portfolio Governance**](frameworks/digital-portfolio-governance.md).
+
+Then apply the relevant domain framework:
+
+- [**Open Source Strategy & Governance**](frameworks/open-source-strategy-governance.md)
+- [**Enterprise AI & RAG — Strategic and Governance Blueprint**](frameworks/enterprise-ai-rag-governance-blueprint.md)
+- [**Digital Sustainability and Data Centre Energy Governance**](frameworks/digital-sustainability-data-centre-governance.md)
+
+The [**Executive Governance Templates**](templates/README.md) can be used alongside any of these frameworks rather than as a separate methodology.
+
+## Principles
+
+A number of principles run consistently through the material:
+
+- start from outcomes and user or service needs rather than technology preferences;
+- keep strategy, investment, architecture and execution connected;
+- make decision rights and accountability explicit;
+- apply governance in proportion to criticality, scale and reversibility;
+- make assets and dependencies visible rather than assuming that a particular technology or sourcing model removes them;
+- consider provenance, interoperability, accessibility, portability and exit while choices are still reversible;
+- evaluate lifecycle economics rather than acquisition cost alone;
+- distinguish publication from effective reuse, and technical openness from practical control;
+- distinguish delivery from adoption and adoption from realised value;
+- use evidence to learn, rebalance and, where necessary, stop.
+
+The intention is not to eliminate uncertainty. It is to make uncertainty, assumptions and trade-offs sufficiently visible for better decisions to be made.
+
+## About the author
+
+**Alexandro Sances** works on technology strategy, digital transformation and governance, with a particular interest in connecting strategic technology choices with organisational governance and practical execution.
+
+His areas of professional focus include **technology strategy and execution, open source and digital ecosystems, enterprise AI and emerging technologies, digital infrastructure and sustainability, interoperability, digital platforms, and the governance of technology investments and dependencies**.
+
+The frameworks and practical tools in this repository reflect that perspective. They explore not only which technologies can create value, but also how choices can be translated into execution, how assets, dependencies and trade-offs can be made visible, how accountability can be established, and how outcomes can be measured over time.
+
+The work continues to evolve through professional practice, research, advisory activities and engagement with technology strategy and governance.
 
 ## Professional Background
 
-My experience includes international executive, advisory, board and mentoring roles across telecommunications, satellite communications, insurtech, connected mobility, telematics, IoT, data-driven services and digital platforms.
+Alexandro Sances' experience includes **international executive, advisory, board and mentoring roles** across telecommunications, satellite communications, insurtech, connected mobility, telematics, IoT, data-driven services and digital platforms.
+
+This cross-sector experience informs the perspective taken throughout the repository: technology is considered not in isolation, but in relation to strategy, people, organisational capabilities, ecosystems, execution and measurable outcomes.
 
 ## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/alexandrosances/)
 - [Email](mailto:alexandro.sances@gmail.com)
 
-## Personal Note
+## Scope and personal note
 
-The views, frameworks and materials published here are personal and do not necessarily represent the positions or policies of any organisation with which I am or have been associated. No confidential, proprietary or non-public organisational information is intentionally included.
+The frameworks, templates and other materials published in this repository are independently authored professional reference resources intended for adaptation.
+
+They do not constitute legal, financial, security, procurement or regulatory advice.
+
+The views, frameworks and materials published here are personal and do not necessarily represent the positions, policies or practices of any organisation with which I am, or have been, associated. No confidential, proprietary or non-public organisational information is intentionally included.
+
+Worked examples, ratings, thresholds and scenarios identified as illustrative should not be interpreted as evidence of actual implementations, decisions or results.
+
+**Author:** Alexandro Sances  
+**Licence:** CC BY 4.0
 
 ---
 
