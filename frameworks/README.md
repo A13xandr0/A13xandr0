@@ -37,6 +37,8 @@ The material is organised around a simple idea: start from the outcome that matt
 
 The frameworks describe the management logic; reusable working artefacts are maintained separately in the [templates folder](../templates/README.md): [RACI](../templates/raci-matrix.md), [KPI dictionary](../templates/kpi-dictionary.md), [benefit profile](../templates/benefit-profile.md), [initiative canvas](../templates/initiative-canvas.md), [weighted scoring matrix](../templates/weighted-scoring-matrix.md) and [completed illustrative decision record](../templates/decision-record-example.md). The scoring example is fictional and its calculations are shown transparently.
 
+Further working tools complement these: [governance forums](../templates/governance-forums.md), [escalation and status](../templates/escalation-and-status.md), [strategic dependency register](../templates/strategic-dependency-register.md), the [KPI reference](../templates/kpi-reference.md) for open-source, sustainability and AI/RAG measures, the [open-source assessment](../templates/open-source-assessment.md), the [AI/RAG use-case assessment](../templates/ai-rag-use-case-assessment.md), the [infrastructure capacity decision](../templates/infrastructure-capacity-decision.md) and the [executive checklists](../templates/executive-checklists.md).
+
 ## Framework relationships
 
 ```mermaid
@@ -82,6 +84,13 @@ The repository is built around a small number of recurring principles:
 
 These are independently authored professional reference materials. They are starting points for adaptation, not universal prescriptions. They do not constitute legal, financial, security, procurement or regulatory advice, and they do not represent the policies or practices of any employer or organisation. Illustrative examples are identified as such and should not be read as evidence of real implementations or results.
 
+
+## Author and contact
+
+Alexandro Sances, Senior Technology Executive, Rome, Italy.
+
+- [LinkedIn](https://www.linkedin.com/in/alexandrosances/)
+- [Email](mailto:alexandro.sances@gmail.com)
 
 ## Document metadata
 

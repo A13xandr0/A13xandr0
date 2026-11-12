@@ -73,6 +73,8 @@ Use [Technology Strategy & Execution Governance](technology-strategy-execution-g
 
 For open-source initiatives, use [Open Source Strategy & Governance](open-source-strategy-governance.md) to assess governance health, strategic dependency, stewardship, procurement and continuity. For AI/RAG, use [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md). For material cloud, data-centre and infrastructure investments, use [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
 
+Working tools in the [templates folder](../templates/README.md): [initiative canvas](../templates/initiative-canvas.md), [strategic dependency register](../templates/strategic-dependency-register.md), [escalation and status](../templates/escalation-and-status.md), [benefit profile](../templates/benefit-profile.md), [KPI dictionary](../templates/kpi-dictionary.md) and [executive checklists](../templates/executive-checklists.md).
+
 ## 12. Boundaries
 
 This framework is independent professional reference material. It is not an official standard, financial advice or a representation of any organisation's internal portfolio process.

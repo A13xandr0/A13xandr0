@@ -75,6 +75,8 @@ Before approval, confirm that the service need and forecast are evidenced; optim
 
 During delivery and operation, compare actual load with forecast, keep measurement boundaries stable, verify supplier evidence, escalate material variance and review unused capacity, equipment and data.
 
+Working tools: the [infrastructure capacity decision](../templates/infrastructure-capacity-decision.md) for service-need framing, options comparison, measurement boundaries and decision gates; the [sustainability measures](../templates/kpi-reference.md); and the [executive checklists](../templates/executive-checklists.md).
+
 ## 11. Boundaries
 
 This is independent executive guidance, not an engineering design, environmental assessment, legal interpretation, procurement specification or regulatory compliance opinion. Methods, targets, local conditions and obligations should be validated with qualified specialists.

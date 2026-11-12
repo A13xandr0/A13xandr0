@@ -54,6 +54,8 @@ Every forum should have a remit, delegated authority, expected inputs, decision 
 
 Use the [RACI template](../templates/raci-matrix.md) where it improves clarity, but avoid treating it as a substitute for named ownership. Each initiative should have one accountable sponsor, a delivery owner, a service or product owner and a benefit owner. Specialist assurance functions provide evidence and challenge; they do not silently inherit business accountability.
 
+Forum charter and decision-class template: [governance forums](../templates/governance-forums.md).
+
 ## 5. Portfolio and delivery controls
 
 Every material initiative should maintain a coherent view of approved outcome and scope, milestones and forecast, budget and estimate to complete, dependencies, risks and assumptions, critical skills, adoption, service transition, architecture and assurance evidence, benefit baseline and decision history.
@@ -61,6 +63,8 @@ Every material initiative should maintain a coherent view of approved outcome an
 Set tolerances at mandate approval. Escalation should be triggered by forecast breach, not only after failure has occurred. Typical triggers include a key milestone or cost forecast outside tolerance, a critical dependency without a credible recovery path, material change to outcome or risk, unavailable operational ownership, or benefit assumptions that no longer remain credible.
 
 Status should distinguish actual progress, forecast, confidence, top risks, decisions required and outcome evidence. A traffic-light colour can summarise a defined rule but should never replace the explanation.
+
+Tolerance sheet, escalation brief and status templates: [escalation and status](../templates/escalation-and-status.md).
 
 ## 6. Measures and benefits
 
@@ -78,6 +82,8 @@ This avoids creating multiple parallel governance systems. One initiative can be
 
 The [weighted scoring matrix](../templates/weighted-scoring-matrix.md) and [completed decision record](../templates/decision-record-example.md) provide reusable examples.
 
+Domain tools: [open-source assessment](../templates/open-source-assessment.md), [AI/RAG use-case assessment](../templates/ai-rag-use-case-assessment.md), [infrastructure capacity decision](../templates/infrastructure-capacity-decision.md) and [strategic dependency register](../templates/strategic-dependency-register.md).
+
 ## 8. Worked example: bounded service-improvement decision
 
 Consider a fictional organisation with slow internal service-request resolution. Rather than starting with a platform procurement, leadership compares process clarification, targeted workflow tooling and an immediate broad platform replacement. The process option is used first as a bounded pilot because it provides faster evidence with less commitment. Technology investment remains conditional on baseline quality, adoption, integration needs and evidence from the pilot.
@@ -93,6 +99,8 @@ Before an investment decision, confirm that the problem, user, outcome, baseline
 Before delivery authorisation, confirm that scope, acceptance evidence and tolerances are agreed; owners are named; the integrated plan and skills are credible; specialist assurance is proportionate; and adoption, support and benefit measurement are planned.
 
 At each review, distinguish actuals from forecasts, surface decisions instead of hiding them in status, escalate forecast tolerance breaches and use adoption and outcome evidence to determine the next action.
+
+Copyable versions of these checklists: [executive checklists](../templates/executive-checklists.md).
 
 ## 10. Governance flow
 

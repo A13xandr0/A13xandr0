@@ -95,6 +95,8 @@ A proportionate implementation can begin by establishing strategic outcomes and 
 
 Before approving a significant initiative, leadership should be able to answer five questions in plain language: What outcome are we funding? Why is this option preferable to realistic alternatives? Which dependencies and lifecycle obligations are we accepting? Who is accountable for delivery, operation and benefits? What evidence will cause us to continue, change course or stop?
 
+Working tools in the [templates folder](../templates/README.md): [initiative canvas](../templates/initiative-canvas.md), [weighted scoring matrix](../templates/weighted-scoring-matrix.md), [governance forums](../templates/governance-forums.md), [RACI matrix](../templates/raci-matrix.md) and [executive checklists](../templates/executive-checklists.md).
+
 ## 10. Boundaries
 
 This framework is independent professional reference material. It does not prescribe a delivery methodology, organisational structure, technology stack, procurement model or regulatory interpretation. Apply it proportionately to scale, complexity, criticality and reversibility, and use qualified specialist advice where required.

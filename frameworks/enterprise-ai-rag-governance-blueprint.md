@@ -77,6 +77,8 @@ Use [Digital Portfolio Governance](digital-portfolio-governance.md) for investme
 
 Before deployment, confirm that the user, task and intended outcome are clear; simpler options were considered; authoritative sources and permissions are known; access control is enforced before content reaches the model; provenance and citations can be tested; injection and disclosure risks are assessed; evaluation includes adverse cases; human oversight is explicit; strategic dependencies and exit implications are understood; and operations, monitoring and benefits review are funded.
 
+Working tools: the [AI/RAG use-case assessment](../templates/ai-rag-use-case-assessment.md) for use-case assessment, source register, dependencies, evaluation plan and decision gates; the [AI/RAG evaluation measures](../templates/kpi-reference.md); and the [executive checklists](../templates/executive-checklists.md).
+
 ## 12. Boundaries
 
 This is independent professional reference material. It is a strategic and governance blueprint, not an implementation specification, legal opinion, security certification or endorsement of a vendor, model or technology stack.

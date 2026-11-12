@@ -32,3 +32,5 @@ last_reviewed: 2026-11-12
 - Interpretation risks (attribution, gaming, lag):
 
 Report absolute values as well as ratios where scale can change. Distinguish actuals from forecasts, outputs from outcomes, and leading from lagging indicators.
+
+For open-source, digital-sustainability and AI/RAG measures, see the [KPI reference](kpi-reference.md).
