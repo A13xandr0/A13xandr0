@@ -11,6 +11,8 @@ keywords: "open source strategy, open source governance, software supply chain, 
 
 **An executive reference framework for using, supporting, contributing to and stewarding open-source technologies and ecosystems as part of a wider technology strategy.**
 
+**Developed and maintained by Alexandro Sances.**
+
 Open-source strategy and governance is the organisational discipline for selecting, using, contributing to and sustaining open-source technologies and ecosystems. This framework covers project health, dependency risk, licensing and supply-chain evidence, stewardship, procurement, contribution and exit readiness.
 
 ## 1. Why open source is a strategic technology domain
