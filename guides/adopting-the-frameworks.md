@@ -66,7 +66,7 @@ Start with the [Technology Strategy & Execution Governance Framework](../framewo
 
 ### Path B — Start from an initiative already in progress
 
-Sometimes the technology choice or project already exists but its governance is weak. Typical symptoms include unclear ownership, milestones without measurable outcomes, decisions that are repeatedly reopened, dependencies managed within workstreams but not across them, status reporting without decision triggers, and escalation based on hierarchy rather than agreed tolerances.
+Sometimes the technology choice or project already exists but its governance is weak. Typical symptoms include unclear ownership, milestones without measurable outcomes, decisions that are repeatedly reopened, dependencies managed within workstreams but not across them, status reporting without decision triggers, escalation based on hierarchy rather than agreed tolerances, and unclear benefits after delivery.
 
 Do not restart the initiative merely to make it fit the framework. Establish a governance baseline instead:
 
@@ -85,7 +85,7 @@ Use the [Executive Playbook](../frameworks/strategy-execution-governance-playboo
 Use this path where the immediate question concerns a domain with distinctive dependencies or risks.
 
 - **Enterprise AI and RAG.** Start with the [Enterprise AI & RAG Governance Blueprint](../frameworks/enterprise-ai-rag-governance-blueprint.md) and assess **Task → Information → Authority and access → Evaluation → Model and retrieval → Operation**. Use the [AI/RAG Use-Case Assessment](../templates/ai-rag-use-case-assessment.md) before larger commitments are made; the [fictional worked example](../templates/ai-rag-use-case-assessment-example.md) shows the method applied.
-- **Open source.** Start with [Open Source Strategy & Governance](../frameworks/open-source-strategy-governance.md) and assess not only licence and code but **Fit → Ecosystem and governance health → Supply chain → Lifecycle cost → Participation → Continuity and exit readiness**. Use the [Open-Source Assessment](../templates/open-source-assessment.md); the [fictional worked example](../templates/open-source-assessment-example.md) shows how a component becomes a strategic dependency.
+- **Open source.** Start with [Open Source Strategy & Governance](../frameworks/open-source-strategy-governance.md) and assess not only licence and code but **Fit → Ecosystem → Governance → Supply chain → Skills → Participation → Continuity → Exit readiness**. Use the [Open-Source Assessment](../templates/open-source-assessment.md); the [fictional worked example](../templates/open-source-assessment-example.md) shows how a component becomes a strategic dependency.
 - **Digital infrastructure and sustainability.** Start with [Digital Sustainability and Data Centre Energy Governance](../frameworks/digital-sustainability-data-centre-governance.md) and work from **Service demand → Workload demand → Capacity → Infrastructure and resource dependencies → Options → Lifecycle decision**. Use the [Infrastructure Capacity Decision](../templates/infrastructure-capacity-decision.md).
 
 Domain-specific governance complements the common framework. It does not replace it.
