@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "strategic dependency register, portfolio risk, dependencies, governan
 
 # Strategic Dependency Register — Template
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 A portfolio view should reveal dependencies that are invisible when initiatives are reviewed one by one: common suppliers, fragile open-source projects, a single system integrator, shared AI or data platforms, standards, capacity constraints, grid or site dependencies and scarce skills.
 
