@@ -27,6 +27,16 @@ theme:
 plugins:
   - search
 
+# MkDocs excludes a top-level /templates/ directory by default.
+# Re-include it: these are published operational documents, not theme templates.
+exclude_docs: |
+  !/templates/
+
+# Keep a second copy of the canonical README so relative links from
+# frameworks/README.md to ../README.md remain valid on the website.
+not_in_nav: |
+  /README.md
+
 validation:
   nav:
     omitted_files: warn
