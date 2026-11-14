@@ -29,6 +29,15 @@ theme:
 plugins:
   - search
 
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+  links:
+    not_found: warn
+    unrecognized_links: warn
+    anchors: warn
+
 markdown_extensions:
   - meta
   - admonition
@@ -55,7 +64,6 @@ exclude_docs: |
   /mkdocs.yml
   /CITATION.cff
   /overrides/
-  /javascripts/
   /site/
 
 nav:
