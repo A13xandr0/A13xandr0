@@ -13,7 +13,7 @@ last_reviewed: 2026-11-12
 
 The core framework explains how strategy, technology and outcomes connect. This playbook focuses on the operating practice needed to make that connection real. Its purpose is to make direction clear, decisions timely, ownership explicit and delivery evidence visible without moving specialist judgement away from the teams that hold it.
 
-A useful leadership sequence is: **Frame → Specify outcomes → Compare options → Prioritise → Mandate → Steer → Realise → Learn**. The order matters. A solution should not receive delivery authority before the problem, expected outcome, key assumptions and accountable owners are understood.
+The initiative operating cycle is: **Frame → Specify outcomes → Compare options → Prioritise → Mandate → Steer → Realise → Learn**. The order matters. A solution should not receive delivery authority before the problem, expected outcome, key assumptions and accountable owners are understood.
 
 ## 2. Decision rights
 
@@ -40,7 +40,7 @@ This record should be concise enough to use routinely and complete enough to exp
 
 First separate obligations from choices. Legal, safety, resilience, contractual or time-critical obligations still consume scarce capacity, but they should not be disguised as discretionary initiatives with artificially high scores.
 
-For discretionary investments, assess strategic contribution, user or service value, risk reduction, time to useful evidence, readiness, affordability and capacity. Rate evidence and confidence as well as expected value. High expected value with low confidence is usually a case for discovery or a bounded pilot, not immediate scale investment.
+For discretionary investments, use the common criteria in the [weighted scoring matrix](../templates/weighted-scoring-matrix.md): outcome contribution (strategic, user or service value), feasibility and readiness, time to useful evidence, lifecycle cost and affordability, risk and dependency profile, and reversibility. Consider capacity explicitly when judging feasibility and affordability. Record the evidence and confidence behind each rating; the score informs judgement but does not replace it. High expected value with low confidence is usually a case for discovery or a bounded pilot, not immediate scale investment.
 
 A one-page [initiative canvas](../templates/initiative-canvas.md) should capture the problem, strategic outcome, baseline and target, options considered, expected value and confidence, mandatory obligations, lifecycle cost, dependencies, principal risks, accountable owners and the proposed decision.
 
@@ -52,7 +52,7 @@ Every forum should have a remit, delegated authority, expected inputs, decision 
 
 ### Accountability pattern
 
-Use the [RACI template](../templates/raci-matrix.md) where it improves clarity, but avoid treating it as a substitute for named ownership. Each initiative should have one accountable sponsor, a delivery owner, a service or product owner and a benefit owner. Specialist assurance functions provide evidence and challenge; they do not silently inherit business accountability.
+Use the [RACI template](../templates/raci-matrix.md) where it improves clarity, but avoid treating it as a substitute for named ownership. Use consistent role names throughout the repository: **Executive sponsor**, **Portfolio authority**, **Initiative lead**, **Service owner**, **Architecture / assurance authority**, and **Benefit owner**. Each initiative should have one named accountable owner for each relevant responsibility. Specialist assurance functions provide evidence and challenge; they do not silently inherit business accountability.
 
 Forum charter and decision-class template: [governance forums](../templates/governance-forums.md).
 
@@ -80,7 +80,7 @@ For open-source-dependent initiatives, add project and governance health, strate
 
 This avoids creating multiple parallel governance systems. One initiative can be governed through the same investment, accountability and benefits process while drawing specialist controls from more than one domain.
 
-The [weighted scoring matrix](../templates/weighted-scoring-matrix.md) and [completed decision record](../templates/decision-record-example.md) provide reusable examples.
+The [weighted scoring matrix](../templates/weighted-scoring-matrix.md) provides a worked scoring example. Use the blank [decision record template](../templates/decision-record.md) to document a live decision; the [completed decision record](../templates/decision-record-example.md) is a separate fictional illustration. The playbook describes the method; the templates put it into practice.
 
 Domain tools: [open-source assessment](../templates/open-source-assessment.md), [AI/RAG use-case assessment](../templates/ai-rag-use-case-assessment.md), [infrastructure capacity decision](../templates/infrastructure-capacity-decision.md) and [strategic dependency register](../templates/strategic-dependency-register.md).
 
