@@ -3,6 +3,8 @@ version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A practical assessment for enterprise AI and RAG use cases, covering user needs, information sources, access, threats, evaluation and lifecycle controls."
+keywords: "AI assessment, RAG use case, AI governance, information sources, evaluation"
 ---
 
 # AI/RAG Use-Case Assessment — Template
@@ -10,8 +12,6 @@ last_reviewed: 2026-11-14
 The AI/RAG Use-Case Assessment is a practical template for deciding whether enterprise AI or retrieval-augmented generation is suitable for a specific task. It records user needs, information sources, access controls, dependencies, threat scenarios, evaluation evidence, decision gates and lifecycle controls.
 
 **Version:** 1.1.0 | **Licence:** CC BY 4.0
-
-Tools for deciding when enterprise AI or retrieval-augmented generation is the right answer, and for governing the information, technology and lifecycle dependencies it creates. The governance problem begins before model selection.
 
 Related: [Enterprise AI & RAG Governance Blueprint](../frameworks/enterprise-ai-rag-governance-blueprint.md). Evaluation measures are in the [KPI reference](kpi-reference.md), Section 3.
 

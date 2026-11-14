@@ -1,13 +1,21 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
+description: "A working dictionary for defining governance KPIs, calculation methods, units, owners, reporting frequency and decision use."
+keywords: "KPI dictionary, governance metrics, performance indicators, benefits"
 ---
 
 # KPI Dictionary — Template
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
+
+**Purpose:** Define consistent performance measures and make their calculation, ownership, limits and decision use explicit.
+
+**When to use:** When establishing an initiative or portfolio measurement approach and whenever a KPI definition, source, baseline or target changes.
+
+**How to use:** Specify the formula, unit, boundary, baseline, target, source, frequency, accountable owner and interpretation risks. Distinguish actuals from forecasts and outputs from outcomes.
 
 | KPI | Definition / calculation | Unit | Frequency | Accountable owner | Decision use |
 |---|---|---|---|---|---|

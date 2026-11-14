@@ -1,15 +1,23 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
+description: "A responsibility assignment matrix for clarifying accountable, responsible, consulted and informed roles in governance decisions."
+keywords: "RACI matrix, accountability, decision rights, governance roles"
 ---
 
 # RACI Matrix — Template
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 Use one **A** (Accountable) per row. More than one **R** may be appropriate. RACI clarifies participation; it does not replace named ownership.
+
+**Purpose:** Make participation and accountability explicit for recurring activities and material decisions.
+
+**When to use:** When establishing or revising a governance operating model, initiative mandate or cross-functional process.
+
+**How to use:** Adapt role labels to delegated authority, assign one accountable role per row, identify responsible contributors and document any specialist decision rights separately.
 
 | Activity / decision | Executive sponsor | Portfolio authority | Initiative lead | Service owner | Architecture / assurance | Benefit owner |
 |---|---|---|---|---|---|---|

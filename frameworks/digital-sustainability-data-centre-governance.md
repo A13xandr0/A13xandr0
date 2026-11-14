@@ -3,6 +3,8 @@ version: 1.1.0
 status: reference
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "Governance guidance connecting digital service demand with data-centre capacity, energy, water, resilience and lifecycle cost."
+keywords: "digital sustainability, data centre governance, energy, water, infrastructure capacity"
 ---
 
 # Digital Sustainability and Data Centre Energy Governance

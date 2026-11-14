@@ -3,6 +3,8 @@ version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "Reference definitions for open-source, digital sustainability, data-centre and enterprise AI/RAG measures."
+keywords: "KPI reference, open source metrics, AI metrics, sustainability metrics"
 ---
 
 # KPI Reference — Template

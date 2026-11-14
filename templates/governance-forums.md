@@ -3,6 +3,8 @@ version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A template for defining governance forums, decision classes, delegated authority, forum charters and escalation paths."
+keywords: "governance forums, decision authority, escalation, governance charter"
 ---
 
 # Governance Forums — Template

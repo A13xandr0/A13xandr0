@@ -1,11 +1,13 @@
 ---
 version: 1.1.0
-status: template
+status: example-and-template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A fictional worked example and blank worksheet for comparing discretionary initiatives using explicit weighted criteria and evidence."
+keywords: "weighted scoring matrix, initiative prioritisation, decision support, fictional example"
 ---
 
-# Weighted Scoring Matrix — Fictional Worked Example
+# Weighted Scoring Matrix — Fictional Worked Example and Blank Worksheet
 
 **Version:** 1.1.0 | **Licence:** CC BY 4.0
 

@@ -3,6 +3,8 @@ version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A concise template for framing an initiative's problem, outcome, options, ownership, dependencies, controls and requested decision."
+keywords: "initiative canvas, initiative framing, governance, outcomes, decision"
 ---
 
 # Initiative Canvas — Template

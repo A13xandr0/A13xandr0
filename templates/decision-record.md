@@ -3,6 +3,8 @@ version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A reusable record for documenting decision context, options, evidence, authority, rationale, conditions and follow-up actions."
+keywords: "decision record template, governance, decision rights, evidence, accountability"
 ---
 
 # Decision Record — Blank Template

@@ -3,6 +3,8 @@ version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A working template for defining, measuring, attributing and reviewing benefits with a named accountable owner."
+keywords: "benefit profile, benefits realisation, outcome measurement, benefit owner"
 ---
 
 # Benefit Profile — Template
@@ -10,6 +12,12 @@ last_reviewed: 2026-11-14
 **Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 A benefit is a measurable change in outcome, not a delivered feature. The benefit owner remains accountable for validation after delivery.
+
+**Purpose:** Define the expected benefit, its baseline, target, measurement method, ownership and evidence.
+
+**When to use:** When an initiative is proposed, mandated or reviewed, and whenever its benefit assumptions or delivery context materially change.
+
+**How to use:** Agree the baseline and measurement boundary before delivery; name one benefit owner; distinguish actual results from forecasts; record attribution limits and corrective actions.
 
 - **Benefit ID / name:**
 - **Strategic outcome:**

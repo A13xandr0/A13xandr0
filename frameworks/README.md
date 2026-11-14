@@ -3,6 +3,8 @@ version: 1.1.0
 status: reference
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "Overview of connected technology strategy, execution and governance frameworks and their operational templates."
+keywords: "technology strategy framework, execution governance, digital portfolio, AI governance, open source governance"
 ---
 
 # Frameworks — Technology Strategy, Execution & Governance

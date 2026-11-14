@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or reference these governance frameworks, please cite this repository."
+title: "Technology Strategy, Execution & Governance"
+type: other
+authors:
+  - family-names: Sances
+    given-names: Alexandro
+version: 1.1.0
+date-released: 2026-11-14
+license: CC-BY-4.0
+repository-code: "https://github.com/A13xandr0/A13xandr0"
+url: "https://a13xandr0.github.io/A13xandr0/"
+abstract: >-
+  Independent professional reference frameworks and practical templates for
+  technology strategy, execution governance, enterprise AI and RAG, digital
+  portfolio governance, open-source strategy, and digital infrastructure.
+keywords:
+  - technology strategy
+  - technology governance
+  - enterprise AI governance
+  - retrieval-augmented generation
+  - digital portfolio governance
+  - open-source governance
+  - digital sustainability

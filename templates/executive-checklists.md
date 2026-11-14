@@ -3,6 +3,8 @@ version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "Executive checklists for investment decisions, delivery authorisation, portfolio reviews, open source, enterprise AI and infrastructure."
+keywords: "executive checklist, investment governance, AI governance, open source, infrastructure"
 ---
 
 # Executive Checklists — Template

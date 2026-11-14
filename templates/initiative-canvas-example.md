@@ -3,6 +3,8 @@ version: 1.1.0
 status: example
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A fictional completed initiative canvas illustrating problem framing, options, ownership, delivery controls and benefit measurement."
+keywords: "initiative canvas, fictional example, initiative governance, benefits"
 ---
 
 # Initiative Canvas — Fictional Worked Example

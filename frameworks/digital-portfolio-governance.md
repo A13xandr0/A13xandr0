@@ -3,6 +3,8 @@ version: 1.1.0
 status: reference
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A framework for selecting, sequencing and rebalancing digital investments across capacity, dependencies, risk and outcomes."
+keywords: "digital portfolio governance, technology investment, portfolio prioritisation, capacity planning"
 ---
 
 # Digital Portfolio Governance Framework

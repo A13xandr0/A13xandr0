@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://a13xandr0.github.io/A13xandr0/sitemap.xml

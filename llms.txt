@@ -1,52 +1,49 @@
 # Technology Strategy, Execution & Governance — Alexandro Sances
 
-> Independent professional reference repository containing technology strategy and governance frameworks, enterprise AI and RAG governance guidance, digital portfolio governance, open-source strategy, digital infrastructure and sustainability frameworks, executive playbooks and practical templates.
+> Independent professional reference repository on technology strategy and governance, enterprise AI and retrieval-augmented generation (RAG), digital portfolio governance, open-source strategy, digital infrastructure and sustainability.
 
-This repository explains how organisations connect strategic outcomes to technology choices, investment decisions, governance, delivery, adoption and measurable benefits. It is technology-neutral: specialist frameworks address domain-specific risks without creating disconnected governance systems.
+The documentation website is generated from the Markdown files in the public GitHub repository. GitHub is the canonical source for content, revisions, licensing and change history; the website is a read-optimised publication of that source.
 
 ## Start here
 
-- [Main repository guide](README.md): overview, getting started, governance model, domains and author context.
-- [Frameworks index](frameworks/README.md): map of the reference frameworks and how they relate.
-- [Templates index](templates/README.md): catalogue and practical sequence for using the operational tools.
+- [Main guide](https://a13xandr0.github.io/A13xandr0/): purpose, governance model, reading path and author context.
+- [Frameworks index](https://a13xandr0.github.io/A13xandr0/frameworks/): connected reference frameworks.
+- [Templates index](https://a13xandr0.github.io/A13xandr0/templates/): operational templates and examples.
 
 ## Core governance frameworks
 
-- [Technology Strategy & Execution Governance Framework](frameworks/technology-strategy-execution-governance.md): connects strategic outcomes, capabilities, technology choices, investment, delivery and benefits.
-- [Strategy & Execution Governance — Executive Playbook](frameworks/strategy-execution-governance-playbook.md): operating method for decision rights, prioritisation, mandate, steering, escalation and benefits.
-- [Digital Portfolio Governance Framework](frameworks/digital-portfolio-governance.md): portfolio selection, capacity, dependencies, sequencing and rebalancing.
+- [Technology Strategy & Execution Governance](https://a13xandr0.github.io/A13xandr0/frameworks/technology-strategy-execution-governance/): connects strategic outcomes, capabilities, technology choices, investment, delivery and benefits.
+- [Strategy & Execution Governance Playbook](https://a13xandr0.github.io/A13xandr0/frameworks/strategy-execution-governance-playbook/): decision rights, prioritisation, mandate, steering, escalation and benefits.
+- [Digital Portfolio Governance](https://a13xandr0.github.io/A13xandr0/frameworks/digital-portfolio-governance/): investment selection, capacity, dependencies, sequencing and rebalancing.
 
 ## Strategic technology domains
 
-- [Enterprise AI & RAG Governance Blueprint](frameworks/enterprise-ai-rag-governance-blueprint.md): information readiness, source governance, access control, evaluation, human oversight and lifecycle risk.
-- [Open Source Strategy & Governance](frameworks/open-source-strategy-governance.md): ecosystem health, dependency management, licensing, supply-chain transparency, stewardship, contribution and exit.
-- [Digital Sustainability and Data Centre Energy Governance](frameworks/digital-sustainability-data-centre-governance.md): service demand, infrastructure capacity, energy, water, resilience and lifecycle economics.
+- [Enterprise AI & RAG Governance Blueprint](https://a13xandr0.github.io/A13xandr0/frameworks/enterprise-ai-rag-governance-blueprint/): information readiness, source governance, access control, evaluation, human oversight and lifecycle risk.
+- [Open Source Strategy & Governance](https://a13xandr0.github.io/A13xandr0/frameworks/open-source-strategy-governance/): ecosystem health, dependencies, licensing, supply-chain evidence, stewardship, contribution and exit.
+- [Digital Sustainability and Data Centre Energy Governance](https://a13xandr0.github.io/A13xandr0/frameworks/digital-sustainability-data-centre-governance/): service demand, infrastructure capacity, energy, water, resilience and lifecycle economics.
 
-## Operational templates and examples
+## Operational templates
 
-- [Initiative Canvas](templates/initiative-canvas.md): initiative framing, outcomes, options, ownership, dependencies and requested decision.
-- [Weighted Scoring Matrix](templates/weighted-scoring-matrix.md): comparison of discretionary options; mandatory obligations are handled separately.
-- [Decision Record](templates/decision-record.md): record of rationale, authority, conditions, actions and review triggers.
-- [Governance Forums](templates/governance-forums.md): forum remits, decision classes, charters and escalation paths.
-- [AI/RAG Use-Case Assessment](templates/ai-rag-use-case-assessment.md): use-case suitability, information sources, threat modelling and evaluation.
-- [Open-Source Assessment](templates/open-source-assessment.md): option assessment, governance health, participation and exit readiness.
-- [Infrastructure Capacity Decision](templates/infrastructure-capacity-decision.md): capacity options, measurement boundaries and infrastructure decision gates.
-- [Benefit Profile](templates/benefit-profile.md): baseline, target, ownership, attribution and review of benefits.
-- [Strategic Dependency Register](templates/strategic-dependency-register.md): visibility of cross-initiative dependencies, owners and responses.
-- [Initiative Canvas — Fictional Worked Example](templates/initiative-canvas-example.md): completed illustrative scenario; all organisations, assumptions and values are fictional.
-- [Decision Record — Fictional Worked Example](templates/decision-record-example.md): illustrative decision record; not an actual organisational decision.
+- [Initiative Canvas](https://a13xandr0.github.io/A13xandr0/templates/initiative-canvas/): initiative framing and mandate.
+- [Weighted Scoring Matrix](https://a13xandr0.github.io/A13xandr0/templates/weighted-scoring-matrix/): comparison of discretionary options.
+- [Decision Record](https://a13xandr0.github.io/A13xandr0/templates/decision-record/): rationale, authority, conditions and review triggers.
+- [Governance Forums](https://a13xandr0.github.io/A13xandr0/templates/governance-forums/): decision classes, forum charters and escalation.
+- [AI/RAG Use-Case Assessment](https://a13xandr0.github.io/A13xandr0/templates/ai-rag-use-case-assessment/): use-case suitability, information sources, threat modelling and evaluation.
+- [Open-Source Assessment](https://a13xandr0.github.io/A13xandr0/templates/open-source-assessment/): option assessment, governance health, participation and exit readiness.
+- [Infrastructure Capacity Decision](https://a13xandr0.github.io/A13xandr0/templates/infrastructure-capacity-decision/): capacity options, measurement boundaries and decision gates.
+- [Benefit Profile](https://a13xandr0.github.io/A13xandr0/templates/benefit-profile/): baseline, target, ownership, attribution and review.
+- [Strategic Dependency Register](https://a13xandr0.github.io/A13xandr0/templates/strategic-dependency-register/): cross-initiative dependencies and responses.
+- [Executive Checklists](https://a13xandr0.github.io/A13xandr0/templates/executive-checklists/): governance checks for investment, delivery and operation.
+- [RACI Matrix](https://a13xandr0.github.io/A13xandr0/templates/raci-matrix/): responsibility and accountability.
+- [KPI Dictionary](https://a13xandr0.github.io/A13xandr0/templates/kpi-dictionary/): measure definitions, owners and decision use.
+- [KPI Reference](https://a13xandr0.github.io/A13xandr0/templates/kpi-reference/): domain-specific measures.
 
-## How to interpret the material
+## Interpretation and provenance
 
 - Frameworks describe governance principles and operating models; templates are adaptable working artefacts.
 - Worked examples are fictional illustrations, not evidence of actual implementations, decisions, measured performance or achieved results.
 - Scores, thresholds, estimates and targets must be validated in the user's organisational context.
 - The material is independent professional guidance, not legal, financial, security, procurement or regulatory advice.
-- The views and materials are personal and do not necessarily represent any organisation with which the author is or has been associated.
-
-## Author
-
-Alexandro Sances — technology strategy, digital transformation and governance; professional experience across telecommunications, satellite communications, insurtech, connected mobility, telematics, IoT, data-driven services and digital platforms.
-
-- [GitHub profile and repository](https://github.com/A13xandr0/A13xandr0)
-- [LinkedIn](https://www.linkedin.com/in/alexandrosances/)
+- Author: Alexandro Sances.
+- [Canonical source repository](https://github.com/A13xandr0/A13xandr0).
+- [Professional profile](https://www.linkedin.com/in/alexandrosances/).

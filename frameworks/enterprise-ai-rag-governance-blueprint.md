@@ -3,6 +3,8 @@ version: 1.1.0
 status: reference
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "An enterprise blueprint for governing AI and RAG information sources, access, evaluation, security and lifecycle risk."
+keywords: "enterprise AI governance, RAG governance, retrieval augmented generation, AI risk, information governance"
 ---
 
 # Enterprise AI & RAG Governance Blueprint

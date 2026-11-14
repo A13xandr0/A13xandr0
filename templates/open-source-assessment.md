@@ -3,6 +3,8 @@ version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A template for assessing open-source options, project governance health, security, licensing, participation and exit readiness."
+keywords: "open source assessment, software governance, licensing, supply chain"
 ---
 
 # Open-Source Assessment — Template

@@ -3,6 +3,8 @@ version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "Reusable executive governance templates for framing initiatives, assessing options, recording decisions, managing delivery and measuring benefits."
+keywords: "governance templates, decision records, initiative canvas, weighted scoring, RACI, KPI"
 ---
 
 # Executive Governance Templates

@@ -1,15 +1,23 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
+description: "Templates for reporting delivery status, forecasting tolerance breaches, escalating exceptions and maintaining RAID information."
+keywords: "escalation, status reporting, delivery tolerances, RAID log, governance"
 ---
 
 # Escalation and Status — Template
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 Set tolerances when a mandate is approved, escalate on *forecast* breach rather than after failure, and report status in a way that surfaces decisions instead of hiding them.
+
+**Purpose:** Make exceptions, forecast breaches, decisions and delivery confidence visible to the authority that can act.
+
+**When to use:** At initiative mandate approval, during routine governance reviews and whenever a tolerance breach is forecast.
+
+**How to use:** Agree tolerances in advance, report actuals separately from forecasts, identify the decision required and owner, and maintain a RAID log with actions and due dates.
 
 Related: [Executive Playbook](../frameworks/strategy-execution-governance-playbook.md), Section 5, and [Digital Portfolio Governance](../frameworks/digital-portfolio-governance.md), Sections 7 and 8.
 

@@ -3,6 +3,8 @@ version: 1.1.0
 status: reference
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "Technology strategy and governance frameworks for enterprise AI, RAG, digital portfolios, open source and digital infrastructure."
+keywords: "technology strategy, technology governance, enterprise AI, RAG, digital portfolio governance, open source, digital sustainability"
 ---
 
 # Technology Strategy, Execution & Governance
@@ -10,6 +12,8 @@ last_reviewed: 2026-11-14
 **Technology strategy and governance frameworks for enterprise AI governance, retrieval-augmented generation (RAG), digital portfolio management, open-source strategy, digital infrastructure and sustainability. Practical executive playbooks, decision frameworks, assessment tools and reusable governance templates connect investment choices with accountable execution and measurable outcomes.**
 
 **Developed and maintained by Alexandro Sances.**
+
+**Published documentation:** [Technology Strategy, Execution & Governance](https://a13xandr0.github.io/A13xandr0/).
 
 Technology decisions rarely stand in isolation. Strategy, architecture, investment, delivery, risk, ecosystems, digital assets, infrastructure and operational ownership interact, while choices made in one area often create dependencies somewhere else.
 

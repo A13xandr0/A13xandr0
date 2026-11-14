@@ -3,6 +3,8 @@ version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A decision template for assessing digital infrastructure capacity, service demand, energy, water, resilience, lifecycle cost and investment gates."
+keywords: "infrastructure capacity, data centre, cloud, energy, water, lifecycle cost"
 ---
 
 # Infrastructure Capacity Decision — Template

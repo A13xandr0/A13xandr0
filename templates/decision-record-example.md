@@ -1,8 +1,10 @@
 ---
 version: 1.1.0
-status: template
+status: example
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
+description: "A fictional worked example showing how to record a governance decision, its evidence, rationale, conditions and review triggers."
+keywords: "decision record, governance decision, fictional example, decision rationale"
 ---
 
 # Decision Record — Fictional Worked Example

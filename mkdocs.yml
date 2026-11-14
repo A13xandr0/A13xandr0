@@ -1,0 +1,90 @@
+site_name: Technology Strategy, Execution & Governance
+site_description: Independent frameworks and practical governance tools for technology strategy, enterprise AI and RAG, digital portfolios, open source and digital infrastructure.
+site_author: Alexandro Sances
+site_url: https://a13xandr0.github.io/A13xandr0/
+repo_url: https://github.com/A13xandr0/A13xandr0
+edit_uri: edit/main/
+docs_dir: .
+site_dir: /tmp/site
+use_directory_urls: true
+copyright: "© Alexandro Sances · Content licensed under CC BY 4.0"
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+plugins:
+  - search
+
+markdown_extensions:
+  - meta
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js
+  - javascripts/mermaid-init.js
+
+exclude_docs: |
+  /mkdocs.yml
+  /CITATION.cff
+  /overrides/
+  /javascripts/
+  /site/
+
+nav:
+  - Home: README.md
+  - Frameworks:
+      - Overview: frameworks/README.md
+      - Core governance:
+          - Technology Strategy & Execution Governance: frameworks/technology-strategy-execution-governance.md
+          - Strategy & Execution Governance Playbook: frameworks/strategy-execution-governance-playbook.md
+          - Digital Portfolio Governance: frameworks/digital-portfolio-governance.md
+      - Strategic technology domains:
+          - Enterprise AI & RAG Governance: frameworks/enterprise-ai-rag-governance-blueprint.md
+          - Open Source Strategy & Governance: frameworks/open-source-strategy-governance.md
+          - Digital Sustainability & Data Centre Governance: frameworks/digital-sustainability-data-centre-governance.md
+  - Templates:
+      - Overview: templates/README.md
+      - Initiative Canvas: templates/initiative-canvas.md
+      - Weighted Scoring Matrix: templates/weighted-scoring-matrix.md
+      - Decision Record: templates/decision-record.md
+      - Decision Record — Fictional Example: templates/decision-record-example.md
+      - Governance Forums: templates/governance-forums.md
+      - RACI Matrix: templates/raci-matrix.md
+      - Escalation and Status: templates/escalation-and-status.md
+      - Executive Checklists: templates/executive-checklists.md
+      - Benefit Profile: templates/benefit-profile.md
+      - Strategic Dependency Register: templates/strategic-dependency-register.md
+      - KPI Dictionary: templates/kpi-dictionary.md
+      - KPI Reference: templates/kpi-reference.md
+      - AI/RAG Use-Case Assessment: templates/ai-rag-use-case-assessment.md
+      - Open-Source Assessment: templates/open-source-assessment.md
+      - Infrastructure Capacity Decision: templates/infrastructure-capacity-decision.md
+      - Initiative Canvas — Fictional Example: templates/initiative-canvas-example.md
