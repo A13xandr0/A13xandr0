@@ -11,6 +11,10 @@ last_reviewed: 2026-11-12
 
 This example extends the fictional service-improvement scenario in the Executive Playbook. All weights and ratings are illustrative assumptions, not observed data or a real recommendation.
 
+## Criteria
+
+The criteria below implement the Executive Playbook's prioritisation method. Outcome contribution combines strategic contribution with user or service value; feasibility and readiness includes delivery capacity; lifecycle cost captures affordability over the useful life; risk and dependency profile includes both risk reduction and exposure to material dependencies. Mandatory obligations remain outside discretionary scoring.
+
 ## Rules
 - Rate each criterion 1 (weak) to 5 (strong).
 - Weighted total = sum of (rating × weight); weights sum to 100%, so result is on a 1–5 scale.
