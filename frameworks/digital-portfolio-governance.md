@@ -47,7 +47,7 @@ For a material dependency, the portfolio should know which initiatives rely on i
 
 ## 7. Decision rights and steering
 
-The Portfolio authority should make start, stop, defer, accelerate and major rebalance decisions within delegated authority. The portfolio function should provide consolidated analysis and challenge, not become the owner of every initiative. Initiative governance retains delivery accountability; Architecture / assurance authority manage specialist decisions and exceptions; Benefit owners remain accountable for outcome evidence.
+The Portfolio authority should make start, stop, defer, accelerate and major rebalance decisions within delegated authority. The portfolio function should provide consolidated analysis and challenge, not become the owner of every initiative. Initiative governance retains delivery accountability; Architecture / assurance authority manages specialist decisions and exceptions; Benefit owners remain accountable for outcome evidence.
 
 Escalation should be based on agreed tolerances and forecast change, not simply monthly reporting cycles.
 
