@@ -1,15 +1,30 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Weighted Scoring Matrix — Fictional Worked Example
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 This example extends the fictional service-improvement scenario in the Executive Playbook. All weights and ratings are illustrative assumptions, not observed data or a real recommendation.
+
+## Step 1 — Identify mandatory obligations and reserve capacity
+
+Before scoring discretionary initiatives, identify obligations that the organisation must meet. These may arise from law or regulation, safety, security, resilience, contractual commitments, formal decisions or time-critical service needs. Validate each obligation with the competent legal, risk, security, operational or contractual authority; do not classify an item as mandatory solely because it is considered important.
+
+Record the minimum compliant or necessary scope, required date and consequences of delay. Estimate the capacity and specialist skills required, identify dependencies and the accountable owner, then reserve or explicitly plan that capacity. Where scope or timing is uncertain, record the uncertainty and the authority responsible for resolving it.
+
+| Mandatory obligation | Source / authority | Required outcome and minimum scope | Required date | Consequence of delay / non-compliance | Capacity / skills required | Dependencies | Accountable owner |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | |
+| | | | | | | | |
+
+Mandatory obligations are managed as a distinct, visible part of the portfolio. They are not assigned discretionary scores or given artificially high ratings. Where there is genuine choice over the means, sequencing or additional scope used to meet an obligation, assess those discretionary choices transparently without scoring the obligation itself.
+
+After reserving the capacity required for obligations, make the remaining capacity visible by skill, period and material constraint. Use this residual capacity when assessing the feasibility, affordability and sequencing of discretionary initiatives. If the obligation load exceeds available capacity, escalate the gap for an explicit decision on scope, timing, resources or risk; do not conceal it by lowering discretionary scores.
 
 ## Criteria
 
@@ -18,8 +33,9 @@ The criteria below implement the Executive Playbook's prioritisation method. Out
 ## Rules
 - Rate each criterion 1 (weak) to 5 (strong).
 - Weighted total = sum of (rating × weight); weights sum to 100%, so result is on a 1–5 scale.
-- Mandatory legal, safety, resilience or contractual obligations are recorded separately, never scored as discretionary initiatives.
-- A score does not override affordability, capacity, assurance, risk appetite or decision authority.
+- Mandatory legal, regulatory, safety, security, resilience or contractual obligations are identified, validated and capacity-planned separately; they are never scored as discretionary initiatives.
+- Score only the discretionary options and scope choices that remain after the mandatory baseline and capacity implications are visible.
+- A score does not override affordability, residual capacity, assurance, risk appetite or decision authority.
 
 ## Criteria and ratings
 
@@ -40,6 +56,10 @@ The criteria below implement the Executive Playbook's prioritisation method. Out
 - Broad replacement: (4×0.25)+(2×0.20)+(1×0.15)+(1×0.15)+(2×0.15)+(1×0.10) = **2.10**
 
 The process pilot ranks highest under these assumptions because it offers stronger readiness, faster evidence, lower lifecycle cost and reversibility. This supports a bounded pilot, not a claim that the intended benefit is proven. Validate baseline, service quality, user impact and operational feasibility before deciding whether to scale.
+
+## Step 2 — Assess discretionary options
+
+Use the criteria below only for discretionary initiatives or for genuine choices about how to deliver beyond the minimum mandatory baseline. Record the evidence and confidence for each rating. Confirm that the proposed option fits the residual capacity, skills, timing and dependency constraints before recommending a sequence.
 
 ## Blank worksheet
 
