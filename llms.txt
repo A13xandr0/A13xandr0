@@ -30,6 +30,8 @@ GitHub is the authoritative source for document content, revisions, licensing an
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/faq.md)
 - [Glossary of Governance Terms](https://a13xandr0.github.io/A13xandr0/glossary/): definitions of the roles, forums and terms used across the frameworks and templates.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/glossary.md)
+- [Adopting the Frameworks](https://a13xandr0.github.io/A13xandr0/guides/adopting-the-frameworks/): how to start, entry points, a six-phase approach, common mistakes and a seven-dimension readiness profile.
+  - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/guides/adopting-the-frameworks.md)
 - [Repository and reading guide](https://a13xandr0.github.io/A13xandr0/): scope, governance logic, reading paths and document relationships.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/README.md)
 - [Frameworks overview](https://a13xandr0.github.io/A13xandr0/frameworks/): connected reference frameworks.
@@ -85,8 +87,12 @@ GitHub is the authoritative source for document content, revisions, licensing an
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/templates/kpi-reference.md)
 - [AI/RAG Use-Case Assessment](https://a13xandr0.github.io/A13xandr0/templates/ai-rag-use-case-assessment/): assess user needs, information sources, access, threats, evaluation and lifecycle controls.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/templates/ai-rag-use-case-assessment.md)
+- [AI/RAG Use-Case Assessment — Fictional Example](https://a13xandr0.github.io/A13xandr0/templates/ai-rag-use-case-assessment-example/): completed illustrative assessment with alternatives, source register, evaluation, pilot results and decision gates; organisation and results are fictional.
+  - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/templates/ai-rag-use-case-assessment-example.md)
 - [Open-Source Assessment](https://a13xandr0.github.io/A13xandr0/templates/open-source-assessment/): assess options, project health, security, licensing, participation and exit readiness.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/templates/open-source-assessment.md)
+- [Open-Source Assessment — Fictional Example](https://a13xandr0.github.io/A13xandr0/templates/open-source-assessment-example/): completed illustrative assessment of an open-source product as a strategic dependency, including governance health, participation level and exit readiness; organisation and findings are fictional.
+  - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/templates/open-source-assessment-example.md)
 - [Infrastructure Capacity Decision](https://a13xandr0.github.io/A13xandr0/templates/infrastructure-capacity-decision/): assess service demand, capacity, energy, water, resilience, lifecycle cost and investment gates.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/templates/infrastructure-capacity-decision.md)
 

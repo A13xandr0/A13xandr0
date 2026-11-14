@@ -13,7 +13,7 @@ The AI/RAG Use-Case Assessment is a practical template for deciding whether ente
 
 **Version:** 1.1.0 | **Licence:** CC BY 4.0
 
-Related: [Enterprise AI & RAG Governance Blueprint](../frameworks/enterprise-ai-rag-governance-blueprint.md). Evaluation measures are in the [KPI reference](kpi-reference.md), Section 3.
+Related: [Enterprise AI & RAG Governance Blueprint](../frameworks/enterprise-ai-rag-governance-blueprint.md). Evaluation measures are in the [KPI reference](kpi-reference.md), Section 3. Worked example: [AI/RAG Use-Case Assessment — Fictional Example](ai-rag-use-case-assessment-example.md).
 
 ## 1. Use-case assessment
 

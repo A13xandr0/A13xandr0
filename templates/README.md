@@ -52,7 +52,9 @@ Not every artefact needs identical headings. A checklist, register, scorecard an
 | [Escalation and status](escalation-and-status.md) | Set tolerances, write an escalation brief and report status |
 | [Strategic dependency register](strategic-dependency-register.md) | Make cross-initiative dependencies, owners and exit options visible |
 | [Open-source assessment](open-source-assessment.md) | Score options, review governance health, plan contribution and test exit readiness |
+| [Open-source assessment example](open-source-assessment-example.md) | Show a completed fictional assessment: governance health, participation level and exit readiness |
 | [AI/RAG use-case assessment](ai-rag-use-case-assessment.md) | Assess a use case, register sources, plan evaluation and record decision gates |
+| [AI/RAG use-case assessment example](ai-rag-use-case-assessment-example.md) | Show a completed fictional assessment: alternatives, source governance, evaluation, pilot results and gate decisions |
 | [Infrastructure capacity decision](infrastructure-capacity-decision.md) | Compare capacity options and record energy, water and service assumptions |
 | [Executive checklists](executive-checklists.md) | Run copyable checks before decisions, at reviews and in operation |
 

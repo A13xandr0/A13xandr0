@@ -78,7 +78,7 @@ Retirement is also part of lifecycle governance. Sources, models, indexes, integ
 
 A useful sequence asks five questions. Is AI/RAG suitable for the task? Is the information ready and appropriately governed? Is the design acceptable from architecture, security, privacy and dependency perspectives? Does pilot evidence demonstrate acceptable value and quality? Is operational ownership funded and realistic?
 
-Each gate should result in a decision, conditions, accountable owner, unresolved uncertainties and a review trigger.
+Each gate should result in a decision, conditions, accountable owner, unresolved uncertainties and a review trigger. A [fictional worked example](../templates/ai-rag-use-case-assessment-example.md) shows the five gates applied to a bounded knowledge-assistance use case.
 
 ## 10. Sustainability and portfolio fit
 

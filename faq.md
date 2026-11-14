@@ -87,6 +87,10 @@ Retrieval and generation are evaluated separately and end-to-end, using a repres
 
 Five questions: Is AI/RAG suitable for the task? Is the information ready and appropriately governed? Is the design acceptable from architecture, security, privacy and dependency perspectives? Does pilot evidence demonstrate acceptable value and quality? Is operational ownership funded and realistic? Each gate should produce a decision, conditions, an accountable owner, unresolved uncertainties and a review trigger.
 
+### Is there a worked example of an AI/RAG decision?
+
+Yes. The [fictional AI/RAG Use-Case Assessment example](templates/ai-rag-use-case-assessment-example.md) applies the five decision gates to a bounded knowledge-assistance use case, compares RAG with simpler alternatives, governs the sources first, evaluates retrieval and generation separately and ends with a conditional decision. All figures and thresholds are illustrative.
+
 ## Open source
 
 ### What does it mean for an open-source component to be a strategic dependency?
@@ -101,6 +105,10 @@ Use, Enable, Support, Contribute, Collaborate and Steward. Participation is a de
 
 No. The legal possibility of forking is not the same as the operational ability to sustain a fork. Rights, retained source and history, reproducible builds, understood dependencies, engineering skills and vulnerability response all need to be assessed, and a fork should not be treated as a symbolic declaration of independence.
 
+### Is there a worked example of an open-source assessment?
+
+Yes. The [fictional Open-Source Assessment example](templates/open-source-assessment-example.md) shows an open-source product becoming a strategic dependency: governance-health findings, supply-chain checks, a participation-level decision and a continuity exercise whose partial result shows that the right to fork is not the same as fork readiness.
+
 ### Which measures should not be used on their own to judge open-source value?
 
 Stars, downloads, commit count, catalogue size and the number of open source programme offices. Use measures that show whether governance is working, such as approved-component coverage, remediation timeliness, governance-health coverage for strategic dependencies and strategic-dependency ownership. See the [KPI reference](templates/kpi-reference.md).
@@ -114,6 +122,28 @@ Start with service demand. Before approving new capacity, define the service nee
 ### Why report absolute consumption as well as intensity?
 
 A falling ratio can coexist with rapidly rising total demand. Absolute figures should be reported alongside intensity measures, measurements distinguished from estimates, allocation methods disclosed and like compared with like.
+
+## Adopting the frameworks
+
+### Where should an organisation start?
+
+With one real decision, initiative or recurring management problem, not with a governance system. There are three entry points: a strategic decision (Path A), an initiative already in progress that lacks clear outcomes, owners or tolerances (Path B), or a technology domain such as AI/RAG, open source or infrastructure (Path C). See [Adopting the Frameworks](guides/adopting-the-frameworks.md).
+
+### Does an organisation need to implement every role, forum and template?
+
+No. Adoption means establishing enough capability to connect decisions to outcomes, compare alternatives, make ownership explicit and measure benefits. A useful first adoption may need only an initiative canvas, an options assessment, a decision record, a few explicit measures, named decision and benefit owners and a review trigger. Governance should become stronger as consequences, dependencies and irreversibility increase.
+
+### What are the phases of a governed adoption?
+
+Six phases: establish the mandate, baseline and readiness, select a bounded application, run a governed pilot, operationalise, and then scale, reuse or stop. Indicative durations range from one or two weeks for the mandate to three to six months for operationalisation, and should be scaled to the materiality of the decision. A successful pilot should not automatically become a roll-out.
+
+### How can an organisation tell whether it is ready to scale?
+
+By assessing seven dimensions separately instead of using a single score: strategy and outcomes, decision rights and accountability, information and evidence, technology and architecture, risk, security and compliance, skills and operating capability, and measurement, learning and reuse. The lowest level on a critical dimension should limit how far to scale: an advanced architecture does not make an organisation ready for a RAG service if its information readiness is low.
+
+### What are the most common adoption mistakes?
+
+Starting from the technology, copying the whole governance model, confusing a pilot with production, treating technical accessibility as authorisation, adopting AI/RAG without comparing alternatives, using open source only to cut licence cost, scaling without operational ownership, and not defining when to stop. The guide pairs each mistake with a correction.
 
 ## Using this repository
 

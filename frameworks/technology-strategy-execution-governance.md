@@ -125,7 +125,7 @@ These domains should not become separate governance silos. Where an initiative c
 
 ## 9. Implementation
 
-A proportionate implementation can begin by establishing strategic outcomes and decision rights, then applying the model to a small number of representative initiatives. The organisation can introduce portfolio and performance views once the underlying ownership and data are reliable. Controls that improve decisions should be retained; controls that merely create reporting overhead should be removed or simplified.
+A proportionate implementation can begin by establishing strategic outcomes and decision rights, then applying the model to a small number of representative initiatives. The organisation can introduce portfolio and performance views once the underlying ownership and data are reliable. Controls that improve decisions should be retained; controls that merely create reporting overhead should be removed or simplified. [Adopting the Frameworks](../guides/adopting-the-frameworks.md) describes entry points, a phased approach and a readiness profile.
 
 Before approving a significant initiative, leadership should be able to answer five questions in plain language: What outcome are we funding? Why is this option preferable to realistic alternatives? Which dependencies and lifecycle obligations are we accepting? Who is accountable for delivery, operation and benefits? What evidence will cause us to continue, change course or stop?
 

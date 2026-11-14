@@ -13,7 +13,7 @@ keywords: "open source assessment, software governance, licensing, supply chain"
 
 Tools for deciding how to use, support, contribute to or exit an open-source dependency. A score structures discussion; it never replaces expert review, delegated decisions or a critical legal, security or operational concern.
 
-Related: [Open Source Strategy & Governance](../frameworks/open-source-strategy-governance.md).
+Related: [Open Source Strategy & Governance](../frameworks/open-source-strategy-governance.md). Worked example: [Open-Source Assessment — Fictional Example](open-source-assessment-example.md).
 
 ## 1. Option scorecard
 

@@ -57,7 +57,7 @@ jobs:
           cp README.md docs/index.md
           cp about-the-author.md docs/about-the-author.md
           cp faq.md glossary.md docs/
-          cp -R frameworks templates javascripts docs/
+          cp -R frameworks templates guides javascripts docs/
           cp -R stylesheets docs/
           cp -R assets docs/
           python - <<'PY'

@@ -76,6 +76,8 @@ extra_javascript:
 
 nav:
   - Home: index.md
+  - Adoption:
+      - Adopting the Frameworks: guides/adopting-the-frameworks.md
   - About the author: about-the-author.md
   - Frequently Asked Questions: faq.md
   - Glossary of Governance Terms: glossary.md
@@ -104,7 +106,9 @@ nav:
       - KPI Dictionary: templates/kpi-dictionary.md
       - KPI Reference: templates/kpi-reference.md
       - AI/RAG Use-Case Assessment: templates/ai-rag-use-case-assessment.md
+      - AI/RAG Use-Case Assessment — Fictional Example: templates/ai-rag-use-case-assessment-example.md
       - Open-Source Assessment: templates/open-source-assessment.md
+      - Open-Source Assessment — Fictional Example: templates/open-source-assessment-example.md
       - Infrastructure Capacity Decision: templates/infrastructure-capacity-decision.md
       - Initiative Canvas — Fictional Example: templates/initiative-canvas-example.md
 

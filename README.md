@@ -41,6 +41,7 @@ Choose the route that best matches the question you need to address. The reposit
 | Establish portfolio decision rights and forums | [Digital Portfolio Governance](frameworks/digital-portfolio-governance.md) and [Executive Playbook](frameworks/strategy-execution-governance-playbook.md), Section 4 | [Governance Forums](templates/governance-forums.md), [RACI Matrix](templates/raci-matrix.md), [Decision Record](templates/decision-record.md) |
 | Govern delivery, escalation and outcomes | [Executive Playbook](frameworks/strategy-execution-governance-playbook.md), Sections 5–6 | [Escalation and Status](templates/escalation-and-status.md), [KPI Dictionary](templates/kpi-dictionary.md), [Benefit Profile](templates/benefit-profile.md) |
 | Assess a specific technology domain | Relevant domain framework below | Its domain assessment and the [Strategic Dependency Register](templates/strategic-dependency-register.md) |
+| Introduce the method progressively in an organisation | [Adopting the Frameworks](guides/adopting-the-frameworks.md) | The entry path that matches your situation |
 
 ### A practical route through the material
 
@@ -181,6 +182,8 @@ Then apply the relevant domain framework:
 - [**Open Source Strategy & Governance**](frameworks/open-source-strategy-governance.md)
 - [**Enterprise AI & RAG Governance Blueprint**](frameworks/enterprise-ai-rag-governance-blueprint.md)
 - [**Digital Sustainability and Data Centre Energy Governance**](frameworks/digital-sustainability-data-centre-governance.md)
+
+To introduce the method step by step in an organisation, start with [**Adopting the Frameworks**](guides/adopting-the-frameworks.md): entry points, a six-phase approach, common mistakes and a readiness profile.
 
 For quick answers and shared vocabulary, see the [**Frequently Asked Questions**](faq.md) and the [**Glossary**](glossary.md).
 

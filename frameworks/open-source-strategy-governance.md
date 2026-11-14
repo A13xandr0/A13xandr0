@@ -132,7 +132,7 @@ Use [Technology Strategy & Execution Governance](technology-strategy-execution-g
 
 Open-source software used in AI solutions should be assessed here, while model behaviour, AI evaluation, data and retrieval governance remain within [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md). Infrastructure and resource impacts belong in [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
 
-Working tools: the [open-source assessment](../templates/open-source-assessment.md) for option scoring, governance-health review, contribution planning and exit readiness; the [strategic dependency register](../templates/strategic-dependency-register.md); the [open-source measures](../templates/kpi-reference.md); and the [executive checklists](../templates/executive-checklists.md).
+Working tools: the [open-source assessment](../templates/open-source-assessment.md) for option scoring, governance-health review, contribution planning and exit readiness; the [strategic dependency register](../templates/strategic-dependency-register.md); the [open-source measures](../templates/kpi-reference.md); and the [executive checklists](../templates/executive-checklists.md). A [fictional worked example](../templates/open-source-assessment-example.md) shows how an open-source product becomes a strategic dependency.
 
 ## 15. Boundaries
 

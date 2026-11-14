@@ -32,12 +32,15 @@ dateModified: "2026-11-14"
 
 ## Terms
 
+- **Abstention** — The behaviour of an AI or RAG service declining to answer, or asking for clarification, when the available evidence is insufficient, ambiguous or not authorised. Appropriate abstention can be a successful outcome.
 - **Benefit** — A measurable change in outcome, not a delivered feature. A benefit needs a baseline, target, date, owner, measurement source and explicit assumptions. See the [benefit profile](templates/benefit-profile.md).
 - **Decision record** — A concise record of a material decision: context, options, evidence, authority, rationale, conditions, action owners and review trigger. See the [decision record template](templates/decision-record.md).
 - **Decision rights** — The named authority to decide each class of decision, with defined evidence, delegated limits and a review trigger.
 - **Disbenefit** — An unintended negative effect of a change, recorded alongside the intended benefit.
 - **Exit readiness** — The practical ability to leave or replace a dependency, including rights, skills, retained source, reproducible builds and a continuity plan, as distinct from a merely legal right to do so.
 - **Federated discovery** — Helping users find reusable assets by sharing metadata across existing registries and repositories, rather than duplicating authoritative records in a new central catalogue.
+- **Governance health** — The extent to which an open-source project's governance supports continuity, in dimensions such as maintainer and organisational diversity, release and repository privileges, decision transparency, succession and dispute resolution. Technical quality does not by itself show governance health.
+- **Governed pilot** — A time-boxed, bounded application of a method or technology with a baseline, acceptance criteria, named owners, decision gates, measurement and stop conditions agreed in advance. A successful pilot does not automatically justify roll-out.
 - **Information readiness** — The degree to which source content for an AI or RAG service has an owner, an authorised basis for use, classification, provenance, freshness expectations and permission mapping.
 - **Initiative canvas** — A one-page record of an initiative's problem, outcome, baseline, options, ownership, dependencies, risks and requested decision. See the [initiative canvas](templates/initiative-canvas.md).
 - **Initiative cycle** — The sequence Frame outcome, Assess options, Prioritise and decide, Mandate initiative, Steer within tolerances, Measure adoption and benefits, then Learn, continue, change or stop.
@@ -45,14 +48,17 @@ dateModified: "2026-11-14"
 - **Lifecycle cost** — The full cost of a capability across its life, including operation, support, change and exit, not only acquisition.
 - **Mandatory obligation** — A legal, regulatory, safety, security, resilience, contractual or time-critical requirement. It is recorded and resourced separately from discretionary initiatives and is not scored against them.
 - **Mirror or fork** — A resilience response for a strategic open-source dependency, in which the organisation keeps or maintains its own copy. It carries responsibilities and should have conditions for returning upstream, replacing or retiring it.
+- **Non-compensable criterion** — A requirement that must be met whatever the performance elsewhere, such as zero permission-boundary violations in an AI/RAG evaluation. A strong result on other measures cannot offset a failure.
 - **Open Source Program Office (OSPO)** — One organisational model for open-source capabilities such as policy, inventory, licence and security guidance and ecosystem engagement. The capabilities matter more than the organisational label.
 - **Open-source participation levels** — The deliberate range of engagement: Use, Enable, Support, Contribute, Collaborate and Steward.
 - **Portfolio cycle** — The sequence Frame, Assess, Select, Mobilise, Steer, Realise and Rebalance.
 - **Portfolio rebalancing** — Changing the mix of initiatives when evidence, cost, dependencies or expected value change, including reducing scope, pausing, replacing or stopping.
 - **RACI matrix** — A table assigning Responsible, Accountable, Consulted and Informed roles to activities, with one Accountable role per row. It clarifies participation and does not replace named ownership. See the [RACI matrix](templates/raci-matrix.md).
+- **Readiness profile** — An assessment of an organisation's position across several dimensions (strategy and outcomes, decision rights, information and evidence, technology and architecture, risk and compliance, skills, measurement and learning), read as a whole rather than reduced to a single score. See [Adopting the Frameworks](guides/adopting-the-frameworks.md).
 - **Retrieval-augmented generation (RAG)** — An approach that combines retrieval of organisational information with a generative model. It does not by itself make weak information authoritative, remove access-control requirements or guarantee accurate answers. See the [Enterprise AI & RAG Governance Blueprint](frameworks/enterprise-ai-rag-governance-blueprint.md).
 - **Shared stewardship** — Distributing responsibility for an important open-source asset across maintainers, users, contributors, sponsors and other ecosystem actors.
 - **Software bill of materials (SBOM)** — A record of the components that make up a piece of software, used as supply-chain evidence where appropriate.
+- **Stop condition** — A condition, agreed before work starts, under which an initiative or pilot is reconsidered, paused or ended.
 - **Strategic dependency** — A supplier, ecosystem, platform, standard, skill, infrastructure or resource whose loss or change would materially affect future options. Examples include an open-source project with concentrated governance, an AI model provider, or energy and grid capacity. See the [strategic dependency register](templates/strategic-dependency-register.md).
 - **Strategic outcome** — The measurable change an organisation wants to achieve, from which capabilities, technology choices and investments are derived.
 - **Technology sovereignty / strategic autonomy** — The organisational capability to preserve credible options and decision-making power over technology choices and dependencies over time. It is not technological self-sufficiency or the absence of external providers. It depends on understanding and governing critical assets and dependencies, retaining meaningful alternatives and option value, and maintaining practical exit readiness: the ability to replace or leave a technology, supplier or ecosystem without unacceptable disruption to service continuity or strategic outcomes.

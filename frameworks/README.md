@@ -65,7 +65,7 @@ These common lenses are not separate approval layers. They are a way to make tra
 
 ## A simple reading path
 
-If you are starting from a strategic question, begin with **Technology Strategy & Execution Governance**. If you need to operationalise decisions, move to the **Executive Playbook**. If the issue is investment balance and sequencing, use **Digital Portfolio Governance**. Then use the relevant domain framework where the decision concerns open source, enterprise AI/RAG, or digital infrastructure and sustainability.
+If you are starting from a strategic question, begin with **Technology Strategy & Execution Governance**. If you need to operationalise decisions, move to the **Executive Playbook**. If the issue is investment balance and sequencing, use **Digital Portfolio Governance**. Then use the relevant domain framework where the decision concerns open source, enterprise AI/RAG, or digital infrastructure and sustainability. To introduce the method step by step, see [Adopting the Frameworks](../guides/adopting-the-frameworks.md).
 
 ## Principles
 
