@@ -37,6 +37,7 @@ Use the criteria below only for discretionary initiatives or for genuine choices
 The criteria below implement the Executive Playbook's prioritisation method. Outcome contribution combines strategic contribution with user or service value; feasibility and readiness includes delivery capacity; lifecycle cost captures affordability over the useful life; risk and dependency profile includes both risk reduction and exposure to material dependencies. Mandatory obligations remain outside discretionary scoring.
 
 ## Rules
+
 - Rate each criterion 1 (weak) to 5 (strong).
 - Weighted total = sum of (rating × weight); weights sum to 100%, so result is on a 1–5 scale.
 - Mandatory legal, regulatory, safety, security, resilience or contractual obligations are identified, validated and capacity-planned separately; they are never scored as discretionary initiatives.
@@ -57,9 +58,9 @@ The criteria below implement the Executive Playbook's prioritisation method. Out
 
 ## Recalculation
 
-- Process pilot: (4×0.25)+(5×0.20)+(5×0.15)+(5×0.15)+(4×0.15)+(5×0.10) = **4.60**
+The calculations below make the illustrative scores reproducible. The matrix is a decision-support tool for comparing discretionary technology and digital initiatives; mandatory obligations and their capacity requirements are identified separately. Weighted scores inform judgement but do not replace affordability, assurance or delegated decision authority.
 
-The Weighted Scoring Matrix is a decision-support tool for comparing discretionary technology and digital initiatives against explicit criteria and evidence. Mandatory obligations and their capacity requirements are identified separately; weighted scores inform judgement but do not replace affordability, assurance or delegated decision authority.
+- Process pilot: (4×0.25)+(5×0.20)+(5×0.15)+(5×0.15)+(4×0.15)+(5×0.10) = **4.60**
 - Targeted tooling: (4×0.25)+(4×0.20)+(3×0.15)+(3×0.15)+(3×0.15)+(3×0.10) = **3.45**
 - Broad replacement: (4×0.25)+(2×0.20)+(1×0.15)+(1×0.15)+(2×0.15)+(1×0.10) = **2.10**
 
