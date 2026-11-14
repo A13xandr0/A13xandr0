@@ -5,6 +5,8 @@ keywords: "Alexandro Sances, technology strategy executive, digital transformati
 
 # Alexandro Sances
 
+![Alexandro Sances — official illustrated portrait](assets/alexandro-sances-portrait.jpg){ align=right width="240" }
+
 **Technology Strategy, Execution & Governance | Digital Transformation | Technology Leadership**
 
 Alexandro Sances is a technology and digital-transformation executive with more than 30 years of professional experience, including over 17 years in international and multicultural environments. His work has spanned telecommunications and satellite communications, insurtech, connected mobility, telematics, IoT, data-driven services and digital platforms.
