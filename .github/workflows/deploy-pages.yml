@@ -24,13 +24,17 @@ on:
     paths:
       - "*.md"
       - "**/*.md"
+      - "*.html"
+      - "**/*.html"
       - "mkdocs.yml"
       - "llms.txt"
       - "robots.txt"
       - "assets/**"
       - "overrides/**"
       - "javascripts/**"
+      - "stylesheets/**"
       - "CITATION.cff"
+      - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 concurrency:
