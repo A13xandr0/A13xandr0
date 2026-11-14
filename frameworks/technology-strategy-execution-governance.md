@@ -95,7 +95,23 @@ The operating rhythm is straightforward: define outcomes, assess options, priori
 
 ## 8. Applying the framework across strategic domains
 
-The common model is intentionally reusable, but domain-specific governance still matters.
+The common model is intentionally reusable, but domain-specific governance still matters. The domain frameworks are **parallel specialist lenses, not sequential stages** in a prescribed lifecycle. An initiative may need one, several or none of them, depending on its technology choices, dependencies, risk profile and resource implications. Where more than one domain is material, their evidence and controls should be brought together within the same initiative governance and decision process.
+
+```mermaid
+flowchart LR
+    A["Common strategy, portfolio and initiative governance"]
+    B["Open Source Governance"]
+    C["AI / RAG Governance"]
+    D["Infrastructure & Sustainability"]
+    E["Integrated evidence, controls and decision record"]
+    A <--> B
+    A <--> C
+    A <--> D
+    B --> E
+    C --> E
+    D --> E
+    E --> A
+```
 
 For open source, the relevant questions include ecosystem and governance health, strategic dependency, contribution, shared stewardship, supply-chain visibility, procurement and credible fork or exit capability. See [Open Source Strategy & Governance](open-source-strategy-governance.md).
 
