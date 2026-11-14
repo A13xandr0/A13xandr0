@@ -9,6 +9,8 @@ last_reviewed: 2026-11-14
 
 **An executive blueprint for deciding when enterprise AI and retrieval-augmented generation are useful, and for governing the information, technology and lifecycle dependencies they create.**
 
+Enterprise AI and retrieval-augmented generation (RAG) governance is the management of information, models, access, evaluation, security and lifecycle risks in organisational AI systems. This blueprint explains how to assess suitability, govern authoritative sources, test answer quality and control operational dependencies before and after deployment.
+
 ## 1. Purpose
 
 RAG can make organisational knowledge easier to discover and use by combining retrieval with a generative model. It does not make weak information authoritative, remove access-control requirements or guarantee accurate answers. The governance problem therefore begins before model selection.

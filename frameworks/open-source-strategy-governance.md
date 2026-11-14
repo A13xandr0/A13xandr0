@@ -1,13 +1,15 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: reference
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Open Source Strategy & Governance
 
 **An executive reference framework for using, supporting, contributing to and stewarding open-source technologies and ecosystems as part of a wider technology strategy.**
+
+Open-source strategy and governance is the organisational discipline for selecting, using, contributing to and sustaining open-source technologies and ecosystems. This framework covers project health, dependency risk, licensing and supply-chain evidence, stewardship, procurement, contribution and exit readiness.
 
 ## 1. Why open source is a strategic technology domain
 

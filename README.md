@@ -7,7 +7,7 @@ last_reviewed: 2026-11-14
 
 # Technology Strategy, Execution & Governance
 
-**A connected set of executive frameworks and practical governance tools for turning technology strategy into investment choices, governed execution and measurable outcomes.**
+**Technology strategy and governance frameworks for enterprise AI governance, retrieval-augmented generation (RAG), digital portfolio management, open-source strategy, digital infrastructure and sustainability. Practical executive playbooks, decision frameworks, assessment tools and reusable governance templates connect investment choices with accountable execution and measurable outcomes.**
 
 **Developed and maintained by Alexandro Sances.**
 
@@ -16,6 +16,10 @@ Technology decisions rarely stand in isolation. Strategy, architecture, investme
 This repository brings those dimensions together around a simple idea: start from the outcome that matters, understand the capabilities, assets and dependencies required, compare realistic options, make investment and accountability explicit, and then govern delivery and lifecycle choices through evidence.
 
 The approach is deliberately technology-neutral. Open source, enterprise AI, digital infrastructure and other technology domains have different characteristics and risks, but they can be governed through a common logic without forcing them into identical models.
+
+## Repository scope and key topics
+
+This repository covers **technology strategy and execution, enterprise AI governance, retrieval-augmented generation (RAG), digital portfolio governance, open-source governance, digital infrastructure, data-centre sustainability, investment prioritisation, decision rights and benefits realisation**. It combines executive reference frameworks with practical templates for assessment, decision-making, delivery oversight and lifecycle governance.
 
 ## Getting started
 

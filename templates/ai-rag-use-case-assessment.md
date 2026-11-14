@@ -1,13 +1,13 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # AI/RAG Use-Case Assessment — Template
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 Tools for deciding when enterprise AI or retrieval-augmented generation is the right answer, and for governing the information, technology and lifecycle dependencies it creates. The governance problem begins before model selection.
 

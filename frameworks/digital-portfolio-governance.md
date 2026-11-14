@@ -9,6 +9,8 @@ last_reviewed: 2026-11-14
 
 **A practical reference model for deciding where to invest, how to sequence change and when to rebalance a digital and technology portfolio.**
 
+Digital portfolio governance is the management of competing technology and digital investments across funding, capacity, dependencies, risk and expected outcomes. This framework explains how to assess, select, sequence, steer and rebalance initiatives while keeping mandatory obligations distinct from discretionary choices.
+
 ## 1. Purpose
 
 A portfolio is not a consolidated project-status report. Its purpose is to make choices across competing demands for funding, capability and management attention. It should show which outcomes the organisation is investing in, which obligations cannot be avoided, where shared dependencies or skills constrain delivery, and where evidence suggests that an initiative should be accelerated, reshaped, deferred or stopped.

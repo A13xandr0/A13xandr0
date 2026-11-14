@@ -9,6 +9,8 @@ last_reviewed: 2026-11-14
 
 **A practical, technology-neutral method for turning strategic intent into governed change.**
 
+The Strategy and Execution Governance Playbook is an executive operating guide for turning technology strategy into governed initiatives. It defines decision rights, prioritisation, investment gates, governance forums, delivery tolerances, escalation and benefits measurement.
+
 ## 1. What this playbook is for
 
 The core framework explains how strategy, technology and outcomes connect. This playbook focuses on the operating practice needed to make that connection real. Its purpose is to make direction clear, decisions timely, ownership explicit and delivery evidence visible without moving specialist judgement away from the teams that hold it.

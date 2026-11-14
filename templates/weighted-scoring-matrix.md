@@ -56,6 +56,8 @@ The criteria below implement the Executive Playbook's prioritisation method. Out
 ## Recalculation
 
 - Process pilot: (4×0.25)+(5×0.20)+(5×0.15)+(5×0.15)+(4×0.15)+(5×0.10) = **4.60**
+
+The Weighted Scoring Matrix is a decision-support tool for comparing discretionary technology and digital initiatives against explicit criteria and evidence. Mandatory obligations and their capacity requirements are identified separately; weighted scores inform judgement but do not replace affordability, assurance or delegated decision authority.
 - Targeted tooling: (4×0.25)+(4×0.20)+(3×0.15)+(3×0.15)+(3×0.15)+(3×0.10) = **3.45**
 - Broad replacement: (4×0.25)+(2×0.20)+(1×0.15)+(1×0.15)+(2×0.15)+(1×0.10) = **2.10**
 

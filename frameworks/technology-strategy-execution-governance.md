@@ -9,6 +9,8 @@ last_reviewed: 2026-11-14
 
 **An executive reference framework for connecting strategic intent, technology choices, investment and measurable delivery.**
 
+This technology strategy and execution governance framework explains how organisations translate strategic outcomes into capability choices, technology investments, accountable delivery and measurable benefits. It provides a common governance model that can be applied across enterprise technology domains.
+
 ## 1. Purpose
 
 Technology strategy creates value only when strategic intent can be translated into choices that an organisation is able to fund, deliver, operate and evaluate. A strategy that moves directly from ambition to a list of projects usually hides the most important questions: which capabilities are actually required, which dependencies will be created, what alternatives exist, who is accountable, and what evidence will show that the expected outcome has been achieved.
