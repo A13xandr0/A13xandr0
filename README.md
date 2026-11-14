@@ -108,6 +108,31 @@ They are designed to keep governance connected to real decisions rather than bec
 
 ## The governance model
 
+The repository is organised around one end-to-end governance model. It connects strategic intent and portfolio choices to initiative governance, applies relevant specialist domain lenses, and closes the loop through delivery, adoption, measured outcomes and portfolio rebalancing.
+
+```mermaid
+flowchart TD
+    A["Strategic outcomes"] --> B["Technology strategy"]
+    B --> C["Portfolio decisions"]
+    C --> D["Initiative governance"]
+    subgraph Domains["Relevant specialist domain lenses — applied in parallel where needed"]
+        E["Open Source Governance"]
+        F["AI / RAG Governance"]
+        G["Infrastructure & Sustainability"]
+    end
+    D --> E
+    D --> F
+    D --> G
+    E -. "where relevant" .-> H["Delivery + adoption"]
+    F -. "where relevant" .-> H
+    G -. "where relevant" .-> H
+    H --> I["Measured outcomes"]
+    I --> J["Rebalancing"]
+    J --> C
+```
+
+The domain frameworks are not sequential stages and are not all mandatory for every initiative. They are complementary specialist lenses: apply one or more where the initiative's technology choices, dependencies, risks or resource implications make them relevant. The common governance model remains consistent; the specialist evidence is integrated into initiative decisions. Measured outcomes then inform portfolio rebalancing.
+
 Across the repository, the underlying logic is:
 
 **Strategic outcomes → Capabilities → Technology choices → Investment → Governed execution → Adoption → Measurable outcomes**
