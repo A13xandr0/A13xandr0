@@ -3,8 +3,7 @@ site_description: Independent frameworks and practical governance tools for tech
 site_author: Alexandro Sances
 site_url: https://a13xandr0.github.io/A13xandr0/
 repo_url: https://github.com/A13xandr0/A13xandr0
-edit_uri: edit/main/
-docs_dir: .
+docs_dir: docs
 site_dir: /tmp/site
 use_directory_urls: true
 copyright: "© Alexandro Sances · Content licensed under CC BY 4.0"
@@ -24,7 +23,6 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
 
 plugins:
   - search
@@ -60,14 +58,8 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js
   - javascripts/mermaid-init.js
 
-exclude_docs: |
-  /mkdocs.yml
-  /CITATION.cff
-  /overrides/
-  /site/
-
 nav:
-  - Home: README.md
+  - Home: index.md
   - Frameworks:
       - Overview: frameworks/README.md
       - Core governance:
