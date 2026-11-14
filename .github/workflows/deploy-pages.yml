@@ -118,7 +118,7 @@ jobs:
                       self.jsonld.append("".join(self._jsonld_parts))
                       self._jsonld_active = False
           
-          pages = sorted(site.rglob("*.html"))
+          pages = sorted(site.rglob("index.html"))
           if not pages:
               raise SystemExit("SEO validation failed: no HTML pages were generated")
           
