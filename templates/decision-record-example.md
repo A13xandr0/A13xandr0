@@ -34,7 +34,7 @@ A fictional organisation experiences slow resolution of internal service request
 
 ## Evidence and assumptions
 
-The illustrative scoring matrix rates the options 4.60/5, 3.45/5 and 2.10/5 respectively. Ratings are assumed, not measured. Assumptions to validate: process ownership and hand-offs contribute materially to delay; the pilot can be bounded safely; service data can establish a baseline; users and operational owners can participate; no mandatory obligation requires immediate platform replacement.
+The weighted scoring matrix compares the three discretionary options: process clarification pilot (4.60/5), targeted workflow tooling (3.45/5) and broad platform replacement (2.10/5). **Defer / do nothing is retained as the baseline scenario, not scored as a discretionary option**; its consequences are considered qualitatively against the proposed changes. All ratings are fictional assumptions, not measured findings. Assumptions to validate include whether process ownership and hand-offs contribute materially to delay, whether the pilot can be bounded safely, whether service data can establish a baseline, whether users and operational owners can participate, and whether any mandatory obligation requires immediate platform replacement.
 
 ## Decision and rationale
 
