@@ -1,4 +1,8 @@
 ---
+version: 1.2.0
+status: profile
+license: CC-BY-4.0
+last_reviewed: 2026-11-14
 description: "Professional profile of Alexandro Sances, a technology strategy and digital transformation executive with international experience across telecommunications, mobility, digital platforms and technology governance."
 keywords: "Alexandro Sances, technology strategy executive, digital transformation, technology governance, PMO, telecommunications, mobility, IoT, digital platforms"
 datePublished: "2026-11-14"
