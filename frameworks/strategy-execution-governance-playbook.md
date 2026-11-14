@@ -1,8 +1,8 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: reference
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Strategy & Execution Governance — Executive Playbook
@@ -38,9 +38,9 @@ This record should be concise enough to use routinely and complete enough to exp
 
 ## 3. Prioritisation and investment
 
-First separate obligations from choices. Legal, safety, resilience, contractual or time-critical obligations still consume scarce capacity, but they should not be disguised as discretionary initiatives with artificially high scores.
+First separate obligations from choices. Legal, regulatory, safety, security, resilience, contractual or time-critical obligations still consume scarce capacity, but they must not be disguised as discretionary initiatives with artificially high scores. Identify the source and competent validating authority, minimum required outcome and scope, due date, consequences of delay, accountable owner, dependencies and capacity or specialist skills required. Reserve or explicitly plan that capacity before assessing discretionary choices. If the mandatory load exceeds available capacity, make the gap visible and escalate it for an explicit decision on scope, timing, resources or risk.
 
-For discretionary investments, use the common criteria in the [weighted scoring matrix](../templates/weighted-scoring-matrix.md): outcome contribution (strategic, user or service value), feasibility and readiness, time to useful evidence, lifecycle cost and affordability, risk and dependency profile, and reversibility. Consider capacity explicitly when judging feasibility and affordability. Record the evidence and confidence behind each rating; the score informs judgement but does not replace it. High expected value with low confidence is usually a case for discovery or a bounded pilot, not immediate scale investment.
+For discretionary investments, use the common criteria in the [weighted scoring matrix](../templates/weighted-scoring-matrix.md): outcome contribution (strategic, user or service value), feasibility and readiness, time to useful evidence, lifecycle cost and affordability, risk and dependency profile, and reversibility. Consider residual capacity, skills and timing explicitly when judging feasibility, affordability and sequencing. Record the evidence and confidence behind each rating; the score informs judgement but does not replace it. High expected value with low confidence is usually a case for discovery or a bounded pilot, not immediate scale investment. The matrix includes a separate mandatory-obligations register and a capacity-planning gate before discretionary scoring.
 
 A one-page [initiative canvas](../templates/initiative-canvas.md) should capture the problem, strategic outcome, baseline and target, options considered, expected value and confidence, mandatory obligations, lifecycle cost, dependencies, principal risks, accountable owners and the proposed decision.
 
@@ -48,7 +48,7 @@ A one-page [initiative canvas](../templates/initiative-canvas.md) should capture
 
 The minimum viable governance model normally needs only the forums that can make a decision or resolve an impediment. Strategic review confirms outcomes and direction. Portfolio review balances investment and capacity. Initiative review addresses delivery within mandate. Design and assurance review deals with material architecture, security, privacy, resilience and operational questions. Benefits review examines adoption and outcome evidence after delivery.
 
-Every forum should have a remit, delegated authority, expected inputs, decision log and escalation path. Cadence should follow the decision need rather than an arbitrary calendar.
+Every forum should have a charter defining its remit, delegated limits, reserved matters, chair, membership, quorum, expected inputs and outputs, decision-log owner, escalation triggers and destination, and review of its effectiveness. The [governance forums template](../templates/governance-forums.md) provides a charter worksheet. Cadence should follow the decision need rather than an arbitrary calendar; forums that do not add clear decision value should be redesigned or retired.
 
 ### Accountability pattern
 
