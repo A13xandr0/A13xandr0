@@ -11,6 +11,8 @@ keywords: "technology strategy, execution governance, digital transformation, te
 
 **An executive reference framework for connecting strategic intent, technology choices, investment and measurable delivery.**
 
+**Developed and maintained by Alexandro Sances.**
+
 This technology strategy and execution governance framework explains how organisations translate strategic outcomes into capability choices, technology investments, accountable delivery and measurable benefits. It provides a common governance model that can be applied across enterprise technology domains.
 
 ## 1. Purpose
