@@ -5,6 +5,8 @@ license: CC-BY-4.0
 last_reviewed: 2026-11-14
 description: "A framework for governing open-source adoption, contribution, project health, dependencies, licensing and stewardship."
 keywords: "open source strategy, open source governance, software supply chain, licensing, stewardship"
+datePublished: "2026-11-11"
+dateModified: "2026-11-14"
 ---
 
 # Open Source Strategy & Governance
