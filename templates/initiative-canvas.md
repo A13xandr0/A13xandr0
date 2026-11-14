@@ -28,8 +28,8 @@ last_reviewed: 2026-11-12
 
 ## Mandate and ownership
 - Executive sponsor:
-- Initiative / delivery lead:
-- Service / product owner:
+- Initiative lead:
+- Service owner:
 - Benefit owner:
 - Decision authority and required-by date:
 
