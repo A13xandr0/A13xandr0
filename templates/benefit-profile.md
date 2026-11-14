@@ -19,8 +19,8 @@ A benefit is a measurable change in outcome, not a delivered feature. The benefi
 - **Target:** value, unit and target date
 - **Measurement method:** formula, scope and exclusions
 - **Data source and frequency:**
-- **Accountable benefit owner:**
-- **Delivery owner:**
+- **Benefit owner:**
+- **Initiative lead:**
 - **Dependencies and assumptions:**
 - **Disbenefits / unintended effects:**
 - **Attribution approach:**
