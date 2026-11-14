@@ -50,7 +50,7 @@ For strategic technology choices, add the dependencies that could materially aff
 
 ## 5. Prioritisation and sequencing
 
-Prioritisation should consider strategic contribution, user or service value, mandatory timing, risk reduction and resilience, affordability, delivery capacity, dependencies, time to evidence and reversibility.
+Prioritisation should consider strategic contribution, user or service value, mandatory timing, risk reduction and resilience, affordability, delivery capacity, dependencies, time to evidence and reversibility. Capacity should be assessed as a time-phased constraint, not as a single aggregate figure: identify the specialist competencies required, the level of effort and the periods in which they are needed, then compare that demand with realistic availability after run obligations, leave, existing commitments and operational support are accounted for. A portfolio may be affordable in financial terms and still be undeliverable because the same architecture, security, data, engineering or operational specialists are committed to several initiatives at once.
 
 Do not let a score conceal the decision. Record why an initiative was selected, what it displaced, which assumptions matter and what new evidence could change the order. Portfolio sequencing is especially important where multiple initiatives compete for the same architects, security specialists, data capabilities, infrastructure or operational teams.
 
