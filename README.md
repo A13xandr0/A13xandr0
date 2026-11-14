@@ -43,11 +43,39 @@ Across the repository, the underlying logic is:
 
 **Strategic outcomes → Capabilities → Technology choices → Investment → Governed execution → Adoption → Measurable outcomes**
 
-At an operational level, the same logic becomes:
+At initiative level, the operating cycle is:
 
-**Frame → Compare → Decide → Assign → Deliver → Measure → Realise → Learn**
+**Frame outcome → Assess options → Prioritise and decide → Mandate initiative → Steer within tolerances → Measure adoption and benefits → Learn, continue, change or stop**
 
-The first sequence explains how technology strategy creates a line of sight from strategic intent to outcomes. The second provides a practical way to work through individual decisions and initiatives.
+At portfolio level, a distinct governance cycle applies:
+
+**Frame → Assess → Select → Mobilise → Steer → Realise → Rebalance**
+
+The initiative cycle governs an individual change from framing through evidence-led learning. The portfolio cycle governs the composition and balance of the overall investment portfolio; it does not replace or rename the initiative lifecycle.
+
+```mermaid
+flowchart TD
+    subgraph Initiative["Initiative operating cycle"]
+        A[Frame outcome] --> B[Assess options]
+        B --> C[Prioritise and decide]
+        C --> D[Mandate initiative]
+        D --> E[Steer within tolerances]
+        E --> F[Measure adoption and benefits]
+        F --> G[Learn, continue, change or stop]
+        G --> B
+    end
+    subgraph Portfolio["Portfolio governance cycle"]
+        P[Frame] --> Q[Assess]
+        Q --> R[Select]
+        R --> S[Mobilise]
+        S --> T[Steer]
+        T --> U[Realise]
+        U --> V[Rebalance]
+        V --> P
+    end
+```
+
+The initiative cycle governs individual change; the portfolio cycle governs investment choices and rebalancing across initiatives.
 
 ## Common governance lenses
 
@@ -63,9 +91,9 @@ The more critical, expensive, difficult to reverse or strategically dependent a 
 
 Three domains are currently developed in greater depth.
 
-**Open Source Strategy & Governance** looks beyond licence and source availability to ecosystem and governance health, strategic dependencies, effective reuse, supply-chain transparency, contribution, shared stewardship, procurement and credible continuity or exit options.
+**Open Source Strategy & Governance** looks beyond licence and source availability to ecosystem and governance health, strategic dependencies, reuse, supply-chain transparency, contribution, shared stewardship, procurement and credible continuity or exit options.
 
-**Enterprise AI & RAG Governance** connects AI use cases with information readiness, AI asset chains, provenance, architecture, access control, model and provider dependencies, evaluation, human oversight, accessibility and lifecycle governance.
+**Enterprise AI & RAG Governance** connects AI use cases with information readiness, provenance, architecture, access control, model and provider dependencies, evaluation, human oversight, accessibility and lifecycle governance.
 
 **Digital Sustainability and Data Centre Energy Governance** connects digital service demand with infrastructure capacity, energy, water, resilience, lifecycle economics and useful service outcomes.
 
@@ -82,10 +110,10 @@ If the question concerns investment balance, shared digital assets, competing in
 Then apply the relevant domain framework:
 
 - [**Open Source Strategy & Governance**](frameworks/open-source-strategy-governance.md)
-- [**Enterprise AI & RAG — Strategic and Governance Blueprint**](frameworks/enterprise-ai-rag-governance-blueprint.md)
+- [**Enterprise AI & RAG Governance Blueprint**](frameworks/enterprise-ai-rag-governance-blueprint.md)
 - [**Digital Sustainability and Data Centre Energy Governance**](frameworks/digital-sustainability-data-centre-governance.md)
 
-The [**Executive Governance Templates**](templates/README.md) can be used alongside any of these frameworks rather than as a separate methodology.
+The [**Executive Governance Templates**](templates/README.md) put the playbook method into practice. The playbook describes the method; the templates put it into practice.
 
 ## Principles
 
@@ -98,7 +126,7 @@ A number of principles run consistently through the material:
 - make assets and dependencies visible rather than assuming that a particular technology or sourcing model removes them;
 - consider provenance, interoperability, accessibility, portability and exit while choices are still reversible;
 - evaluate lifecycle economics rather than acquisition cost alone;
-- distinguish publication from effective reuse, and technical openness from practical control;
+- distinguish technical openness from practical control;
 - distinguish delivery from adoption and adoption from realised value;
 - use evidence to learn, rebalance and, where necessary, stop.
 
