@@ -11,6 +11,8 @@ keywords: "digital portfolio governance, technology investment, portfolio priori
 
 **A practical reference model for deciding where to invest, how to sequence change and when to rebalance a digital and technology portfolio.**
 
+**Developed and maintained by Alexandro Sances.**
+
 Digital portfolio governance is the management of competing technology and digital investments across funding, capacity, dependencies, risk and expected outcomes. This framework explains how to assess, select, sequence, steer and rebalance initiatives while keeping mandatory obligations distinct from discretionary choices.
 
 ## 1. Purpose
