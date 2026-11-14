@@ -32,6 +32,12 @@ The governance question is therefore broader: what digital outcome requires capa
 
 ## 2. Start with service demand
 
+Make the causal chain from service need to resource demand explicit:
+
+**Service → Workload → Compute → Infrastructure → Resources**
+
+A required service outcome creates demand for one or more workloads. Workload characteristics determine the compute capacity and performance required; those requirements shape the infrastructure, facilities and platforms that must be provided; and those choices consume resources such as electricity, water, land, equipment, connectivity and materials. The chain also works in reverse for decision-making: resource constraints, infrastructure limits or compute efficiency can require workload redesign, service changes or different delivery options.
+
 Before approving new capacity, expansion or a cloud move, define the service need, current and forecast workload, quality of the forecast, latency and availability requirements, security and recovery constraints and the evidence that new capacity is actually necessary.
 
 Optimisation, consolidation, data reduction, reuse of existing platforms, workload redesign, shared capacity, cloud or colocation, brownfield reuse, phased expansion and deferment should be considered where realistic. Reserved capacity, forecast demand and actual utilisation should never be treated as the same thing.
