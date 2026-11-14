@@ -5,7 +5,7 @@ license: CC-BY-4.0
 last_reviewed: 2026-11-12
 ---
 
-# Enterprise AI & RAG — Strategic and Governance Blueprint
+# Enterprise AI & RAG Governance Blueprint
 
 **An executive blueprint for deciding when enterprise AI and retrieval-augmented generation are useful, and for governing the information, technology and lifecycle dependencies they create.**
 
@@ -51,7 +51,7 @@ Evaluation is not a one-time acceptance gate. Re-evaluate when models, prompts, 
 
 ## 7. Operating model
 
-The executive sponsor owns purpose and investment; the product or service owner owns user value and prioritisation; knowledge owners remain accountable for source authority and lifecycle; architecture and AI/data specialists own technical design; security and privacy specialists provide assurance; delivery integrates change; and operations owns continuity, monitoring and incidents.
+The **Executive sponsor** owns purpose and investment; the **Service owner** owns user value and prioritisation; knowledge owners remain accountable for source authority and lifecycle; the **Architecture / assurance authority** coordinates technical design and specialist assurance; the **Initiative lead** integrates delivery; and operations owns continuity, monitoring and incidents. The **Benefit owner** validates realised outcomes. One person may hold more than one role, but accountability must remain explicit.
 
 One person may hold several roles, but accountability for content, access, model behaviour and service operation should remain explicit.
 
