@@ -3,7 +3,7 @@ version: 1.1.0
 status: reference
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
-description: "Technology strategy and governance frameworks for enterprise AI, RAG, digital portfolios, open source and digital infrastructure."
+description: "Independent technology strategy and governance frameworks by Alexandro Sances, covering enterprise AI, RAG, digital portfolios, open source and digital infrastructure."
 keywords: "technology strategy, technology governance, enterprise AI, RAG, digital portfolio governance, open source, digital sustainability"
 ---
 
