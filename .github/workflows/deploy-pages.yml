@@ -138,9 +138,18 @@ jobs:
                   errors.append(f"{path.relative_to(site)}: expected one JSON-LD block, found {len(parser.jsonld)}")
               else:
                   try:
-                      json.loads(parser.jsonld[0])
-                  except json.JSONDecodeError as exc:
-                      errors.append(f"{path.relative_to(site)}: invalid JSON-LD: {exc}")
+                      structured = json.loads(parser.jsonld[0])
+                      graph = structured.get("@graph", [])
+                      people = [node for node in graph if node.get("@type") == "Person"]
+                      if not people or not people[0].get("jobTitle"):
+                          errors.append(f"{path.relative_to(site)}: Person.jobTitle is missing from JSON-LD")
+                      for node in graph:
+                          if node.get("@type") in ("Article", "ProfilePage"):
+                              for date_field in ("datePublished", "dateModified"):
+                                  if not node.get(date_field):
+                                      errors.append(f"{path.relative_to(site)}: {node.get('@type')}.{date_field} is missing from JSON-LD")
+                  except (json.JSONDecodeError, AttributeError) as exc:
+                      errors.append(f"{path.relative_to(site)}: invalid JSON-LD structure: {exc}")
               if parser.meta.get("og:image", [""])[0] and not parser.meta["og:image"][0].endswith("/assets/og-image.jpg"):
                   errors.append(f"{path.relative_to(site)}: unexpected Open Graph image URL")
               if parser.meta.get("twitter:image", [""])[0] != parser.meta.get("og:image", [""])[0]:
