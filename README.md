@@ -13,6 +13,11 @@ keywords: "technology strategy, technology governance, enterprise AI, RAG, digit
 
 **Developed and maintained by Alexandro Sances.**
 
+[![DOI](https://zenodo.org/badge/1454458019.svg)](https://doi.org/10.5281/zenodo.24222329)
+
+**Version 1.1.0 DOI:** [10.5281/zenodo.24222330](https://doi.org/10.5281/zenodo.24222330) · **Concept DOI:** [10.5281/zenodo.24222329](https://doi.org/10.5281/zenodo.24222329)
+
+
 **Published documentation:** [Technology Strategy, Execution & Governance](https://a13xandr0.github.io/A13xandr0/).
 
 Technology decisions rarely stand in isolation. Strategy, architecture, investment, delivery, risk, ecosystems, digital assets, infrastructure and operational ownership interact, while choices made in one area often create dependencies somewhere else.
