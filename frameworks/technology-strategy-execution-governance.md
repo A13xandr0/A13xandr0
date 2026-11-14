@@ -59,7 +59,7 @@ Portfolio-level methods, including sequencing and rebalancing, are developed in 
 
 Governance should help qualified people make decisions at the right level and should make escalation easier when assumptions no longer hold. It should not duplicate delivery management.
 
-A typical model separates strategic direction, portfolio allocation, initiative sponsorship, technical design, delivery management, specialist assurance and benefits ownership. Smaller organisations may combine roles, but accountability should remain clear.
+Use consistent role names throughout the repository: **Executive sponsor**, **Portfolio authority**, **Initiative lead**, **Service owner**, **Architecture / assurance authority**, and **Benefit owner**. A typical model separates strategic direction, portfolio allocation, initiative sponsorship, technical design, delivery management, specialist assurance and benefits ownership. Smaller organisations may combine roles, but accountability should remain clear.
 
 The important design question is not how many boards or committees exist. It is whether each material decision has an accountable owner, defined evidence, delegated authority and a review trigger. Strategic, portfolio, architecture, delivery and benefits reviews should exist only where they improve decision quality or resolve cross-cutting constraints.
 
