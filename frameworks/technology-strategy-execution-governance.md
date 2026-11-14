@@ -63,6 +63,8 @@ Principles are useful when they help people make choices, not when they become s
 
 Avoiding unnecessary lock-in should be understood broadly. Dependence may arise from a commercial supplier, a proprietary data model, an open-source project with concentrated governance, scarce specialist skills, an energy or infrastructure constraint, or an AI provider. The relevant question is therefore whether the dependency is visible, proportionate and manageable, and whether credible alternatives or exit paths exist.
 
+**Technology sovereignty and strategic autonomy** describe the organisational ability to preserve credible options and decision-making power over technology choices and dependencies over time. This does not require technological self-sufficiency or the absence of external providers. It requires visibility of critical dependencies, meaningful alternatives, sufficient internal knowledge and practical exit readiness. These capabilities preserve option value and reduce the risk that today's technology choices constrain tomorrow's strategic decisions.
+
 ## 4. Investment and prioritisation
 
 Prioritisation is a management judgement supported by evidence. A numerical score may help structure discussion, but cannot decide whether an initiative is mandatory, affordable, strategically coherent or deliverable with the available capacity.
