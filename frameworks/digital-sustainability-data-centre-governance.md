@@ -45,7 +45,7 @@ See [Open Source Strategy & Governance](open-source-strategy-governance.md) and 
 
 ## 6. Governance and accountability
 
-The executive sponsor owns the outcome and material trade-offs. Technology leadership connects service demand to architecture. Infrastructure owners remain accountable for facility and capacity performance. Energy and sustainability specialists provide the relevant evidence. Product or service owners define user outcomes. Finance and procurement make lifecycle economics and supplier obligations visible. Security and resilience specialists challenge continuity assumptions, while delivery leadership integrates milestones and dependencies.
+The Executive sponsor owns the outcome and material trade-offs. Technology leadership connects service demand to architecture. Infrastructure owners remain accountable for facility and capacity performance. Energy and sustainability specialists provide the relevant evidence. Service owners define user outcomes. Finance and procurement make lifecycle economics and supplier obligations visible. Security and resilience specialists challenge continuity assumptions, while the Initiative lead integrates milestones and dependencies.
 
 Specialists advise and assure; the designated decision-maker remains accountable for the investment decision.
 
