@@ -17,6 +17,13 @@ dateModified: "2026-11-14"
 
 Open-source strategy and governance is the organisational discipline for selecting, using, contributing to and sustaining open-source technologies and ecosystems. This framework covers project health, dependency risk, licensing and supply-chain evidence, stewardship, procurement, contribution and exit readiness.
 
+> **In brief**
+>
+> - **What it is:** a framework for governing open source as a technology and ecosystem choice, not only as a licensing preference.
+> - **Participation levels:** Use → Enable → Support → Contribute → Collaborate → Steward.
+> - **Strategic dependencies:** respond deliberately by adopting, influencing, contributing, co-stewarding, mirroring or forking, or replacing.
+> - **Key points:** assess governance health as well as technology; a legal right to fork is not the operational ability to sustain a fork; stars, downloads and commit counts are not standalone measures of strategic value.
+
 ## 1. Why open source is a strategic technology domain
 
 Open source can create meaningful options through transparency, adaptability, interoperability, reuse and shared innovation. It can also create dependencies that are easy to underestimate. Access to source code does not by itself guarantee control, resilience or the ability to influence the direction of a project. An organisation can be deeply dependent on a project whose releases, administrative access or technical direction remain concentrated in a small group of maintainers or a dominant sponsor.

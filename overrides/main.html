@@ -8,7 +8,7 @@
     {% set page_keywords = page.meta.get('keywords', 'technology strategy, governance, digital transformation') %}
     {% set page_url = page.canonical_url %}
     {% set is_profile = page.file.src_path == "about-the-author.md" %}
-    {% set is_framework = page.file.src_path.startswith("frameworks/") and page.file.src_path != "frameworks/README.md" %}
+    {% set is_framework = (page.file.src_path.startswith("frameworks/") and page.file.src_path != "frameworks/README.md") or page.file.src_path in ["faq.md", "glossary.md"] %}
     {% set is_collection = page.file.src_path in ["index.md", "frameworks/README.md", "templates/README.md"] %}
   {% else %}
     {% set page_title = config.site_name %}

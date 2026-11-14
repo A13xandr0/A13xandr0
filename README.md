@@ -180,6 +180,8 @@ Then apply the relevant domain framework:
 - [**Enterprise AI & RAG Governance Blueprint**](frameworks/enterprise-ai-rag-governance-blueprint.md)
 - [**Digital Sustainability and Data Centre Energy Governance**](frameworks/digital-sustainability-data-centre-governance.md)
 
+For quick answers and shared vocabulary, see the [**Frequently Asked Questions**](faq.md) and the [**Glossary**](glossary.md).
+
 The [**Executive Governance Templates**](templates/README.md) provide reusable working artefacts for applying the playbook method, including the RACI matrix, KPI dictionary and reference, benefit profile, initiative canvas, weighted scoring matrix, decision records, governance forum charters, escalation and status, strategic dependency register, open-source and AI/RAG assessments, infrastructure capacity decision and executive checklists.
 
 ## Principles

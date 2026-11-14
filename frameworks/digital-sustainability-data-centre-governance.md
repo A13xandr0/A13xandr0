@@ -17,6 +17,13 @@ dateModified: "2026-11-14"
 
 Digital sustainability and data-centre governance connects digital service demand with infrastructure capacity, energy, water, resilience, lifecycle cost and measurable service outcomes. This framework helps decision-makers compare infrastructure options using consistent boundaries, evidence and accountability.
 
+> **In brief**
+>
+> - **What it is:** a framework that connects digital service demand with infrastructure capacity, energy, water, resilience and lifecycle cost.
+> - **Key points:** start with service demand; compare options on a common basis; treat energy, grid, water and supplier capacity as strategic dependencies; report absolute consumption alongside intensity measures.
+> - **Remember:** reserved capacity, forecast demand and actual utilisation are not the same thing.
+> - **Not:** an engineering design, environmental assessment, legal interpretation or regulatory compliance opinion.
+
 ## 1. Purpose
 
 Digital infrastructure enables cloud services, data platforms, AI and critical public and commercial services. Its sustainability cannot be understood from facility efficiency alone. Infrastructure, software, workloads, data, procurement and user demand interact, and a locally efficient facility can still support wasteful capacity or poorly justified services.

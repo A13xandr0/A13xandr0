@@ -17,6 +17,14 @@ dateModified: "2026-11-14"
 
 This technology strategy and execution governance framework explains how organisations translate strategic outcomes into capability choices, technology investments, accountable delivery and measurable benefits. It provides a common governance model that can be applied across enterprise technology domains.
 
+> **In brief**
+>
+> - **What it is:** a technology-neutral model that connects strategic outcomes, capabilities, technology choices, investment, governed delivery and measured benefits.
+> - **Operating chain:** Strategic outcomes → Required capabilities → Technology choices → Initiatives and investments → Governed delivery → Adoption → Measured outcomes.
+> - **Use it when:** deciding whether and how to fund a significant technology initiative.
+> - **Key test:** before approval, leadership can state the outcome being funded, why this option beats realistic alternatives, which dependencies and lifecycle obligations are accepted, who is accountable, and what evidence would cause it to continue, change course or stop.
+> - **Not:** a delivery methodology, organisational structure, technology stack, procurement model or regulatory interpretation.
+
 ## 1. Purpose
 
 Technology strategy creates value only when strategic intent can be translated into choices that an organisation is able to fund, deliver, operate and evaluate. A strategy that moves directly from ambition to a list of projects usually hides the most important questions: which capabilities are actually required, which dependencies will be created, what alternatives exist, who is accountable, and what evidence will show that the expected outcome has been achieved.

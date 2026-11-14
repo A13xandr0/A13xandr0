@@ -17,6 +17,13 @@ dateModified: "2026-11-14"
 
 The Strategy and Execution Governance Playbook is an executive operating guide for turning technology strategy into governed initiatives. It defines decision rights, prioritisation, investment gates, governance forums, delivery tolerances, escalation and benefits measurement.
 
+> **In brief**
+>
+> - **What it is:** an executive operating guide for turning technology strategy into governed initiatives.
+> - **Initiative cycle:** Frame outcome → Assess options → Prioritise and decide → Mandate initiative → Steer within tolerances → Measure adoption and benefits → Learn, continue, change or stop.
+> - **Key rules:** separate mandatory obligations from discretionary choices; treat a score as input to judgement, not a replacement for it; escalate on forecast breach of tolerance; distinguish what was delivered from what was adopted and what improved.
+> - **Tools:** [initiative canvas](../templates/initiative-canvas.md), [weighted scoring matrix](../templates/weighted-scoring-matrix.md), [decision record](../templates/decision-record.md), [governance forums](../templates/governance-forums.md) and [escalation and status](../templates/escalation-and-status.md).
+
 ## 1. What this playbook is for
 
 The core framework explains how strategy, technology and outcomes connect. This playbook focuses on the operating practice needed to make that connection real. Its purpose is to make direction clear, decisions timely, ownership explicit and delivery evidence visible without moving specialist judgement away from the teams that hold it.

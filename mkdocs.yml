@@ -77,6 +77,8 @@ extra_javascript:
 nav:
   - Home: index.md
   - About the author: about-the-author.md
+  - Frequently Asked Questions: faq.md
+  - Glossary of Governance Terms: glossary.md
   - Frameworks:
       - Overview: frameworks/README.md
       - Core governance:

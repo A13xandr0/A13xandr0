@@ -26,6 +26,10 @@ GitHub is the authoritative source for document content, revisions, licensing an
 
 - [Author profile](https://a13xandr0.github.io/A13xandr0/about-the-author/): professional background, areas of focus and authorship of the repository.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/about-the-author.md)
+- [Frequently Asked Questions](https://a13xandr0.github.io/A13xandr0/faq/): short, self-contained answers on decision rights, prioritisation, benefits, AI and RAG, open source and digital infrastructure.
+  - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/faq.md)
+- [Glossary of Governance Terms](https://a13xandr0.github.io/A13xandr0/glossary/): definitions of the roles, forums and terms used across the frameworks and templates.
+  - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/glossary.md)
 - [Repository and reading guide](https://a13xandr0.github.io/A13xandr0/): scope, governance logic, reading paths and document relationships.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/README.md)
 - [Frameworks overview](https://a13xandr0.github.io/A13xandr0/frameworks/): connected reference frameworks.
