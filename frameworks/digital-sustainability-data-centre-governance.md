@@ -40,7 +40,7 @@ A required service outcome creates demand for one or more workloads. Workload ch
 
 Before approving new capacity, expansion or a cloud move, define the service need, current and forecast workload, quality of the forecast, latency and availability requirements, security and recovery constraints and the evidence that new capacity is actually necessary.
 
-Optimisation, consolidation, data reduction, reuse of existing platforms, workload redesign, shared capacity, cloud or colocation, brownfield reuse, phased expansion and deferment should be considered where realistic. Reserved capacity, forecast demand and actual utilisation should never be treated as the same thing.
+Optimisation, consolidation, data reduction, reuse of existing platforms, workload redesign, shared capacity, cloud or colocation, brownfield reuse, phased expansion and deferment should be considered where realistic. Keep four measures distinct throughout the decision: **compute requirement** is the processing capability a workload needs; **installed capacity** is the technical capacity physically or contractually available in the environment; **reserved capacity** is the portion committed or allocated to a workload or consumer; and **actual utilisation** is the measured use over a defined period. Forecast demand is a separate estimate of future workload, not a synonym for any of these measures. Their relationship should be examined over time: installed capacity may exceed reserved capacity, while actual utilisation may be lower or peak above an average; neither fact alone proves that new capacity is or is not required.
 
 ## 3. Compare infrastructure options on a common basis
 

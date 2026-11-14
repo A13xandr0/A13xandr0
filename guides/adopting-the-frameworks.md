@@ -200,17 +200,7 @@ Skills development should cover literacy, technical and operational capability, 
 
 ## 8. Patterns that recur
 
-Experience of applying the method tends to converge on a small number of reusable patterns:
-
-- **Mandate before solution.**
-- **Discovery before investment.**
-- **Sources and ownership before RAG.**
-- **A bounded pilot before scale.**
-- **Verifiable evidence before badges or levels.**
-- **Community and maintenance before reuse.**
-- **Internal capability before dependency.**
-- **Operational ownership before go-live.**
-- **Measurement and stop conditions before extension.**
+The method repeatedly reinforces a few connected disciplines. Establish the mandate before selecting a solution, and discover the evidence and dependencies before committing investment. In AI/RAG, clarify source authority and access before retrieval design; in every domain, use a bounded pilot to produce evidence before scaling. Reuse should follow verification of quality, ownership and maintenance, while internal capability must keep pace with external dependency. Operational ownership, measurement and explicit stop conditions should be agreed before a capability is extended. These are not sequential compliance steps, but mutually reinforcing safeguards to apply in proportion to the decision.
 
 ## 9. Related resources
 

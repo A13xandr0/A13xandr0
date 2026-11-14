@@ -21,13 +21,17 @@ Related: [Digital Sustainability and Data Centre Energy Governance](../framework
 |---|---|
 | Which service or user need requires capacity? | |
 | Current and forecast workload, and how reliable is the forecast? | |
+| Compute requirement (CPU, GPU, memory, storage and network profile, as relevant) | |
+| Installed capacity available to the service or workload | |
+| Reserved or contractually committed capacity | |
+| Actual utilisation (period, average and relevant peak) | |
 | Evidence that new capacity is actually necessary | |
 | Latency and availability requirements | |
 | Security, sovereignty and recovery constraints | |
 | Can optimisation, consolidation, data reduction, reuse or workload redesign meet the need? | |
 | What will be measured before and after the change? | |
 
-Keep three things distinct: reserved capacity, forecast demand and actual utilisation.
+Keep the capacity concepts distinct when completing the assessment. **Compute requirement** describes the processing capability demanded by the workload; **installed capacity** describes what the environment can technically provide; **reserved capacity** is the portion allocated or contractually committed; **forecast demand** estimates future workload; and **actual utilisation** records measured consumption over a stated interval. Do not compare figures unless their units, time windows, service boundaries and measurement methods are compatible. Averages should be accompanied by relevant peaks and service-level constraints.
 
 ## 2. Options comparison
 
