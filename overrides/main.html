@@ -62,7 +62,7 @@
         "headline": {{ page_title | tojson }},
         "description": {{ page_description | tojson }},
         "url": {{ page_url | tojson }},
-        "dateModified": {{ reviewed | tojson }},
+        "dateModified": {{ reviewed | string | tojson }},
         "inLanguage": "en",
         "author": { "@id": "{{ config.site_url }}#author" },
         "publisher": { "@id": "{{ config.site_url }}#author" },
