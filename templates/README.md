@@ -16,7 +16,8 @@ Reusable working artefacts supporting the frameworks in this repository. Adapt t
 | [Benefit profile](benefit-profile.md) | Specify baseline, target, owner and attribution |
 | [Initiative canvas](initiative-canvas.md) | Summarise the initiative mandate |
 | [Weighted scoring matrix](weighted-scoring-matrix.md) | Compare discretionary options |
-| [Decision record example](decision-record-example.md) | Show a completed illustrative decision |
+| [Decision record](decision-record.md) | Record a live decision using the playbook method |
+| [Decision record example](decision-record-example.md) | Show a completed fictional decision illustration |
 | [KPI reference](kpi-reference.md) | Define open-source, sustainability and AI/RAG measures |
 | [Governance forums](governance-forums.md) | Define decision classes, forum remits and charters |
 | [Escalation and status](escalation-and-status.md) | Set tolerances, write an escalation brief and report status |
