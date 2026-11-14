@@ -130,6 +130,15 @@ jobs:
               raise SystemExit("SEO validation failed: no HTML pages were generated")
           
           errors = []
+          expected_version = "1.2.0"
+          expected_version_doi = "10.5281/zenodo.24230274"
+          expected_concept_doi = "10.5281/zenodo.24222329"
+
+          # Publication artefacts that must accompany every release.
+          for required_file in ("robots.txt", "llms.txt", "sitemap.xml"):
+              if not (site / required_file).is_file():
+                  errors.append(f"Publication is missing {required_file}")
+
           for path in pages:
               parser = SEOParser()
               parser.feed(path.read_text(encoding="utf-8"))
@@ -145,6 +154,18 @@ jobs:
                   try:
                       structured = json.loads(parser.jsonld[0])
                       graph = structured.get("@graph", [])
+                      websites = [node for node in graph if node.get("@type") == "WebSite"]
+                      if len(websites) != 1:
+                          errors.append(f"{path.relative_to(site)}: expected one WebSite node in JSON-LD")
+                      else:
+                          website = websites[0]
+                          if website.get("version") != expected_version:
+                              errors.append(f"{path.relative_to(site)}: WebSite.version must be {expected_version}")
+                          if website.get("citation") != f"https://doi.org/{expected_version_doi}":
+                              errors.append(f"{path.relative_to(site)}: WebSite.citation must reference the version DOI")
+                          identifiers = website.get("identifier", {})
+                          if identifiers.get("value") != expected_concept_doi:
+                              errors.append(f"{path.relative_to(site)}: WebSite.identifier must retain the concept DOI")
                       people = [node for node in graph if node.get("@type") == "Person"]
                       if not people or not people[0].get("jobTitle"):
                           errors.append(f"{path.relative_to(site)}: Person.jobTitle is missing from JSON-LD")
