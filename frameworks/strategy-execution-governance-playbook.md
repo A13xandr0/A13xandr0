@@ -13,11 +13,11 @@ last_reviewed: 2026-11-12
 
 The core framework explains how strategy, technology and outcomes connect. This playbook focuses on the operating practice needed to make that connection real. Its purpose is to make direction clear, decisions timely, ownership explicit and delivery evidence visible without moving specialist judgement away from the teams that hold it.
 
-The initiative operating cycle is: **Frame → Specify outcomes → Compare options → Prioritise → Mandate → Steer → Realise → Learn**. The order matters. A solution should not receive delivery authority before the problem, expected outcome, key assumptions and accountable owners are understood.
+The initiative operating cycle is: **Frame outcome → Assess options → Prioritise and decide → Mandate initiative → Steer within tolerances → Measure adoption and benefits → Learn, continue, change or stop**. The order matters. A solution should not receive delivery authority before the problem, expected outcome, key assumptions and accountable owners are understood.
 
 ## 2. Decision rights
 
-Decision classes should have named authority. Executive leadership normally owns strategic direction and risk appetite; a portfolio authority allocates investment within delegated limits; sponsors mandate initiatives; design authorities manage material technical exceptions; delivery leaders correct execution within tolerance; and benefit owners validate outcomes.
+Decision classes should have named authority. The **Executive sponsor** owns strategic direction and risk appetite; the **Portfolio authority** allocates investment within delegated limits; the **Executive sponsor** mandates initiatives; the **Architecture / assurance authority** manages material technical exceptions; the **Initiative lead** manages execution within tolerance; and the **Benefit owner** validates outcomes.
 
 When authority is unclear, the answer is not another status meeting. The decision should be reframed with options, evidence, a recommendation, the latest safe decision date and the person who has authority to decide.
 
@@ -88,7 +88,7 @@ Domain tools: [open-source assessment](../templates/open-source-assessment.md), 
 
 Consider a fictional organisation with slow internal service-request resolution. Rather than starting with a platform procurement, leadership compares process clarification, targeted workflow tooling and an immediate broad platform replacement. The process option is used first as a bounded pilot because it provides faster evidence with less commitment. Technology investment remains conditional on baseline quality, adoption, integration needs and evidence from the pilot.
 
-The example illustrates a wider principle: sequence commitments so uncertainty is reduced before irreversible cost increases. The sponsor owns the intended outcome; the delivery lead coordinates change; the service owner owns adoption; the benefit owner validates the measure; and the portfolio authority decides whether evidence justifies further investment.
+The example illustrates a wider principle: sequence commitments so uncertainty is reduced before irreversible cost increases. The **Executive sponsor** owns the intended outcome; the **Initiative lead** coordinates change; the **Service owner** owns adoption; the **Benefit owner** validates the measure; and the **Portfolio authority** decides whether evidence justifies further investment.
 
 Figures, thresholds and outcomes in such worked examples should always be treated as assumptions until measured.
 
