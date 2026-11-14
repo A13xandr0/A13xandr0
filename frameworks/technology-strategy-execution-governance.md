@@ -5,6 +5,8 @@ license: CC-BY-4.0
 last_reviewed: 2026-11-14
 description: "A technology-neutral framework connecting strategic outcomes, capabilities, technology choices, investment and delivery governance."
 keywords: "technology strategy, execution governance, digital transformation, technology investment, benefits"
+datePublished: "2026-11-11"
+dateModified: "2026-11-14"
 ---
 
 # Technology Strategy & Execution Governance Framework
