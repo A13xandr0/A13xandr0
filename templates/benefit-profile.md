@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "benefit profile, benefits realisation, outcome measurement, benefit o
 
 # Benefit Profile — Template
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 A benefit profile is a reusable governance template for defining an expected outcome, its baseline and target, how it will be measured, who owns it and when it will be reviewed.
 
