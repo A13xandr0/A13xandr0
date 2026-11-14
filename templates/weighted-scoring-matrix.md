@@ -58,6 +58,8 @@ The criteria below implement the Executive Playbook's prioritisation method. Out
 | Reversibility | 10% | 5 | 3 | 1 |
 | **Weighted total** | **100%** | **4.60 / 5** | **3.45 / 5** | **2.10 / 5** |
 
+**Baseline treatment.** In this illustrative comparison, *Defer / do nothing* is retained as the baseline scenario in the Initiative Canvas and Decision Record, but is not scored as a discretionary delivery option. Its consequences remain part of the qualitative decision. The weighted matrix compares only the three active discretionary options; this avoids presenting continuation of the current state as if it were an equivalent investment proposal.
+
 ## Recalculation
 
 The calculations below make the illustrative scores reproducible. The matrix is a decision-support tool for comparing discretionary technology and digital initiatives; mandatory obligations and their capacity requirements are identified separately. Weighted scores inform judgement but do not replace affordability, assurance or delegated decision authority.
