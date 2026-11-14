@@ -35,7 +35,7 @@ The material is organised around a simple idea: start from the outcome that matt
 
 ## Operational templates
 
-The frameworks describe the management logic; reusable working artefacts are maintained separately in the [templates folder](../templates/README.md): [RACI](../templates/raci-matrix.md), [KPI dictionary](../templates/kpi-dictionary.md), [benefit profile](../templates/benefit-profile.md), [initiative canvas](../templates/initiative-canvas.md), [weighted scoring matrix](../templates/weighted-scoring-matrix.md) and [completed illustrative decision record](../templates/decision-record-example.md). The scoring example is fictional and its calculations are shown transparently.
+The playbook describes the method; the templates put it into practice. Reusable working artefacts are maintained separately in the [templates folder](../templates/README.md): [RACI](../templates/raci-matrix.md), [KPI dictionary](../templates/kpi-dictionary.md), [benefit profile](../templates/benefit-profile.md), [initiative canvas](../templates/initiative-canvas.md), [weighted scoring matrix](../templates/weighted-scoring-matrix.md) and [completed illustrative decision record](../templates/decision-record-example.md). The scoring example is fictional and its calculations are shown transparently.
 
 Further working tools complement these: [governance forums](../templates/governance-forums.md), [escalation and status](../templates/escalation-and-status.md), [strategic dependency register](../templates/strategic-dependency-register.md), the [KPI reference](../templates/kpi-reference.md) for open-source, sustainability and AI/RAG measures, the [open-source assessment](../templates/open-source-assessment.md), the [AI/RAG use-case assessment](../templates/ai-rag-use-case-assessment.md), the [infrastructure capacity decision](../templates/infrastructure-capacity-decision.md) and the [executive checklists](../templates/executive-checklists.md).
 
@@ -67,18 +67,7 @@ If you are starting from a strategic question, begin with **Technology Strategy 
 
 ## Principles
 
-The repository is built around a small number of recurring principles:
-
-- Start from outcomes and user or service needs, not from technology preferences.
-- Keep strategy, investment, architecture and execution connected.
-- Make decision rights and accountability explicit.
-- Apply governance in proportion to risk, scale, criticality and reversibility.
-- Prefer evidence to assumptions, while making uncertainty visible.
-- Treat interoperability, portability and exit as strategic design concerns.
-- Consider lifecycle economics rather than acquisition cost alone.
-- Distinguish technical openness from practical control and ecosystem influence.
-- Measure adoption and realised outcomes, not only delivery activity.
-- Use operational evidence to learn, rebalance and, when necessary, stop.
+The repository-wide principles are consolidated in the [root README](../README.md#principles) and apply across all frameworks. Domain frameworks add specialist evidence and controls without creating competing principle lists.
 
 ## Scope
 
