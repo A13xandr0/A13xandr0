@@ -1,0 +1,24 @@
+/* Global editorial typography: justified prose across all published pages. */
+.md-typeset p,
+.md-typeset li,
+.md-typeset dd,
+.md-typeset blockquote {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+/* Preserve left alignment for structured and technical content. */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset table,
+.md-typeset pre,
+.md-typeset .highlight,
+.md-typeset .mermaid,
+.md-nav,
+.md-header,
+.md-tabs {
+  text-align: left;
+}
