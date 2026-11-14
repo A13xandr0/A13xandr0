@@ -9,11 +9,15 @@ GitHub is the authoritative source for document content, revisions, licensing an
 - Website: https://a13xandr0.github.io/A13xandr0/
 - Canonical GitHub repository: https://github.com/A13xandr0/A13xandr0
 - Main Markdown source: https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/README.md
-- Author profile: https://www.linkedin.com/in/alexandrosances/
+- Author profile: https://a13xandr0.github.io/A13xandr0/about-the-author/
+- Author's canonical Markdown profile: https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/about-the-author.md
+- LinkedIn profile: https://www.linkedin.com/in/alexandrosances/
 - Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ## Start here
 
+- [Author profile](https://a13xandr0.github.io/A13xandr0/about-the-author/): professional background, areas of focus and authorship of the repository.
+  - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/about-the-author.md)
 - [Repository and reading guide](https://a13xandr0.github.io/A13xandr0/): scope, governance logic, reading paths and document relationships.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/README.md)
 - [Frameworks overview](https://a13xandr0.github.io/A13xandr0/frameworks/): connected reference frameworks.
