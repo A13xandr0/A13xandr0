@@ -11,6 +11,8 @@ keywords: "digital sustainability, data centre governance, energy, water, infras
 
 **An executive framework for connecting digital service demand with infrastructure capacity, energy, water, resilience, lifecycle economics and useful outcomes.**
 
+**Developed and maintained by Alexandro Sances.**
+
 Digital sustainability and data-centre governance connects digital service demand with infrastructure capacity, energy, water, resilience, lifecycle cost and measurable service outcomes. This framework helps decision-makers compare infrastructure options using consistent boundaries, evidence and accountability.
 
 ## 1. Purpose
