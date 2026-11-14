@@ -1,8 +1,8 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Strategic Dependency Register — Template
@@ -36,7 +36,7 @@ Not every library deserves executive attention. Add a dependency when it:
 | Dependency risk owner (one named person) | |
 | Alternatives that exist today | |
 | Exit, mirror or fork option and indicative cost | |
-| Chosen response: adopt / influence / contribute / co-steward / mirror or fork / replace / accept | |
+| Chosen response: adopt / influence / contribute / co-steward / mirror or fork / replace | |
 | Investment required to sustain, influence or exit | |
 | Review date and trigger | |
 

@@ -1,8 +1,8 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Executive Governance Templates
@@ -29,7 +29,7 @@ Reusable working artefacts supporting the frameworks in this repository. Adapt t
 
 Use the initiative canvas to frame the problem, score only discretionary options, record the decision and conditions, then define KPIs and benefits before delivery. Mandatory obligations must be identified separately from discretionary scoring.
 
-**Version:** 1.0.0 · **Status:** Reusable reference templates · **Licence:** CC BY 4.0 · **Reviewed:** 2026-11-12
+**Version:** 1.1.0 · **Status:** Template collection · **Licence:** CC BY 4.0 · **Reviewed:** 2026-11-14
 
 The scoring and completed decision example are fictional illustrations, not real project data, decisions or results.
 

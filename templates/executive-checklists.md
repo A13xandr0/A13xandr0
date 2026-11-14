@@ -1,8 +1,8 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Executive Checklists — Template
@@ -44,7 +44,7 @@ Used with the [Executive Playbook](../frameworks/strategy-execution-governance-p
 
 ### Portfolio health
 
-- [ ] Every initiative has a Executive sponsor and Initiative lead.
+- [ ] Every initiative has an Executive sponsor and Initiative lead.
 - [ ] Mandatory commitments are visible.
 - [ ] Prioritisation decisions and trade-offs are recorded.
 - [ ] Strategic dependencies have owners and decided responses.

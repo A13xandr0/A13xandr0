@@ -1,11 +1,11 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: reference
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
-# Technology Strategy, Execution & Governance
+# Frameworks — Technology Strategy, Execution & Governance
 
 **Connected executive frameworks for turning technology choices into investment decisions, governed execution and measurable outcomes.**
 
@@ -21,7 +21,7 @@ The material is organised around a simple idea: start from the outcome that matt
 
 ### Turning strategy into operating practice
 
-[**Strategy & Execution Governance — Executive Playbook**](strategy-execution-governance-playbook.md) translates the core framework into practical governance. It covers decision rights, prioritisation, initiative mandates, RACI, tolerance-based escalation, KPI definitions, benefit reviews and reusable decision templates.
+[**Strategy & Execution Governance — Executive Playbook**](strategy-execution-governance-playbook.md) describes the operating method for decision rights, prioritisation, initiative mandates, tolerance-based escalation and benefits governance. The associated RACI, KPI and decision-record templates are maintained separately in the [templates folder](../templates/README.md).
 
 [**Digital Portfolio Governance**](digital-portfolio-governance.md) focuses on the portfolio level: deciding where limited funding and capability should be applied, sequencing initiatives, managing shared dependencies and rebalancing investment when evidence changes.
 
@@ -73,17 +73,9 @@ The repository-wide principles are consolidated in the [root README](../README.m
 
 These are independently authored professional reference materials. They are starting points for adaptation, not universal prescriptions. They do not constitute legal, financial, security, procurement or regulatory advice, and they do not represent the policies or practices of any employer or organisation. Illustrative examples are identified as such and should not be read as evidence of real implementations or results.
 
-
 ## Author and contact
 
 Alexandro Sances, Senior Technology Executive, Rome, Italy.
 
 - [LinkedIn](https://www.linkedin.com/in/alexandrosances/)
 - [Email](mailto:alexandro.sances@gmail.com)
-
-## Document metadata
-
-- Version: 1.0.0
-- Status: Reference edition
-- Licence: [CC BY 4.0](../LICENSE)
-- Last reviewed: 2026-11-12

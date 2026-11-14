@@ -26,7 +26,7 @@ Mandatory obligations are managed as a distinct, visible part of the portfolio. 
 
 After reserving the capacity required for obligations, make the remaining capacity visible by skill, period and material constraint. Use this residual capacity when assessing the feasibility, affordability and sequencing of discretionary initiatives. If the obligation load exceeds available capacity, escalate the gap for an explicit decision on scope, timing, resources or risk; do not conceal it by lowering discretionary scores.
 
-## Criteria
+## Scoring criteria
 
 The criteria below implement the Executive Playbook's prioritisation method. Outcome contribution combines strategic contribution with user or service value; feasibility and readiness includes delivery capacity; lifecycle cost captures affordability over the useful life; risk and dependency profile includes both risk reduction and exposure to material dependencies. Mandatory obligations remain outside discretionary scoring.
 
@@ -37,7 +37,11 @@ The criteria below implement the Executive Playbook's prioritisation method. Out
 - Score only the discretionary options and scope choices that remain after the mandatory baseline and capacity implications are visible.
 - A score does not override affordability, residual capacity, assurance, risk appetite or decision authority.
 
-## Criteria and ratings
+## Step 2 — Assess discretionary options
+
+Use the criteria below only for discretionary initiatives or for genuine choices about how to deliver beyond the minimum mandatory baseline. Record the evidence and confidence for each rating. Confirm that the proposed option fits the residual capacity, skills, timing and dependency constraints before recommending a sequence.
+
+## Worked scoring example
 
 | Criterion | Weight | Process clarification pilot | Targeted workflow tooling | Broad platform replacement |
 |---|---:|---:|---:|---:|
@@ -56,10 +60,6 @@ The criteria below implement the Executive Playbook's prioritisation method. Out
 - Broad replacement: (4×0.25)+(2×0.20)+(1×0.15)+(1×0.15)+(2×0.15)+(1×0.10) = **2.10**
 
 The process pilot ranks highest under these assumptions because it offers stronger readiness, faster evidence, lower lifecycle cost and reversibility. This supports a bounded pilot, not a claim that the intended benefit is proven. Validate baseline, service quality, user impact and operational feasibility before deciding whether to scale.
-
-## Step 2 — Assess discretionary options
-
-Use the criteria below only for discretionary initiatives or for genuine choices about how to deliver beyond the minimum mandatory baseline. Record the evidence and confidence for each rating. Confirm that the proposed option fits the residual capacity, skills, timing and dependency constraints before recommending a sequence.
 
 ## Blank worksheet
 

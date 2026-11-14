@@ -1,8 +1,8 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: reference
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Digital Portfolio Governance Framework
@@ -47,7 +47,7 @@ For a material dependency, the portfolio should know which initiatives rely on i
 
 ## 7. Decision rights and steering
 
-An Portfolio authority should make start, stop, defer, accelerate and major rebalance decisions within delegated authority. The portfolio function should provide consolidated analysis and challenge, not become the owner of every initiative. Initiative governance retains delivery accountability; Architecture / assurance authority manage specialist decisions and exceptions; Benefit owners remain accountable for outcome evidence.
+The Portfolio authority should make start, stop, defer, accelerate and major rebalance decisions within delegated authority. The portfolio function should provide consolidated analysis and challenge, not become the owner of every initiative. Initiative governance retains delivery accountability; Architecture / assurance authority manage specialist decisions and exceptions; Benefit owners remain accountable for outcome evidence.
 
 Escalation should be based on agreed tolerances and forecast change, not simply monthly reporting cycles.
 
@@ -69,7 +69,7 @@ Portfolio governance can mature from visibility, to control, to value management
 
 ## 11. Links to the wider framework
 
-Use [Technology Strategy & Execution Governance](technology-strategy-execution-governance.md) for the overall strategy-to-outcomes logic and the [Strategy & Execution Governance — Executive Playbook](strategy-execution-governance-playbook.md) for practical decision records, initiative mandates, tolerances and benefits methods.
+Use [Technology Strategy & Execution Governance](technology-strategy-execution-governance.md) for the overall strategy-to-outcomes logic and the [Strategy & Execution Governance — Executive Playbook](strategy-execution-governance-playbook.md) for the operating method covering decision records, initiative mandates, tolerances and benefits governance; the corresponding working templates are maintained separately in the templates folder.
 
 For open-source initiatives, use [Open Source Strategy & Governance](open-source-strategy-governance.md) to assess governance health, strategic dependency, stewardship, procurement and continuity. For AI/RAG, use [Enterprise AI & RAG Governance Blueprint](enterprise-ai-rag-governance-blueprint.md). For material cloud, data-centre and infrastructure investments, use [Digital Sustainability and Data Centre Energy Governance](digital-sustainability-data-centre-governance.md).
 

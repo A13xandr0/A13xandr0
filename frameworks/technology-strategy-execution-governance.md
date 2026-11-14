@@ -1,8 +1,8 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: reference
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Technology Strategy & Execution Governance Framework
@@ -53,7 +53,7 @@ Prioritisation is a management judgement supported by evidence. A numerical scor
 
 Assess strategic alignment, user and service value, regulatory or operational necessity, feasibility, lifecycle cost, risk reduction, dependencies, time to useful evidence and reversibility. Record the evidence and confidence behind each judgement. Mandatory work should be visible as such rather than forced into the same scoring model as discretionary investment.
 
-Portfolio-level methods, including sequencing and rebalancing, are developed in [Digital Portfolio Governance](digital-portfolio-governance.md). Practical scoring, decision records and initiative templates are provided in the [Strategy & Execution Governance — Executive Playbook](strategy-execution-governance-playbook.md).
+Portfolio-level methods, including sequencing and rebalancing, are developed in [Digital Portfolio Governance](digital-portfolio-governance.md). The [Strategy & Execution Governance — Executive Playbook](strategy-execution-governance-playbook.md) describes the operating method. Practical scoring, decision records and initiative tools are provided separately in the [templates folder](../templates/README.md).
 
 ## 5. Governance and decision rights
 

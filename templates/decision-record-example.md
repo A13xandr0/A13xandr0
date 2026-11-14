@@ -1,8 +1,8 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Decision Record — Fictional Worked Example
@@ -41,7 +41,7 @@ The pilot is the most reversible option and offers the fastest route to useful e
 ## Conditions
 
 - Validate baseline, scope and measurement method before intervention.
-- Name service owner, delivery lead and benefit owner.
+- Name service owner, Initiative lead and benefit owner.
 - Agree service-quality safeguards and escalation thresholds.
 - Record user feedback and operational exceptions.
 - Do not scale based solely on activity or anecdotal satisfaction.

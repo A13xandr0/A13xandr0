@@ -1,8 +1,8 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # KPI Reference — Template
@@ -29,7 +29,7 @@ Used with [Open Source Strategy & Governance](../frameworks/open-source-strategy
 | Vulnerability remediation timeliness | In-scope vulnerabilities remediated within policy time ÷ in-scope vulnerabilities due | Security owner; vulnerability and remediation records | Review by severity and exposure; show overdue exceptions |
 | Lifecycle cost variance | (Actual plus forecast lifecycle cost − approved lifecycle estimate) ÷ approved estimate | Service owner with finance; cost records | Reveals hidden integration, support or upgrade burden |
 | Governance-health coverage | Strategic dependencies with a current governance-health review and credible maintenance path ÷ strategic dependencies | Technical owner; project and dependency review | Highlights concentration and continuity risk |
-| Strategic-dependency ownership | Strategic dependencies with a named owner and decided response ÷ strategic dependencies | Portfolio lead; dependency register | Shows whether dependencies are managed, not just known |
+| Strategic-dependency ownership | Strategic dependencies with a named owner and decided response ÷ strategic dependencies | Portfolio authority; dependency register | Shows whether dependencies are managed, not just known |
 | Contribution follow-through | Approved contributions with an assigned owner and completed status review ÷ approved contributions due for review | Programme owner; contribution register | Measures governance follow-through, not community acceptance |
 | Reuse / adoption | Eligible teams using the approved component or capability ÷ eligible teams, where reuse is the intended outcome | Product / platform owner; service records | Shows internal use; pair with quality and fit |
 | Exit / continuity readiness | Critical components with a documented and reviewed exit, mirror or fork approach ÷ critical components | Service / architecture owner; continuity records | Focuses on practical, not merely theoretical, portability |

@@ -46,7 +46,7 @@ A one-page [initiative canvas](../templates/initiative-canvas.md) should capture
 
 ## 4. Governance operating model
 
-The minimum viable governance model normally needs only the forums that can make a decision or resolve an impediment. Strategic review confirms outcomes and direction. Portfolio review balances investment and capacity. Initiative review addresses delivery within mandate. Design and assurance review deals with material architecture, security, privacy, resilience and operational questions. Benefits review examines adoption and outcome evidence after delivery.
+The minimum viable governance model normally needs only the forums that can make a decision or resolve an impediment. Executive strategy review confirms outcomes and direction. Portfolio review balances investment and capacity. Initiative review addresses delivery within mandate. Design / assurance review deals with material architecture, security, privacy, resilience and operational questions. Benefits review examines adoption and outcome evidence after delivery.
 
 Every forum should have a charter defining its remit, delegated limits, reserved matters, chair, membership, quorum, expected inputs and outputs, decision-log owner, escalation triggers and destination, and review of its effectiveness. The [governance forums template](../templates/governance-forums.md) provides a charter worksheet. Cadence should follow the decision need rather than an arbitrary calendar; forums that do not add clear decision value should be redesigned or retired.
 

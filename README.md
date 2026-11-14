@@ -1,8 +1,8 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: reference
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Technology Strategy, Execution & Governance
@@ -75,8 +75,6 @@ flowchart TD
     end
 ```
 
-The initiative cycle governs individual change; the portfolio cycle governs investment choices and rebalancing across initiatives.
-
 ## Common governance lenses
 
 Different technology choices create different specialist questions, but a number of management concerns recur across almost all of them.
@@ -113,7 +111,7 @@ Then apply the relevant domain framework:
 - [**Enterprise AI & RAG Governance Blueprint**](frameworks/enterprise-ai-rag-governance-blueprint.md)
 - [**Digital Sustainability and Data Centre Energy Governance**](frameworks/digital-sustainability-data-centre-governance.md)
 
-The [**Executive Governance Templates**](templates/README.md) put the playbook method into practice. The playbook describes the method; the templates put it into practice.
+The [**Executive Governance Templates**](templates/README.md) put the playbook method into practice. The playbook describes the method; the templates provide the working artefacts. Additional tools include [governance forum charters](templates/governance-forums.md), [escalation and status](templates/escalation-and-status.md), the [strategic dependency register](templates/strategic-dependency-register.md), the [KPI reference](templates/kpi-reference.md), the [open-source assessment](templates/open-source-assessment.md), the [AI/RAG use-case assessment](templates/ai-rag-use-case-assessment.md) and the [infrastructure capacity decision](templates/infrastructure-capacity-decision.md).
 
 ## Principles
 
