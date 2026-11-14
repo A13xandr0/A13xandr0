@@ -1,13 +1,13 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Infrastructure Capacity Decision — Template
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 Tools for deciding whether new digital infrastructure capacity, expansion or a cloud move is justified, and for making energy, water, resilience and lifecycle assumptions visible. Capacity should follow a governed service need.
 
@@ -87,7 +87,7 @@ Requirements should be specific, measurable, proportionate and verifiable. Prefe
 
 ## 6. Fictional decision record
 
-> Illustrative only. "Pinebridge Services" and its decision are invented; no saving is assumed.
+> Illustrative only. "the fictional services organisation" and its decision are invented; no saving is assumed.
 
 | Field | Entry |
 |---|---|

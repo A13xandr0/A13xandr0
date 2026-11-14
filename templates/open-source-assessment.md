@@ -1,13 +1,13 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Open-Source Assessment — Template
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 Tools for deciding how to use, support, contribute to or exit an open-source dependency. A score structures discussion; it never replaces expert review, delegated decisions or a critical legal, security or operational concern.
 
@@ -121,7 +121,7 @@ Focus on the service and lifecycle around the software, not on the absence of a 
 
 ## 8. Fictional decision record
 
-> Illustrative only. "Harborview Transit" and its findings are invented; no conclusion about a real project is implied.
+> Illustrative only. "the fictional transit authority" and its findings are invented; no conclusion about a real project is implied.
 
 | Field | Entry |
 |---|---|
