@@ -64,7 +64,7 @@ This example uses the same fictional internal service-request scenario as the [E
 
 ## How this example connects to the other artefacts
 
-1. Use the [Weighted Scoring Matrix](weighted-scoring-matrix.md) to compare discretionary options after mandatory obligations and capacity constraints have been identified.
+1. Treat **Defer / do nothing** as the baseline scenario in this illustration, not as a discretionary delivery option in the weighted matrix. The baseline remains visible in the Initiative Canvas and is considered qualitatively in the decision; the matrix scores only the three active discretionary options after mandatory obligations and capacity constraints have been identified.
 2. Use the [Decision Record](decision-record.md) to capture the actual authority's decision, conditions, dissent and review trigger. The separate [fictional decision-record example](decision-record-example.md) illustrates the format.
 3. Use the [Benefit Profile](benefit-profile.md) and [KPI Dictionary](kpi-dictionary.md) only after the measurement definitions, owners and baseline method have been agreed.
 

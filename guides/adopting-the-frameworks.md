@@ -13,15 +13,7 @@ dateModified: "2026-11-14"
 
 **A practical guide for introducing the Technology Strategy, Execution & Governance frameworks without turning governance into bureaucracy.**
 
-The frameworks in this repository are designed to work together, but they are not intended to be implemented all at once. They explain what to govern; this guide explains how to start, how to apply the method in proportion to the decision, and when to expand.
-
-> **In brief**
->
-> - **Start with one real decision**, initiative or recurring management problem, not with a governance system.
-> - **Choose an entry point:** a strategic decision (Path A), an initiative already in progress (Path B) or a technology domain (Path C).
-> - **Work in six phases:** establish the mandate, baseline readiness, select a bounded application, run a governed pilot, operationalise, then scale, reuse or stop.
-> - **Check readiness across seven dimensions**, each assessed separately; the weakest critical dimension limits how far to scale.
-> - **The objective is not framework compliance.** It is better technology decisions, more credible execution and measurable outcomes.
+The frameworks in this repository are designed to work together, but they are not intended to be implemented all at once. They explain what to govern; this guide explains how to start, how to apply the method in proportion to the decision, and when to expand. Start with one real decision, initiative or recurring management problem rather than designing a governance system. Choose the entry point that best fits the situation, then progress through a proportionate adoption cycle: establish the mandate, baseline readiness, select a bounded application, run a governed pilot, operationalise the result and decide whether to scale, reuse or stop. Readiness should be assessed across seven dimensions rather than reduced to a single score. The objective is not framework compliance, but better technology decisions, more credible execution and measurable outcomes.
 
 ## 1. What adoption means
 
@@ -84,9 +76,9 @@ Use the [Executive Playbook](../frameworks/strategy-execution-governance-playboo
 
 Use this path where the immediate question concerns a domain with distinctive dependencies or risks.
 
-- **Enterprise AI and RAG.** Start with the [Enterprise AI & RAG Governance Blueprint](../frameworks/enterprise-ai-rag-governance-blueprint.md) and assess **Task → Information → Authority and access → Evaluation → Model and retrieval → Operation**. Use the [AI/RAG Use-Case Assessment](../templates/ai-rag-use-case-assessment.md) before larger commitments are made; the [fictional worked example](../templates/ai-rag-use-case-assessment-example.md) shows the method applied.
+- **Enterprise AI and RAG.** Start with the [Enterprise AI & RAG Governance Blueprint](../frameworks/enterprise-ai-rag-governance-blueprint.md) and work through **Task → Information → Authority and access → Architecture, model and retrieval → Evaluation → Operation**. Define the intended task and information requirements first, establish lawful and authorised access, select and configure the retrieval and model architecture, and then evaluate its performance, risks and operational readiness. Use the [AI/RAG Use-Case Assessment](../templates/ai-rag-use-case-assessment.md) before larger commitments are made; the [fictional worked example](../templates/ai-rag-use-case-assessment-example.md) shows the method applied.
 - **Open source.** Start with [Open Source Strategy & Governance](../frameworks/open-source-strategy-governance.md) and assess not only licence and code but **Fit → Ecosystem → Governance → Supply chain → Skills → Participation → Continuity → Exit readiness**. Use the [Open-Source Assessment](../templates/open-source-assessment.md); the [fictional worked example](../templates/open-source-assessment-example.md) shows how a component becomes a strategic dependency.
-- **Digital infrastructure and sustainability.** Start with [Digital Sustainability and Data Centre Energy Governance](../frameworks/digital-sustainability-data-centre-governance.md) and work from **Service demand → Workload demand → Capacity → Infrastructure and resource dependencies → Options → Lifecycle decision**. Use the [Infrastructure Capacity Decision](../templates/infrastructure-capacity-decision.md).
+- **Digital infrastructure and sustainability.** Start with [Digital Sustainability and Data Centre Energy Governance](../frameworks/digital-sustainability-data-centre-governance.md) and work from **Service demand → Workload demand → Compute and capacity requirements → Infrastructure and resource dependencies → Options → Lifecycle decision**. This keeps the service need, the workload it generates, the compute required to support it and the infrastructure and resources that provide that compute analytically distinct. Use the [Infrastructure Capacity Decision](../templates/infrastructure-capacity-decision.md).
 
 Domain-specific governance complements the common framework. It does not replace it.
 
