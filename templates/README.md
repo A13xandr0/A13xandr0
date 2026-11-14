@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -60,7 +60,7 @@ Not every artefact needs identical headings. A checklist, register, scorecard an
 
 The Initiative Canvas, Weighted Scoring Matrix and Decision Record are companion artefacts. For infrastructure decisions, the capacity worksheet should keep compute requirements, installed capacity, reservations, forecast demand and measured utilisation separate; the resulting decision and material dependencies should feed into the portfolio record and subsequent benefits review. The [fictional Initiative Canvas example](initiative-canvas-example.md), scoring example and [fictional Decision Record](decision-record-example.md) use an illustrative service-improvement scenario. All names, ratings and scenario details are invented for explanation; they are not actual organisational data, decisions or results.
 
-**Version:** 1.1.0 · **Status:** Template collection · **Licence:** CC BY 4.0 · **Reviewed:** 2026-11-14
+**Version:** 1.2.0 · **Status:** Template collection · **Licence:** CC BY 4.0 · **Reviewed:** 2026-11-14
 
 ## Contact
 

@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: example-and-template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "weighted scoring matrix, initiative prioritisation, decision support,
 
 # Weighted Scoring Matrix — Fictional Worked Example and Blank Worksheet
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 A weighted scoring matrix is a decision-support worksheet for comparing discretionary initiatives or options against explicit criteria, weights and evidence. Mandatory obligations must be identified separately and must not be traded off through scoring.
 

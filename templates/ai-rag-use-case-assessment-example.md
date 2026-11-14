@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: example
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "AI RAG example, RAG assessment, AI governance, information readiness,
 
 # AI/RAG Use-Case Assessment — Fictional Worked Example
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 > **Illustrative example only.** The organisation, users, architecture, document volumes, evaluation dataset, measures, thresholds and pilot results are fictional. They are not benchmarks, recommendations or evidence of a real AI implementation. Real initiatives require context-specific assessment of applicable legal, regulatory, security, privacy, accessibility, procurement, contractual and organisational requirements.
 

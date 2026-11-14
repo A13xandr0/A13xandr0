@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "escalation, status reporting, delivery tolerances, RAID log, governan
 
 # Escalation and Status — Template
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 Set tolerances when a mandate is approved, escalate on *forecast* breach rather than after failure, and report status in a way that surfaces decisions instead of hiding them.
 

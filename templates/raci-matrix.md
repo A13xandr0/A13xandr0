@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "RACI matrix, accountability, decision rights, governance roles"
 
 # RACI Matrix — Template
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 A RACI matrix is a responsibility-assignment template that clarifies who is Accountable, Responsible, Consulted and Informed for governance activities and decisions. It supports clear decision rights but does not replace named ownership.
 

@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "KPI reference, open source metrics, AI metrics, sustainability metric
 
 # KPI Reference — Template
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 Reference definitions for the measures used by the strategic technology domains. The common execution and portfolio measures are in the [KPI dictionary](kpi-dictionary.md) template; use the specification fields there for every measure below. Targets and thresholds must be set from your own baseline and context; this reference defines measures, not universal targets.
 

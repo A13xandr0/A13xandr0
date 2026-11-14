@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "initiative canvas, initiative framing, governance, outcomes, decision
 
 # Initiative Canvas — Template
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 **Purpose:** Summarise the case for an initiative in a concise, decision-oriented format.
 

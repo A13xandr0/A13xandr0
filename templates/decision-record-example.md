@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: example
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "decision record, governance decision, fictional example, decision rat
 
 # Decision Record — Fictional Worked Example
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 This worked example demonstrates how to record a governance decision, including its context, evidence, options, rationale, approval conditions and review triggers. All details are fictional and should be adapted rather than treated as a precedent.
 
