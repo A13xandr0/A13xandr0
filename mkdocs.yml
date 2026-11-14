@@ -30,6 +30,9 @@ theme:
 plugins:
   - search
 
+extra_css:
+  - stylesheets/extra.css
+
 # MkDocs excludes a top-level /templates/ directory by default.
 # Re-include it: these are published operational documents, not theme templates.
 exclude_docs: |
