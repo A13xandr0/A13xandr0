@@ -13,7 +13,7 @@ keywords: "open source assessment example, strategic dependency, governance heal
 
 > **Illustrative example only.** The consortium, product, findings, ratings and results below are fictional. No conclusion about a real project, supplier or organisation is implied, and every finding remains an assumption until measured.
 
-This example completes the [Open-Source Assessment](open-source-assessment.md) template and applies [Open Source Strategy & Governance](../frameworks/open-source-strategy-governance.md). It deliberately avoids a simple library choice. It shows how an open-source product moves from a technical component to a **strategic dependency**.
+This example applies the principal sections of the [Open-Source Assessment](open-source-assessment.md) template and [Open Source Strategy & Governance](../frameworks/open-source-strategy-governance.md). Its scorecard is completed for the selected open-source option; the alternative options remain qualitatively assessed pending comparable lifecycle and operational evidence. It deliberately avoids a simple library choice. It shows how an open-source product moves from a technical component to a **strategic dependency**.
 
 ## 1. Scenario and options
 
@@ -36,6 +36,23 @@ The open-source solution shows good functional fit, a compatible licence, docume
 | Keep existing systems | Declining | Rising support cost | Ageing components | High but time-limited |
 
 The comparison is qualitative and illustrative. Open source is not treated as automatically free of lock-in: dependence can arise through concentrated maintainers, release control, skills and tooling.
+
+### Illustrative option scorecard
+
+The following scores apply the seven dimensions and weights in the assessment template to the open-source option. They are provisional fictional judgements based on the scenario described here, not measured findings or a ranking against the other options. Confidence is low to medium because lifecycle cost, internal capability and exit readiness still require verification.
+
+| Dimension | Weight | Rating (1–5) | Weighted contribution | Evidence and confidence |
+|---|---:|---:|---:|---|
+| Strategic and functional fit | 20% | 4 | 0.80 | Good fit against stated needs; requirements validation remains necessary — Medium |
+| Ecosystem sustainability and governance health | 15% | 2 | 0.30 | Maintainer and organisational concentration, weak succession — Medium |
+| Security and operational readiness | 15% | 3 | 0.45 | Upstream process exists, but independent scanning and deployment readiness are incomplete — Low |
+| Legal and licence fit | 15% | 4 | 0.60 | Licence appears compatible; formal legal verification remains a condition — Medium |
+| Interoperability and exit options | 10% | 2 | 0.20 | APIs and data export exist, but continuity exercise is only partial — Medium |
+| Total lifecycle economics | 15% | 2 | 0.30 | Five-year cost has not been estimated — Low |
+| Internal capability and stewardship | 10% | 2 | 0.20 | Internal skills and autonomous release capability are insufficient — Medium |
+| **Weighted total** | **100%** |  | **2.85 / 5** | **Low–medium overall confidence** |
+
+The weighted total is a structured summary, not an approval threshold. The low scores for ecosystem health, lifecycle economics and internal capability remain visible and cannot be offset by functional fit. They explain why adoption is conditional on funded maintenance, capability development, independent security work and a successful follow-up continuity test. The proprietary, build and keep-existing options remain qualitatively described above; they are not numerically ranked because equivalent evidence has not been established.
 
 ## 2. Governance-health assessment
 
