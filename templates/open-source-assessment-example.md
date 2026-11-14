@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: example
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "open source assessment example, strategic dependency, governance heal
 
 # Open-Source Assessment — Fictional Worked Example
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 > **Illustrative example only.** The consortium, product, findings, ratings and results below are fictional. No conclusion about a real project, supplier or organisation is implied, and every finding remains an assumption until measured.
 
