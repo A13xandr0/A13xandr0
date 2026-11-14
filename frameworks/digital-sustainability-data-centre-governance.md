@@ -52,7 +52,7 @@ A staged decision model can move from need and alternatives, to feasibility, inv
 
 Energy availability, grid connection, water, connectivity, equipment supply, cooling, backup power, land, specialist operators and cloud or colocation providers can all become strategic dependencies. Their importance should be considered alongside technology and supplier dependencies in the wider portfolio.
 
-Where an infrastructure choice is difficult or costly to reverse, make portability, workload placement, phased growth and service continuity explicit. A low acquisition price or attractive efficiency indicator is not sufficient if it creates a dependency that the organisation cannot realistically operate or exit.
+Where an infrastructure choice is difficult or costly to reverse, make portability, workload placement, phased growth and service continuity explicit. A low acquisition price or attractive efficiency indicator is not sufficient if it creates a dependency that the organisation cannot realistically operate or exit. In this context, technology sovereignty and strategic autonomy mean preserving credible infrastructure and provider alternatives, retaining enough internal knowledge to make informed choices, and maintaining practical exit readiness without compromising service continuity.
 
 ## 5. Software, data, AI and open source
 
