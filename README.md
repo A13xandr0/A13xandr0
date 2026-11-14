@@ -20,6 +20,25 @@ keywords: "technology strategy, technology governance, enterprise AI, RAG, digit
 
 **Published documentation:** [Technology Strategy, Execution & Governance](https://a13xandr0.github.io/A13xandr0/).
 
+## Citation
+
+If you use or reference this repository, please cite the version-specific release:
+
+```bibtex
+@misc{Sances_Technology_Strategy_Execution_2026,
+  author       = {Sances, Alexandro},
+  title        = {{Technology Strategy, Execution \& Governance}},
+  year         = {2026},
+  month        = nov,
+  version      = {1.1.0},
+  howpublished = {Computer software},
+  doi          = {10.5281/zenodo.24222330},
+  url          = {https://github.com/A13xandr0/A13xandr0}
+}
+```
+
+The DOI identifies version 1.1.0. The [concept DOI](https://doi.org/10.5281/zenodo.24222329) provides a persistent reference to the project across versions.
+
 Technology decisions rarely stand in isolation. Strategy, architecture, investment, delivery, risk, ecosystems, digital assets, infrastructure and operational ownership interact, while choices made in one area often create dependencies somewhere else.
 
 This repository brings those dimensions together around a simple idea: start from the outcome that matters, understand the capabilities, assets and dependencies required, compare realistic options, make investment and accountability explicit, and then govern delivery and lifecycle choices through evidence.
