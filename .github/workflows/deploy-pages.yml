@@ -50,8 +50,8 @@ jobs:
         run: |
           mkdir -p docs
           cp README.md docs/index.md
-          cp README.md docs/README.md
           cp -R frameworks templates javascripts docs/
+          sed -i 's#../README.md#../index.md#g' docs/frameworks/README.md
           cp llms.txt robots.txt docs/
       - name: Build and validate documentation
         run: mkdocs build --strict
