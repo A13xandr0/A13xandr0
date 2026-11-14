@@ -161,4 +161,4 @@ No. The material is independent professional guidance and should be adapted with
 
 ### How should the repository be cited?
 
-Cite the exact version used. The previous version 1.1.0 is archived at [10.5281/zenodo.24222330](https://doi.org/10.5281/zenodo.24222330); the version-specific DOI for 1.2.0 will be published with its Zenodo archive. The [concept DOI](https://doi.org/10.5281/zenodo.24222329) refers to the project across versions. A ready-made BibTeX entry is in the [citation section of the README](https://github.com/A13xandr0/A13xandr0#citation). The author is Alexandro Sances; see [About the author](about-the-author.md).
+Cite the exact version used. Version 1.2.0 is archived at [10.5281/zenodo.24230274](https://doi.org/10.5281/zenodo.24230274). The previous version 1.1.0 is archived at [10.5281/zenodo.24222330](https://doi.org/10.5281/zenodo.24222330). The [concept DOI](https://doi.org/10.5281/zenodo.24222329) refers to the project across versions. A ready-made BibTeX entry is in the [citation section of the README](https://github.com/A13xandr0/A13xandr0#citation). The author is Alexandro Sances; see [About the author](about-the-author.md).
