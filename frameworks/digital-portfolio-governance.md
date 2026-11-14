@@ -29,7 +29,7 @@ Strategic technology domains cut across this taxonomy. Open-source contribution 
 
 ## 4. Initiative record
 
-Each initiative should have a concise and comparable record containing its strategic outcome, problem statement, sponsor, delivery and benefit owners, scope and exclusions, lifecycle cost and funding, milestones, dependencies, principal risks and assumptions, baseline and measures, and current forecast.
+Each initiative should have a concise and comparable record containing its strategic outcome, problem statement, sponsor, Initiative lead and Benefit owner, scope and exclusions, lifecycle cost and funding, milestones, dependencies, principal risks and assumptions, baseline and measures, and current forecast.
 
 For strategic technology choices, add the dependencies that could materially affect future options. These may include suppliers, open-source ecosystems, AI model or data providers, shared platforms, energy and infrastructure, standards or scarce internal skills.
 
@@ -47,7 +47,7 @@ For a material dependency, the portfolio should know which initiatives rely on i
 
 ## 7. Decision rights and steering
 
-An executive portfolio authority should make start, stop, defer, accelerate and major rebalance decisions within delegated authority. The portfolio function should provide consolidated analysis and challenge, not become the owner of every initiative. Initiative boards retain delivery accountability; architecture and assurance authorities manage specialist decisions and exceptions; benefit owners remain accountable for outcome evidence.
+An Portfolio authority should make start, stop, defer, accelerate and major rebalance decisions within delegated authority. The portfolio function should provide consolidated analysis and challenge, not become the owner of every initiative. Initiative governance retains delivery accountability; Architecture / assurance authority manage specialist decisions and exceptions; Benefit owners remain accountable for outcome evidence.
 
 Escalation should be based on agreed tolerances and forecast change, not simply monthly reporting cycles.
 
