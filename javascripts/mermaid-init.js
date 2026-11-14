@@ -1,9 +1,17 @@
-document$.subscribe(() => {
+document$.subscribe(async () => {
   if (typeof mermaid === "undefined") return;
-  mermaid.initialize({
-    startOnLoad: false,
-    securityLevel: "strict",
-    theme: "neutral"
-  });
-  mermaid.run({ querySelector: ".mermaid" });
+
+  try {
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: "strict",
+      theme: "neutral"
+    });
+
+    await mermaid.run({
+      querySelector: ".mermaid"
+    });
+  } catch (error) {
+    console.error("Mermaid rendering error:", error);
+  }
 });
