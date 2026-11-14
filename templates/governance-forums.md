@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "governance forums, decision authority, escalation, governance charter
 
 # Governance Forums — Template
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 Define only the forums that can make a decision or resolve an impediment, and give each a charter. Accountability by activity is covered in the [RACI matrix](raci-matrix.md).
 
