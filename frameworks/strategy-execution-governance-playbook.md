@@ -11,6 +11,8 @@ keywords: "strategy execution, governance playbook, decision rights, portfolio m
 
 **A practical, technology-neutral method for turning strategic intent into governed change.**
 
+**Developed and maintained by Alexandro Sances.**
+
 The Strategy and Execution Governance Playbook is an executive operating guide for turning technology strategy into governed initiatives. It defines decision rights, prioritisation, investment gates, governance forums, delivery tolerances, escalation and benefits measurement.
 
 ## 1. What this playbook is for
