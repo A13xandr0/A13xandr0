@@ -145,7 +145,7 @@ jobs:
                   errors.append(f"{path.relative_to(site)}: Twitter and Open Graph image URLs differ")
           
           if errors:
-              raise SystemExit("SEO validation failed:\\n- " + "\\n- ".join(errors))
+              raise SystemExit("SEO validation failed:\n- " + "\n- ".join(errors))
           print(f"SEO validation passed for {len(pages)} HTML pages; one canonical, one metadata set and valid JSON-LD per page.")
           PY
       - name: Upload Pages artifact
