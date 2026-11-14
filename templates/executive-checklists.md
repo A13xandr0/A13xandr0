@@ -28,7 +28,7 @@ Used with the [Executive Playbook](../frameworks/strategy-execution-governance-p
 ### Before delivery authorisation
 
 - [ ] Scope boundaries, acceptance evidence and tolerances are approved.
-- [ ] Sponsor, delivery lead, service owner and benefit owner are named.
+- [ ] Executive sponsor, Initiative lead, Service owner and Benefit owner are named.
 - [ ] Integrated plan, funding, skills and dependencies are credible.
 - [ ] Security, privacy, architecture, quality and operational readiness are addressed proportionately.
 - [ ] Adoption, communications, support and benefits measurement are planned.
@@ -44,7 +44,7 @@ Used with the [Executive Playbook](../frameworks/strategy-execution-governance-p
 
 ### Portfolio health
 
-- [ ] Every initiative has a sponsor and delivery owner.
+- [ ] Every initiative has a Executive sponsor and Initiative lead.
 - [ ] Mandatory commitments are visible.
 - [ ] Prioritisation decisions and trade-offs are recorded.
 - [ ] Strategic dependencies have owners and decided responses.
