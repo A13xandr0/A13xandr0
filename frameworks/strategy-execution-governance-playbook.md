@@ -32,7 +32,7 @@ The initiative operating cycle is: **Frame outcome → Assess options → Priori
 
 ## 2. Decision rights
 
-Decision classes should have named authority. The **Executive sponsor** owns strategic direction and risk appetite; the **Portfolio authority** allocates investment within delegated limits; the **Executive sponsor** mandates initiatives; the **Architecture / assurance authority** manages material technical exceptions; the **Initiative lead** manages execution within tolerance; and the **Benefit owner** validates outcomes.
+Decision classes should have named authority. The **Executive sponsor** owns strategic direction, risk appetite and initiative mandates; the **Portfolio authority** allocates investment within delegated limits; the **Architecture / assurance authority** manages material technical exceptions; the **Initiative lead** manages execution within tolerance; and the **Benefit owner** validates outcomes.
 
 When authority is unclear, the answer is not another status meeting. The decision should be reframed with options, evidence, a recommendation, the latest safe decision date and the person who has authority to decide.
 
