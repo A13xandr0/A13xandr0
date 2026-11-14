@@ -42,6 +42,14 @@ The repository is maintained on GitHub as the canonical source. The [published d
 - [GitHub profile](https://github.com/A13xandr0)
 - [Canonical framework repository](https://github.com/A13xandr0/A13xandr0)
 
+## Authorship and AI Assistance
+
+The frameworks and methods presented in this repository are conceived, authored and maintained by Alexandro Sances, who retains responsibility for their intellectual content, accuracy and evolution.
+
+AI tools were used as supporting instruments for editorial consolidation, drafting of selected complementary templates, development of the FAQ and glossary, and assistance with repository organisation and technical publication.
+
+All AI-assisted contributions were reviewed, evaluated and approved by the author, who retains final editorial control and responsibility for all published material.
+
 ## Independence and scope
 
 The frameworks and templates are independently authored professional reference resources intended for adaptation to organisational context. They do not constitute legal, financial, security, procurement or regulatory advice.
