@@ -13,6 +13,14 @@ GitHub is the authoritative source for document content, revisions, licensing an
 - Author's canonical Markdown profile: https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/about-the-author.md
 - LinkedIn profile: https://www.linkedin.com/in/alexandrosances/
 - Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+- DOI (version 1.1.0): https://doi.org/10.5281/zenodo.24222330
+- Concept DOI (latest version): https://doi.org/10.5281/zenodo.24222329
+
+## Citation and archival record
+
+- Version 1.1.0: [10.5281/zenodo.24222330](https://doi.org/10.5281/zenodo.24222330)
+- Concept DOI (all versions): [10.5281/zenodo.24222329](https://doi.org/10.5281/zenodo.24222329)
+- GitHub release: https://github.com/A13xandr0/A13xandr0/releases/tag/v1.1.0
 
 ## Start here
 
