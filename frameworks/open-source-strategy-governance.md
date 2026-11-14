@@ -92,7 +92,7 @@ A mirror or fork can be a resilience instrument when continuity value justifies 
 
 Open-source procurement should focus on the service and lifecycle around the software, not on the absence of a licence fee. Evaluate functional fit, licence obligations, project governance, maintenance, security response, supply-chain evidence such as SBOM where appropriate, interoperability, portability, ecosystem concentration, support arrangements, lifecycle cost and exit.
 
-Particular attention is needed when an open-source solution is effectively controlled through a single system integrator. The source may be open while skills, deployment knowledge, operational tooling or contractual arrangements create a practical lock-in. Make that dependency visible and assess whether it is proportionate.
+Particular attention is needed when an open-source solution is effectively controlled through a single system integrator. The source may be open while skills, deployment knowledge, operational tooling or contractual arrangements create a practical lock-in. Make that dependency visible and assess whether it is proportionate. This is also a technology sovereignty and strategic autonomy question: source availability alone does not preserve credible options or decision-making power if the organisation lacks the knowledge, stewardship capacity or practical ability to sustain, replace or exit the solution.
 
 Procurement criteria should remain objective, verifiable and connected to the actual outcome and risk.
 
