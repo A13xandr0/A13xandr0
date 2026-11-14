@@ -29,7 +29,6 @@ theme:
 
 plugins:
   - search
-  - social
 
 # MkDocs excludes a top-level /templates/ directory by default.
 # Re-include it: these are published operational documents, not theme templates.
@@ -74,6 +73,7 @@ extra_javascript:
 
 nav:
   - Home: index.md
+  - About the author: about-the-author.md
   - Frameworks:
       - Overview: frameworks/README.md
       - Core governance:
