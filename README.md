@@ -15,7 +15,7 @@ keywords: "technology strategy, technology governance, enterprise AI, RAG, digit
 
 [![DOI](https://zenodo.org/badge/1454458019.svg)](https://doi.org/10.5281/zenodo.24222329)
 
-**Previous version 1.1.0 DOI:** [10.5281/zenodo.24222330](https://doi.org/10.5281/zenodo.24222330) · **Concept DOI:** [10.5281/zenodo.24222329](https://doi.org/10.5281/zenodo.24222329)
+**Current version 1.2.0 DOI:** [10.5281/zenodo.24230274](https://doi.org/10.5281/zenodo.24230274) · **Previous version 1.1.0 DOI:** [10.5281/zenodo.24222330](https://doi.org/10.5281/zenodo.24222330) · **Concept DOI:** [10.5281/zenodo.24222329](https://doi.org/10.5281/zenodo.24222329)
 
 
 **Published documentation:** [Technology Strategy, Execution & Governance](https://a13xandr0.github.io/A13xandr0/).
@@ -201,11 +201,12 @@ If you use or reference this repository, please cite the version-specific releas
   month        = nov,
   version      = {1.2.0},
   howpublished = {Computer software},
+  doi          = {10.5281/zenodo.24230274},
   url          = {https://github.com/A13xandr0/A13xandr0}
 }
 ```
 
-The DOI above identifies the previous version 1.1.0. The [concept DOI](https://doi.org/10.5281/zenodo.24222329) provides a persistent reference to the project across versions. The version-specific DOI for 1.2.0 will be added after its Zenodo archive has been created.
+The version-specific DOI above identifies release 1.2.0. The previous release 1.1.0 remains archived at [10.5281/zenodo.24222330](https://doi.org/10.5281/zenodo.24222330). The [concept DOI](https://doi.org/10.5281/zenodo.24222329) provides a persistent reference to the project across versions.
 
 ## Principles
 
