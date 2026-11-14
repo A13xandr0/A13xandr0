@@ -54,6 +54,7 @@
         "@type": "Person",
         "@id": "{{ config.site_url }}#author",
         "name": "Alexandro Sances",
+        "jobTitle": "Technology Strategy and Digital Transformation Executive",
         "url": "{{ config.site_url }}about-the-author/",
         "image": "{{ config.site_url }}assets/alexandro-sances-portrait.jpg",
         "description": "Technology and digital-transformation executive with more than 30 years of professional experience, including international leadership, advisory and governance work.",
@@ -95,6 +96,8 @@
         "description": {{ page_description | tojson }},
         "inLanguage": "en",
         "mainEntity": { "@id": "{{ config.site_url }}#author" },
+        "datePublished": {{ page.meta.get('datePublished') | tojson }},
+        "dateModified": {{ page.meta.get('dateModified') | tojson }},
         "isPartOf": { "@id": "{{ config.site_url }}#website" }
       }
       {% elif is_framework %}
@@ -110,7 +113,9 @@
         "author": { "@id": "{{ config.site_url }}#author" },
         "publisher": { "@id": "{{ config.site_url }}#author" },
         "isPartOf": { "@id": "{{ config.site_url }}#website" },
-        "license": "https://creativecommons.org/licenses/by/4.0/"
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "datePublished": {{ page.meta.get('datePublished') | tojson }},
+        "dateModified": {{ page.meta.get('dateModified') | tojson }}
       }
       {% elif is_collection %}
       {
