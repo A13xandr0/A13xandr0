@@ -6,6 +6,9 @@ repo_url: https://github.com/A13xandr0/A13xandr0
 docs_dir: docs
 site_dir: /tmp/site
 use_directory_urls: true
+
+# MkDocs core generates sitemap.xml automatically from site_url.
+# Keep the canonical sitemap at the project-site root for search engines.
 copyright: "© Alexandro Sances · Content licensed under CC BY 4.0"
 
 theme:
@@ -26,6 +29,7 @@ theme:
 
 plugins:
   - search
+  - social
 
 # MkDocs excludes a top-level /templates/ directory by default.
 # Re-include it: these are published operational documents, not theme templates.
@@ -98,3 +102,12 @@ nav:
       - Open-Source Assessment: templates/open-source-assessment.md
       - Infrastructure Capacity Decision: templates/infrastructure-capacity-decision.md
       - Initiative Canvas — Fictional Example: templates/initiative-canvas-example.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/A13xandr0/A13xandr0
+      name: Canonical GitHub repository
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/alexandrosances/
+      name: Alexandro Sances on LinkedIn
