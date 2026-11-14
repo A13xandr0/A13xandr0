@@ -9,7 +9,9 @@ keywords: "decision record, governance decision, fictional example, decision rat
 
 # Decision Record — Fictional Worked Example
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+> Fictional illustration only. It does not describe an actual organisation, project, decision, result or personal achievement.
+
+This worked example demonstrates how to record a governance decision, including its context, evidence, options, rationale, approval conditions and review triggers. All details are fictional and should be adapted rather than treated as a precedent.
 
 > Fictional illustration only. It does not describe an actual organisation, project, decision, result or personal achievement.
 
