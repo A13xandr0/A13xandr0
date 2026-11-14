@@ -7,7 +7,7 @@ last_reviewed: 2026-11-14
 
 # Benefit Profile — Template
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 A benefit is a measurable change in outcome, not a delivered feature. The benefit owner remains accountable for validation after delivery.
 

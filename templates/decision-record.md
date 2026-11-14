@@ -1,5 +1,5 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
 last_reviewed: 2026-11-14

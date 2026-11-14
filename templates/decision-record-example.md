@@ -7,7 +7,7 @@ last_reviewed: 2026-11-14
 
 # Decision Record — Fictional Worked Example
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 > Fictional illustration only. It does not describe an actual organisation, project, decision, result or personal achievement.
 

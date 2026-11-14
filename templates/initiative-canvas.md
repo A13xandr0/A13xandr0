@@ -7,7 +7,7 @@ last_reviewed: 2026-11-14
 
 # Initiative Canvas — Template
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 ## Problem and outcome
 - Problem / opportunity:

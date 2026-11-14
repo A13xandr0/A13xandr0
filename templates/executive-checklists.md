@@ -7,7 +7,7 @@ last_reviewed: 2026-11-14
 
 # Executive Checklists — Template
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 Copyable checklists for decisions, reviews and operation. Use them as prompts, not as a substitute for judgement.
 
