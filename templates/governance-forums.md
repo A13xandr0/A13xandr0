@@ -1,13 +1,13 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: template
 license: CC-BY-4.0
-last_reviewed: 2026-11-12
+last_reviewed: 2026-11-14
 ---
 
 # Governance Forums — Template
 
-**Version:** 1.0.0 | **Licence:** CC BY 4.0
+**Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 Define only the forums that can make a decision or resolve an impediment, and give each a charter. Accountability by activity is covered in the [RACI matrix](raci-matrix.md).
 
@@ -40,19 +40,37 @@ Cadence follows the decision need, not a calendar.
 
 ## Forum charter template
 
+Complete one charter for each forum. State decision rights precisely enough that participants can distinguish a decision the forum may take from a recommendation or matter that must be escalated. Adapt the fields to the organisation's scale; do not create a forum where a clear owner and a direct escalation route would suffice.
+
 | Field | Entry |
 |---|---|
 | Forum name and purpose | |
-| Remit (decisions it can make) | |
-| Delegated authority and limits | |
-| Chair | |
-| Attendees and quorum | |
-| Standing inputs | |
-| Standing outputs | |
-| Cadence and trigger events | |
-| Decision log location | |
-| Escalation path | |
-| Review date for this charter | |
+| Remit and decisions it is authorised to make | |
+| Delegated authority and limits (financial, scope, schedule, risk and other thresholds) | |
+| Matters explicitly reserved for another authority | |
+| Chair and deputy (if applicable) | |
+| Membership, required roles and standing attendees | |
+| Quorum and rules for a valid decision | |
+| Standing inputs and who prepares them | |
+| Expected outputs and action ownership | |
+| Cadence and event-based convening triggers | |
+| Decision log location and decision-log owner | |
+| Escalation triggers (including tolerance breaches and unresolved conflicts) | |
+| Escalation destination and latest safe decision date | |
+| Charter owner | |
+| Charter review date and effectiveness check | |
+
+### Operating and review checks
+
+Before approving the charter, confirm that:
+- each decision type has one clearly identified accountable decision-maker;
+- delegated limits and reserved matters are consistent with the organisation's wider delegations;
+- quorum includes the roles needed to make the decisions within the forum's remit;
+- papers arrive early enough to support evidence-based decisions;
+- decisions, conditions, dissent, actions, owners and due dates are recorded;
+- escalation identifies both the receiving authority and the latest safe decision date.
+
+At the charter review, assess whether the forum is making the decisions it was established to make, within the required timescales, without duplicating another forum. Retire or redesign forums that do not add clear decision value.
 
 For accountability by activity, use the [RACI matrix](raci-matrix.md). One person may hold several roles in a small organisation, but accountability for content, access, outcomes and operation should remain explicit.
 
