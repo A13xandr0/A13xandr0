@@ -5,6 +5,8 @@ license: CC-BY-4.0
 last_reviewed: 2026-11-14
 description: "An executive playbook for decision rights, prioritisation, initiative mandates, governance forums, escalation and benefits."
 keywords: "strategy execution, governance playbook, decision rights, portfolio management, benefits realisation"
+datePublished: "2026-11-11"
+dateModified: "2026-11-14"
 ---
 
 # Strategy & Execution Governance — Executive Playbook
