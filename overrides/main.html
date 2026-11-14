@@ -7,25 +7,39 @@
     {% set page_description = page.meta.get('description', config.site_description) %}
     {% set page_keywords = page.meta.get('keywords', 'technology strategy, governance, digital transformation') %}
     {% set page_url = page.canonical_url %}
+    {% set is_profile = page.file.src_path == "about-the-author.md" %}
+    {% set is_framework = page.file.src_path.startswith("frameworks/") and page.file.src_path != "frameworks/README.md" %}
+    {% set is_collection = page.file.src_path in ["index.md", "frameworks/README.md", "templates/README.md"] %}
   {% else %}
     {% set page_title = config.site_name %}
     {% set page_description = config.site_description %}
     {% set page_keywords = 'technology strategy, governance, digital transformation' %}
     {% set page_url = config.site_url %}
+    {% set is_profile = false %}
+    {% set is_framework = false %}
+    {% set is_collection = true %}
   {% endif %}
   <meta name="author" content="Alexandro Sances">
   <meta name="keywords" content="{{ page_keywords }}">
-  {% if page and page.file.src_path == "index.md" %}
-  <meta property="og:type" content="website">
-  {% else %}
+  {% if is_framework %}
   <meta property="og:type" content="article">
+  {% else %}
+  <meta property="og:type" content="website">
   {% endif %}
+  {% if page and page.file.src_path != "index.md" %}
   <meta property="og:title" content="{{ page_title }} | {{ config.site_name }}">
+  <meta name="twitter:title" content="{{ page_title }} | {{ config.site_name }}">
+  {% else %}
+  <meta property="og:title" content="{{ config.site_name }}">
+  <meta name="twitter:title" content="{{ config.site_name }}">
+  {% endif %}
   <meta property="og:description" content="{{ page_description }}">
+  <meta name="twitter:description" content="{{ page_description }}">
   <meta property="og:url" content="{{ page_url }}">
   <meta property="og:site_name" content="{{ config.site_name }}">
   <meta property="og:locale" content="en_GB">
   <meta property="og:image" content="{{ config.site_url }}assets/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1672">
   <meta property="og:image:height" content="941">
   <meta property="og:image:alt" content="Alexandro Sances — Technology Strategy, Execution & Governance">
@@ -40,7 +54,8 @@
         "@type": "Person",
         "@id": "{{ config.site_url }}#author",
         "name": "Alexandro Sances",
-        "url": "https://www.linkedin.com/in/alexandrosances/",
+        "url": "{{ config.site_url }}about-the-author/",
+        "description": "Technology and digital-transformation executive with more than 30 years of professional experience, including international leadership, advisory and governance work.",
         "sameAs": [
           "https://github.com/A13xandr0",
           "https://www.linkedin.com/in/alexandrosances/"
@@ -49,11 +64,15 @@
           "Technology strategy",
           "Technology governance",
           "Digital transformation",
+          "Technology execution",
           "Enterprise AI governance",
           "Retrieval-augmented generation",
           "Digital portfolio governance",
           "Open-source governance",
-          "Digital infrastructure"
+          "Digital infrastructure",
+          "Telecommunications",
+          "Connected mobility",
+          "Internet of Things"
         ]
       },
       {
@@ -66,9 +85,21 @@
         "author": { "@id": "{{ config.site_url }}#author" }
       }
       {% if page %},
+      {% if is_profile %}
       {
-        "@type": "TechArticle",
-        "@id": "{{ page_url }}#article",
+        "@type": "ProfilePage",
+        "@id": {{ (page_url ~ "#profile") | tojson }},
+        "url": {{ page_url | tojson }},
+        "name": {{ page_title | tojson }},
+        "description": {{ page_description | tojson }},
+        "inLanguage": "en",
+        "mainEntity": { "@id": "{{ config.site_url }}#author" },
+        "isPartOf": { "@id": "{{ config.site_url }}#website" }
+      }
+      {% elif is_framework %}
+      {
+        "@type": "Article",
+        "@id": {{ (page_url ~ "#article") | tojson }},
         "headline": {{ page_title | tojson }},
         "description": {{ page_description | tojson }},
         "url": {{ page_url | tojson }},
@@ -80,6 +111,27 @@
         "isPartOf": { "@id": "{{ config.site_url }}#website" },
         "license": "https://creativecommons.org/licenses/by/4.0/"
       }
+      {% elif is_collection %}
+      {
+        "@type": "CollectionPage",
+        "@id": {{ (page_url ~ "#webpage") | tojson }},
+        "url": {{ page_url | tojson }},
+        "name": {{ page_title | tojson }},
+        "description": {{ page_description | tojson }},
+        "inLanguage": "en",
+        "isPartOf": { "@id": "{{ config.site_url }}#website" }
+      }
+      {% else %}
+      {
+        "@type": "WebPage",
+        "@id": {{ (page_url ~ "#webpage") | tojson }},
+        "url": {{ page_url | tojson }},
+        "name": {{ page_title | tojson }},
+        "description": {{ page_description | tojson }},
+        "inLanguage": "en",
+        "isPartOf": { "@id": "{{ config.site_url }}#website" }
+      }
+      {% endif %}
       {% endif %}
     ]
   }
