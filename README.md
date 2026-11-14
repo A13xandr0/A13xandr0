@@ -97,17 +97,13 @@ flowchart TD
     A["Strategic outcomes"] --> B["Technology strategy"]
     B --> C["Portfolio decisions"]
     C --> D["Initiative governance"]
-    subgraph Domains["Specialist domain lenses"]
-        E["Open Source Governance"]
-        F["AI / RAG Governance"]
-        G["Infrastructure & Sustainability"]
-    end
-    D --> E
-    D --> F
-    D --> G
-    E -. "where relevant" .-> H["Delivery + adoption"]
-    F -. "where relevant" .-> H
-    G -. "where relevant" .-> H
+    D --> N["Specialist domain lenses<br/>Apply in parallel where relevant"]
+    N --> E["Open Source Governance"]
+    N --> F["AI / RAG Governance"]
+    N --> G["Infrastructure & Sustainability"]
+    E -.-> H["Delivery + adoption"]
+    F -.-> H
+    G -.-> H
     H --> I["Measured outcomes"]
     I --> J["Rebalancing"]
     J --> C
