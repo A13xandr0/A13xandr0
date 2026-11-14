@@ -49,11 +49,12 @@ jobs:
         with:
           python-version: "3.x"
       - name: Install documentation dependencies
-        run: pip install "mkdocs-material[imaging]>=9.6,<10"
+        run: pip install "mkdocs-material>=9.6,<10"
       - name: Assemble temporary documentation directory
         run: |
           mkdir -p docs
           cp README.md docs/index.md
+          cp about-the-author.md docs/about-the-author.md
           cp -R frameworks templates javascripts docs/
           cp -R assets docs/
           python - <<'PY'
@@ -67,6 +68,86 @@ jobs:
           find . -maxdepth 1 -type f -name 'google*.html' -exec cp {} docs/ \;
       - name: Build and validate documentation
         run: mkdocs build --strict
+      - name: Validate SEO metadata and structured data
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import json
+          
+          site = Path("/tmp/site")
+          image = site / "assets" / "og-image.jpg"
+          if not image.is_file():
+              raise SystemExit("SEO validation failed: assets/og-image.jpg is missing from the built site")
+          
+          required = [
+              "author", "og:type", "og:title", "og:description", "og:url",
+              "og:site_name", "og:image", "og:image:type", "og:image:width",
+              "og:image:height", "og:image:alt", "twitter:card",
+              "twitter:title", "twitter:description", "twitter:image",
+              "twitter:image:alt"
+          ]
+          
+          class SEOParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.meta = {}
+                  self.canonicals = []
+                  self.jsonld = []
+                  self._jsonld_active = False
+                  self._jsonld_parts = []
+          
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag == "meta":
+                      key = attrs.get("property") or attrs.get("name")
+                      if key:
+                          self.meta.setdefault(key, []).append(attrs.get("content", ""))
+                  elif tag == "link" and "canonical" in attrs.get("rel", "").split():
+                      self.canonicals.append(attrs.get("href", ""))
+                  elif tag == "script" and attrs.get("type") == "application/ld+json":
+                      self._jsonld_active = True
+                      self._jsonld_parts = []
+          
+              def handle_data(self, data):
+                  if self._jsonld_active:
+                      self._jsonld_parts.append(data)
+          
+              def handle_endtag(self, tag):
+                  if tag == "script" and self._jsonld_active:
+                      self.jsonld.append("".join(self._jsonld_parts))
+                      self._jsonld_active = False
+          
+          pages = sorted(site.rglob("*.html"))
+          if not pages:
+              raise SystemExit("SEO validation failed: no HTML pages were generated")
+          
+          errors = []
+          for path in pages:
+              parser = SEOParser()
+              parser.feed(path.read_text(encoding="utf-8"))
+              for key in required:
+                  count = len(parser.meta.get(key, []))
+                  if count != 1:
+                      errors.append(f"{path.relative_to(site)}: expected one {key} meta tag, found {count}")
+              if len(parser.canonicals) != 1:
+                  errors.append(f"{path.relative_to(site)}: expected one canonical link, found {len(parser.canonicals)}")
+              if len(parser.jsonld) != 1:
+                  errors.append(f"{path.relative_to(site)}: expected one JSON-LD block, found {len(parser.jsonld)}")
+              else:
+                  try:
+                      json.loads(parser.jsonld[0])
+                  except json.JSONDecodeError as exc:
+                      errors.append(f"{path.relative_to(site)}: invalid JSON-LD: {exc}")
+              if parser.meta.get("og:image", [""])[0] and not parser.meta["og:image"][0].endswith("/assets/og-image.jpg"):
+                  errors.append(f"{path.relative_to(site)}: unexpected Open Graph image URL")
+              if parser.meta.get("twitter:image", [""])[0] != parser.meta.get("og:image", [""])[0]:
+                  errors.append(f"{path.relative_to(site)}: Twitter and Open Graph image URLs differ")
+          
+          if errors:
+              raise SystemExit("SEO validation failed:\\n- " + "\\n- ".join(errors))
+          print(f"SEO validation passed for {len(pages)} HTML pages; one canonical, one metadata set and valid JSON-LD per page.")
+          PY
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
