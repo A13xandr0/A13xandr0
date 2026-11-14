@@ -7,6 +7,8 @@ last_reviewed: 2026-11-14
 
 # AI/RAG Use-Case Assessment — Template
 
+The AI/RAG Use-Case Assessment is a practical template for deciding whether enterprise AI or retrieval-augmented generation is suitable for a specific task. It records user needs, information sources, access controls, dependencies, threat scenarios, evaluation evidence, decision gates and lifecycle controls.
+
 **Version:** 1.1.0 | **Licence:** CC BY 4.0
 
 Tools for deciding when enterprise AI or retrieval-augmented generation is the right answer, and for governing the information, technology and lifecycle dependencies it creates. The governance problem begins before model selection.
