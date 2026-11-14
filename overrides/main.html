@@ -17,11 +17,17 @@
   {% endif %}
   <meta name="author" content="Alexandro Sances">
   <meta name="keywords" content="{{ page_keywords }}">
+  {% if page and page.file.src_path == "index.md" %}
+  <meta property="og:type" content="website">
+  {% else %}
   <meta property="og:type" content="article">
+  {% endif %}
   <meta property="og:title" content="{{ page_title }} | {{ config.site_name }}">
   <meta property="og:description" content="{{ page_description }}">
   <meta property="og:url" content="{{ page_url }}">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -63,7 +69,9 @@
         "description": {{ page_description | tojson }},
         "url": {{ page_url | tojson }},
         "dateModified": {{ reviewed | string | tojson }},
+        "keywords": {{ page_keywords | tojson }},
         "inLanguage": "en",
+        "mainEntityOfPage": {{ page_url | tojson }},
         "author": { "@id": "{{ config.site_url }}#author" },
         "publisher": { "@id": "{{ config.site_url }}#author" },
         "isPartOf": { "@id": "{{ config.site_url }}#website" },
