@@ -84,7 +84,17 @@
         "name": "{{ config.site_name }}",
         "description": "{{ config.site_description }}",
         "inLanguage": "en",
-        "author": { "@id": "{{ config.site_url }}#author" }
+        "author": { "@id": "{{ config.site_url }}#author" },
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.5281/zenodo.24222329",
+          "url": "https://doi.org/10.5281/zenodo.24222329"
+        },
+        "sameAs": [
+          "https://github.com/A13xandr0/A13xandr0",
+          "https://doi.org/10.5281/zenodo.24222329"
+        ]
       }
       {% if page %},
       {% if is_profile %}

@@ -80,17 +80,17 @@ nav:
   - Frequently Asked Questions: faq.md
   - Glossary of Governance Terms: glossary.md
   - Frameworks:
-      - Overview: frameworks/README.md
+      - Frameworks Overview: frameworks/README.md
       - Core governance:
-          - Technology Strategy & Execution Governance: frameworks/technology-strategy-execution-governance.md
-          - Strategy & Execution Governance Playbook: frameworks/strategy-execution-governance-playbook.md
-          - Digital Portfolio Governance: frameworks/digital-portfolio-governance.md
+          - Technology Strategy & Execution Governance Framework: frameworks/technology-strategy-execution-governance.md
+          - Strategy & Execution Governance — Executive Playbook: frameworks/strategy-execution-governance-playbook.md
+          - Digital Portfolio Governance Framework: frameworks/digital-portfolio-governance.md
       - Strategic technology domains:
-          - Enterprise AI & RAG Governance: frameworks/enterprise-ai-rag-governance-blueprint.md
+          - Enterprise AI & RAG Governance Blueprint: frameworks/enterprise-ai-rag-governance-blueprint.md
           - Open Source Strategy & Governance: frameworks/open-source-strategy-governance.md
-          - Digital Sustainability & Data Centre Governance: frameworks/digital-sustainability-data-centre-governance.md
+          - Digital Sustainability and Data Centre Energy Governance: frameworks/digital-sustainability-data-centre-governance.md
   - Templates:
-      - Overview: templates/README.md
+      - Templates Overview: templates/README.md
       - Initiative Canvas: templates/initiative-canvas.md
       - Weighted Scoring Matrix: templates/weighted-scoring-matrix.md
       - Decision Record: templates/decision-record.md
