@@ -177,6 +177,8 @@ The intention is not to eliminate uncertainty. It is to make uncertainty, assump
 
 ## About the author
 
+For the author's professional background and areas of focus, see the [professional profile](about-the-author.md).
+
 **Alexandro Sances** works on technology strategy, digital transformation and governance, with a particular interest in connecting strategic technology choices with organisational governance and practical execution.
 
 His areas of professional focus include **technology strategy and execution, open source and digital ecosystems, enterprise AI and emerging technologies, digital infrastructure and sustainability, interoperability, digital platforms, and the governance of technology investments and dependencies**.
