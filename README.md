@@ -235,7 +235,11 @@ The views, frameworks and materials published here are personal and do not neces
 Worked examples, ratings, thresholds and scenarios identified as illustrative should not be interpreted as evidence of actual implementations, decisions or results.
 
 **Author:** Alexandro Sances  
-**Licence:** CC BY 4.0
+**Licence:** [CC BY 4.0](https://github.com/A13xandr0/A13xandr0/blob/main/LICENSE)
+
+Unless otherwise stated, the original written materials and templates in this repository are licensed under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/). You may share and adapt them for any purpose, including commercially, provided appropriate credit is given, a link to the licence is supplied and changes are indicated. Please do not imply endorsement by the author.
+
+Suggested attribution: “Alexandro Sances, *[title of material]*, https://github.com/A13xandr0/A13xandr0, licensed under CC BY 4.0.”
 
 ---
 
