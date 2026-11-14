@@ -18,7 +18,7 @@ Related: [Executive Playbook](../frameworks/strategy-execution-governance-playbo
 | Decision class | Examples | Accountable decision-maker | Required input |
 |---|---|---|---|
 | Strategic direction | Outcomes, principles, risk appetite | Executive leadership | Strategy, finance, risk and affected business leaders |
-| Portfolio allocation | Start, stop, defer, accelerate; funding envelope | Portfolio authority within delegated authority | Sponsors, finance and capacity owners |
+| Portfolio allocation | Start, stop, defer, accelerate; funding envelope | Portfolio authority | Executive sponsor, Initiative leads, finance and capacity owners |
 | Initiative mandate | Scope, outcome, owner, tolerances | Executive sponsor | Service owner, Initiative lead, architecture, assurance |
 | Material design exception | Deviation from agreed principles or material risk | Architecture / assurance authority or delegated executive | Architecture, security, operations, delivery |
 | Delivery correction | Recovery actions within approved scope and tolerance | Initiative lead | Team evidence and impacted owners |
