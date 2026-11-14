@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: example
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
@@ -9,7 +9,7 @@ keywords: "initiative canvas, fictional example, initiative governance, benefits
 
 # Initiative Canvas — Fictional Worked Example
 
-**Version:** 1.1.0 | **Licence:** CC BY 4.0
+**Version:** 1.2.0 | **Licence:** CC BY 4.0
 
 > **Illustrative example only.** The organisation, service, roles and scenario below are fictional. No baseline, target, cost, rating or outcome is presented as observed or achieved data. Entries described as assumptions or items to validate are prompts for a real discovery exercise, not evidence.
 
