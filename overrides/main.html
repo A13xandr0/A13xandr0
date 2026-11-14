@@ -7,13 +7,11 @@
     {% set page_description = page.meta.get('description', config.site_description) %}
     {% set page_keywords = page.meta.get('keywords', 'technology strategy, governance, digital transformation') %}
     {% set page_url = page.canonical_url %}
-    {% set reviewed = page.meta.get('last_reviewed', '2026-11-14') %}
   {% else %}
     {% set page_title = config.site_name %}
     {% set page_description = config.site_description %}
     {% set page_keywords = 'technology strategy, governance, digital transformation' %}
     {% set page_url = config.site_url %}
-    {% set reviewed = '2026-11-14' %}
   {% endif %}
   <meta name="author" content="Alexandro Sances">
   <meta name="keywords" content="{{ page_keywords }}">
@@ -68,7 +66,6 @@
         "headline": {{ page_title | tojson }},
         "description": {{ page_description | tojson }},
         "url": {{ page_url | tojson }},
-        "dateModified": {{ reviewed | string | tojson }},
         "keywords": {{ page_keywords | tojson }},
         "inLanguage": "en",
         "mainEntityOfPage": {{ page_url | tojson }},
