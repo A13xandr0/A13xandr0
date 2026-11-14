@@ -7,6 +7,8 @@ on:
     paths:
       - "*.md"
       - "**/*.md"
+      - "*.html"
+      - "**/*.html"
       - "mkdocs.yml"
       - "llms.txt"
       - "robots.txt"
@@ -59,6 +61,7 @@ jobs:
           p.write_text(text, encoding='utf-8')
           PY
           cp llms.txt robots.txt docs/
+          find . -maxdepth 1 -type f -name 'google*.html' -exec cp {} docs/ \;
       - name: Build and validate documentation
         run: mkdocs build --strict
       - name: Upload Pages artifact
