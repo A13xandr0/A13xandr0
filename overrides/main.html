@@ -20,6 +20,7 @@
     {% set is_collection = true %}
   {% endif %}
   <meta name="keywords" content="{{ page_keywords }}">
+  <link rel="describedby" href="{{ config.site_url }}llms.txt">
   {% if is_framework %}
   <meta property="og:type" content="article">
   {% else %}
