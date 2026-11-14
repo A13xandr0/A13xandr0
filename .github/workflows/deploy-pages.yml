@@ -45,7 +45,7 @@ jobs:
         with:
           python-version: "3.x"
       - name: Install documentation dependencies
-        run: pip install "mkdocs-material>=9.6,<10"
+        run: pip install "mkdocs-material[imaging]>=9.6,<10"
       - name: Assemble temporary documentation directory
         run: |
           mkdir -p docs
