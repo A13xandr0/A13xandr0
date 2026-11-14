@@ -221,6 +221,14 @@ Alexandro Sances' experience includes **international executive, advisory, board
 
 This cross-sector experience informs the perspective taken throughout the repository: technology is considered not in isolation, but in relation to strategy, people, organisational capabilities, ecosystems, execution and measurable outcomes.
 
+## Authorship and AI Assistance
+
+The frameworks and methods presented in this repository are conceived, authored and maintained by Alexandro Sances, who retains responsibility for their intellectual content, accuracy and evolution.
+
+AI tools were used as supporting instruments for editorial consolidation, drafting of selected complementary templates, development of the FAQ and glossary, and assistance with repository organisation and technical publication.
+
+All AI-assisted contributions were reviewed, evaluated and approved by the author, who retains final editorial control and responsibility for all published material.
+
 ## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/alexandrosances/)
