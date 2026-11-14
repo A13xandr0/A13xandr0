@@ -20,25 +20,6 @@ keywords: "technology strategy, technology governance, enterprise AI, RAG, digit
 
 **Published documentation:** [Technology Strategy, Execution & Governance](https://a13xandr0.github.io/A13xandr0/).
 
-## Citation
-
-If you use or reference this repository, please cite the version-specific release:
-
-```bibtex
-@misc{Sances_Technology_Strategy_Execution_2026,
-  author       = {Sances, Alexandro},
-  title        = {{Technology Strategy, Execution \& Governance}},
-  year         = {2026},
-  month        = nov,
-  version      = {1.1.0},
-  howpublished = {Computer software},
-  doi          = {10.5281/zenodo.24222330},
-  url          = {https://github.com/A13xandr0/A13xandr0}
-}
-```
-
-The DOI identifies version 1.1.0. The [concept DOI](https://doi.org/10.5281/zenodo.24222329) provides a persistent reference to the project across versions.
-
 Technology decisions rarely stand in isolation. Strategy, architecture, investment, delivery, risk, ecosystems, digital assets, infrastructure and operational ownership interact, while choices made in one area often create dependencies somewhere else.
 
 This repository brings those dimensions together around a simple idea: start from the outcome that matters, understand the capabilities, assets and dependencies required, compare realistic options, make investment and accountability explicit, and then govern delivery and lifecycle choices through evidence.
@@ -133,10 +114,6 @@ flowchart TD
 
 The domain frameworks are not sequential stages and are not all mandatory for every initiative. They are complementary specialist lenses: apply one or more where the initiative's technology choices, dependencies, risks or resource implications make them relevant. The common governance model remains consistent; the specialist evidence is integrated into initiative decisions. Measured outcomes then inform portfolio rebalancing.
 
-Across the repository, the underlying logic is:
-
-**Strategic outcomes → Capabilities → Technology choices → Investment → Governed execution → Adoption → Measurable outcomes**
-
 At initiative level, the operating cycle is:
 
 **Frame outcome → Assess options → Prioritise and decide → Mandate initiative → Steer within tolerances → Measure adoption and benefits → Learn, continue, change or stop**
@@ -209,6 +186,25 @@ For quick answers and shared vocabulary, see the [**Frequently Asked Questions**
 
 The [**Executive Governance Templates**](templates/README.md) provide reusable working artefacts for applying the playbook method, including the RACI matrix, KPI dictionary and reference, benefit profile, initiative canvas, weighted scoring matrix, decision records, governance forum charters, escalation and status, strategic dependency register, open-source and AI/RAG assessments, infrastructure capacity decision and executive checklists.
 
+## Citation
+
+If you use or reference this repository, please cite the version-specific release:
+
+```bibtex
+@misc{Sances_Technology_Strategy_Execution_2026,
+  author       = {Sances, Alexandro},
+  title        = {{Technology Strategy, Execution \\& Governance}},
+  year         = {2026},
+  month        = nov,
+  version      = {1.1.0},
+  howpublished = {Computer software},
+  doi          = {10.5281/zenodo.24222330},
+  url          = {https://github.com/A13xandr0/A13xandr0}
+}
+```
+
+The DOI identifies version 1.1.0. The [concept DOI](https://doi.org/10.5281/zenodo.24222329) provides a persistent reference to the project across versions.
+
 ## Principles
 
 A number of principles run consistently through the material:
@@ -265,7 +261,7 @@ The frameworks, templates and other materials published in this repository are i
 
 They do not constitute legal, financial, security, procurement or regulatory advice.
 
-The views, frameworks and materials published here are personal and do not necessarily represent the positions, policies or practices of any organisation with which I am, or have been, associated. No confidential, proprietary or non-public organisational information is intentionally included.
+The views, frameworks and materials published here are personal and do not necessarily represent the positions, policies or practices of any organisation with which Alexandro Sances is, or has been, associated. No confidential, proprietary or non-public organisational information is intentionally included.
 
 Worked examples, ratings, thresholds and scenarios identified as illustrative should not be interpreted as evidence of actual implementations, decisions or results.
 
