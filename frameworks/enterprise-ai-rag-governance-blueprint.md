@@ -66,9 +66,7 @@ Evaluation is not a one-time acceptance gate. Re-evaluate when models, prompts, 
 
 ## 7. Operating model
 
-The **Executive sponsor** owns purpose and investment; the **Service owner** owns user value and prioritisation; knowledge owners remain accountable for source authority and lifecycle; the **Architecture / assurance authority** coordinates technical design and specialist assurance; the **Initiative lead** integrates delivery; and operations owns continuity, monitoring and incidents. The **Benefit owner** validates realised outcomes. One person may hold more than one role, but accountability must remain explicit.
-
-One person may hold several roles, but accountability for content, access, model behaviour and service operation should remain explicit.
+The **Executive sponsor** owns purpose and investment; the **Service owner** owns user value and prioritisation; knowledge owners remain accountable for source authority and lifecycle; the **Architecture / assurance authority** coordinates technical design and specialist assurance; the **Initiative lead** integrates delivery; operations owns continuity, monitoring and incidents; and the **Benefit owner** validates realised outcomes. One person may hold more than one role, but accountability for content, access, model behaviour and service operation must remain explicit.
 
 ## 8. Lifecycle governance
 
