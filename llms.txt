@@ -22,21 +22,24 @@ The documentation website is generated from the Markdown files in the public Git
 - [Open Source Strategy & Governance](https://a13xandr0.github.io/A13xandr0/frameworks/open-source-strategy-governance/): ecosystem health, dependencies, licensing, supply-chain evidence, stewardship, contribution and exit.
 - [Digital Sustainability and Data Centre Energy Governance](https://a13xandr0.github.io/A13xandr0/frameworks/digital-sustainability-data-centre-governance/): service demand, infrastructure capacity, energy, water, resilience and lifecycle economics.
 
-## Operational templates
+## Operational templates and examples
 
 - [Initiative Canvas](https://a13xandr0.github.io/A13xandr0/templates/initiative-canvas/): initiative framing and mandate.
+- [Initiative Canvas — Fictional Example](https://a13xandr0.github.io/A13xandr0/templates/initiative-canvas-example/): completed illustrative scenario; all organisations and results are fictional.
 - [Weighted Scoring Matrix](https://a13xandr0.github.io/A13xandr0/templates/weighted-scoring-matrix/): comparison of discretionary options.
 - [Decision Record](https://a13xandr0.github.io/A13xandr0/templates/decision-record/): rationale, authority, conditions and review triggers.
+- [Decision Record — Fictional Example](https://a13xandr0.github.io/A13xandr0/templates/decision-record-example/): illustrative decision record, not an actual organisational decision.
 - [Governance Forums](https://a13xandr0.github.io/A13xandr0/templates/governance-forums/): decision classes, forum charters and escalation.
+- [RACI Matrix](https://a13xandr0.github.io/A13xandr0/templates/raci-matrix/): responsibility and accountability.
+- [Escalation and Status](https://a13xandr0.github.io/A13xandr0/templates/escalation-and-status/): tolerances, escalation briefs, status reporting and RAID tracking.
+- [Executive Checklists](https://a13xandr0.github.io/A13xandr0/templates/executive-checklists/): governance checks for investment, delivery and operation.
+- [Benefit Profile](https://a13xandr0.github.io/A13xandr0/templates/benefit-profile/): baseline, target, ownership, attribution and review.
+- [Strategic Dependency Register](https://a13xandr0.github.io/A13xandr0/templates/strategic-dependency-register/): cross-initiative dependencies and responses.
+- [KPI Dictionary](https://a13xandr0.github.io/A13xandr0/templates/kpi-dictionary/): measure definitions, owners and decision use.
+- [KPI Reference](https://a13xandr0.github.io/A13xandr0/templates/kpi-reference/): domain-specific measures.
 - [AI/RAG Use-Case Assessment](https://a13xandr0.github.io/A13xandr0/templates/ai-rag-use-case-assessment/): use-case suitability, information sources, threat modelling and evaluation.
 - [Open-Source Assessment](https://a13xandr0.github.io/A13xandr0/templates/open-source-assessment/): option assessment, governance health, participation and exit readiness.
 - [Infrastructure Capacity Decision](https://a13xandr0.github.io/A13xandr0/templates/infrastructure-capacity-decision/): capacity options, measurement boundaries and decision gates.
-- [Benefit Profile](https://a13xandr0.github.io/A13xandr0/templates/benefit-profile/): baseline, target, ownership, attribution and review.
-- [Strategic Dependency Register](https://a13xandr0.github.io/A13xandr0/templates/strategic-dependency-register/): cross-initiative dependencies and responses.
-- [Executive Checklists](https://a13xandr0.github.io/A13xandr0/templates/executive-checklists/): governance checks for investment, delivery and operation.
-- [RACI Matrix](https://a13xandr0.github.io/A13xandr0/templates/raci-matrix/): responsibility and accountability.
-- [KPI Dictionary](https://a13xandr0.github.io/A13xandr0/templates/kpi-dictionary/): measure definitions, owners and decision use.
-- [KPI Reference](https://a13xandr0.github.io/A13xandr0/templates/kpi-reference/): domain-specific measures.
 
 ## Interpretation and provenance
 
