@@ -9,6 +9,14 @@ last_reviewed: 2026-11-14
 
 **Version:** 1.1.0 | **Licence:** CC BY 4.0
 
+**Purpose:** Summarise the case for an initiative in a concise, decision-oriented format.
+
+**When to use:** During discovery and before an initiative mandate or material portfolio decision. Revisit it when the outcome, scope, cost, dependencies or assumptions change.
+
+**How to use:** Complete the problem and outcome first; compare realistic options, including defer or do nothing; identify mandatory obligations separately from discretionary choices; name the accountable roles; and make the requested decision and evidence explicit. Do not present estimates or targets as measured results.
+
+**Related materials:** [Executive Playbook](../frameworks/strategy-execution-governance-playbook.md), [Weighted Scoring Matrix](weighted-scoring-matrix.md), [Decision Record](decision-record.md). See the [fictional completed example](initiative-canvas-example.md).
+
 ## Problem and outcome
 - Problem / opportunity:
 - Users or service affected:

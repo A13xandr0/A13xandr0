@@ -13,6 +13,30 @@ Define only the forums that can make a decision or resolve an impediment, and gi
 
 Related: [Executive Playbook](../frameworks/strategy-execution-governance-playbook.md), Sections 2 and 4, and [Technology Strategy & Execution Governance](../frameworks/technology-strategy-execution-governance.md), Section 5.
 
+## How decisions move through governance
+
+The diagram shows a typical escalation and decision path. It is illustrative, not a mandatory hierarchy: delegated authority, materiality and the organisation's formal delegations determine the actual route. A decision should be taken at the lowest level with the authority and competence to make it; unresolved matters or matters outside tolerance move to the appropriate higher authority.
+
+```mermaid
+flowchart TD
+    A["Issue, proposal or decision need"] --> B{"Within approved mandate and tolerance?"}
+    B -->|Yes| C["Initiative review / Initiative lead"]
+    C --> D["Record decision, action and evidence"]
+    B -->|No| E{"What kind of authority is needed?"}
+    E -->|Portfolio priority, capacity or funding| F["Portfolio review / Portfolio authority"]
+    E -->|Strategic direction or reserved matter| G["Executive strategy review / Executive leadership"]
+    E -->|Material design or assurance exception| H["Design / assurance review"]
+    F --> I["Decision, conditions or further escalation"]
+    G --> I
+    H --> I
+    I --> J["Update mandate, decision log and owners"]
+    J --> K["Monitor delivery, tolerances and outcomes"]
+    K -->|New evidence or trigger| A
+    D --> K
+```
+
+Benefits review validates adoption and outcome evidence at the agreed interval; it informs portfolio and executive decisions but does not replace the accountable Benefit owner.
+
 ## Decision classes and authority
 
 | Decision class | Examples | Accountable decision-maker | Required input |

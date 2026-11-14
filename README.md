@@ -17,6 +17,43 @@ This repository brings those dimensions together around a simple idea: start fro
 
 The approach is deliberately technology-neutral. Open source, enterprise AI, digital infrastructure and other technology domains have different characteristics and risks, but they can be governed through a common logic without forcing them into identical models.
 
+## Getting started
+
+Choose the route that best matches the question you need to address. The repository is designed to be used as a connected method, not as a sequence of documents that must all be read.
+
+| If you need to... | Start here | Then use |
+|---|---|---|
+| Understand the overall governance approach | [Technology Strategy & Execution Governance](frameworks/technology-strategy-execution-governance.md) | [Executive Playbook](frameworks/strategy-execution-governance-playbook.md) |
+| Shape and prioritise an initiative | [Executive Playbook](frameworks/strategy-execution-governance-playbook.md), Sections 2–3 | [Initiative Canvas](templates/initiative-canvas.md), [Weighted Scoring Matrix](templates/weighted-scoring-matrix.md) |
+| Establish portfolio decision rights and forums | [Digital Portfolio Governance](frameworks/digital-portfolio-governance.md) and [Executive Playbook](frameworks/strategy-execution-governance-playbook.md), Section 4 | [Governance Forums](templates/governance-forums.md), [RACI Matrix](templates/raci-matrix.md), [Decision Record](templates/decision-record.md) |
+| Govern delivery, escalation and outcomes | [Executive Playbook](frameworks/strategy-execution-governance-playbook.md), Sections 5–6 | [Escalation and Status](templates/escalation-and-status.md), [KPI Dictionary](templates/kpi-dictionary.md), [Benefit Profile](templates/benefit-profile.md) |
+| Assess a specific technology domain | Relevant domain framework below | Its domain assessment and the [Strategic Dependency Register](templates/strategic-dependency-register.md) |
+
+### A practical route through the material
+
+The common frameworks establish the governance logic. Domain frameworks add specialist considerations. Templates turn the method into working artefacts, and the resulting evidence feeds decisions and subsequent reviews.
+
+```mermaid
+flowchart TD
+    A["Strategic question or service need"] --> B["Common governance framework"]
+    B --> C["Executive playbook and portfolio method"]
+    C --> D{"Domain-specific considerations?"}
+    D -->|Open source| E["Open-source framework and assessment"]
+    D -->|AI / RAG| F["AI / RAG framework and assessment"]
+    D -->|Infrastructure| G["Infrastructure and sustainability framework"]
+    D -->|Cross-domain| H["Apply relevant specialist lenses"]
+    E --> I["Initiative Canvas and option assessment"]
+    F --> I
+    G --> I
+    H --> I
+    I --> J["Prioritise, decide and record"]
+    J --> K["Govern delivery, adoption and benefits"]
+    K --> L["Review evidence and learn"]
+    L --> C
+```
+
+The sequence is a navigation aid, not a mandatory stage-gate model. Apply only the frameworks and tools relevant to the decision, its materiality and the organisation's context.
+
 ## How the repository is organised
 
 The repository has two complementary parts.

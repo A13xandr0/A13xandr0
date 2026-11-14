@@ -42,13 +42,33 @@ First separate obligations from choices. Legal, regulatory, safety, security, re
 
 For discretionary investments, use the common criteria in the [weighted scoring matrix](../templates/weighted-scoring-matrix.md): outcome contribution (strategic, user or service value), feasibility and readiness, time to useful evidence, lifecycle cost and affordability, risk and dependency profile, and reversibility. Consider residual capacity, skills and timing explicitly when judging feasibility, affordability and sequencing. Record the evidence and confidence behind each rating; the score informs judgement but does not replace it. High expected value with low confidence is usually a case for discovery or a bounded pilot, not immediate scale investment. The matrix includes a separate mandatory-obligations register and a capacity-planning gate before discretionary scoring.
 
-A one-page [initiative canvas](../templates/initiative-canvas.md) should capture the problem, strategic outcome, baseline and target, options considered, expected value and confidence, mandatory obligations, lifecycle cost, dependencies, principal risks, accountable owners and the proposed decision.
+A one-page [initiative canvas](../templates/initiative-canvas.md) should capture the problem, strategic outcome, baseline and target, options considered, expected value and confidence, mandatory obligations, lifecycle cost, dependencies, principal risks, accountable owners and the proposed decision. A [fictional completed canvas](../templates/initiative-canvas-example.md) illustrates the level of detail without presenting invented assumptions as measured results.
+
+### Prioritisation and mandate flow
+
+The sequence below makes explicit that mandatory obligations and their capacity implications are addressed before discretionary options are scored. The diagram illustrates the method; it does not replace the organisation's legal, risk or delegated decision authorities.
+
+```mermaid
+flowchart TD
+    A["Frame problem, outcome and baseline"] --> B["Identify and validate mandatory obligations"]
+    B --> C["Define minimum scope, due dates and owners"]
+    C --> D["Estimate and reserve required capacity"]
+    D --> E{"Mandatory demand exceeds available capacity?"}
+    E -->|Yes| F["Escalate capacity, scope, timing or risk gap"]
+    F --> G["Make an explicit authorised decision"]
+    E -->|No| H["Establish residual capacity"]
+    G --> H
+    H --> I["Assess discretionary options and evidence"]
+    I --> J["Compare options using agreed criteria"]
+    J --> K["Decision authority selects and records conditions"]
+    K --> L["Mandate initiative within approved tolerances"]
+```
 
 ## 4. Governance operating model
 
 The minimum viable governance model normally needs only the forums that can make a decision or resolve an impediment. Executive strategy review confirms outcomes and direction. Portfolio review balances investment and capacity. Initiative review addresses delivery within mandate. Design / assurance review deals with material architecture, security, privacy, resilience and operational questions. Benefits review examines adoption and outcome evidence after delivery.
 
-Every forum should have a charter defining its remit, delegated limits, reserved matters, chair, membership, quorum, expected inputs and outputs, decision-log owner, escalation triggers and destination, and review of its effectiveness. The [governance forums template](../templates/governance-forums.md) provides a charter worksheet. Cadence should follow the decision need rather than an arbitrary calendar; forums that do not add clear decision value should be redesigned or retired.
+Every forum should have a charter defining its remit, delegated limits, reserved matters, chair, membership, quorum, expected inputs and outputs, decision-log owner, escalation triggers and destination, and review of its effectiveness. The [governance forums template](../templates/governance-forums.md) provides a charter worksheet and a diagram of a typical decision and escalation path. Cadence should follow the decision need rather than an arbitrary calendar; forums that do not add clear decision value should be redesigned or retired.
 
 ### Accountability pattern
 
