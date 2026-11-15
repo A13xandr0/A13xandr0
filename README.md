@@ -3,11 +3,14 @@ version: 1.2.0
 status: reference
 license: CC-BY-4.0
 last_reviewed: 2026-11-14
-description: "Independent technology strategy and governance frameworks by Alexandro Sances, covering enterprise AI, RAG, digital portfolios, open source and digital infrastructure."
+description: "Technology Frameworks by Alexandro Sances: independent reference frameworks, executive playbooks and practical tools for technology strategy, execution and governance."
 keywords: "technology strategy, technology governance, enterprise AI, RAG, digital portfolio governance, open source, digital sustainability"
 ---
 
-# Technology Strategy, Execution & Governance
+# Technology Frameworks
+
+**Technology Strategy, Execution & Governance**  
+*Think. Structure. Govern.*
 
 **Technology strategy and governance frameworks for enterprise AI governance, retrieval-augmented generation (RAG), digital portfolio management, open-source strategy, digital infrastructure and sustainability. Practical executive playbooks, decision frameworks, assessment tools and reusable governance templates connect investment choices with accountable execution and measurable outcomes.**
 
@@ -18,7 +21,7 @@ keywords: "technology strategy, technology governance, enterprise AI, RAG, digit
 **Current version 1.2.0 DOI:** [10.5281/zenodo.24230274](https://doi.org/10.5281/zenodo.24230274) · **Previous version 1.1.0 DOI:** [10.5281/zenodo.24222330](https://doi.org/10.5281/zenodo.24222330) · **Concept DOI:** [10.5281/zenodo.24222329](https://doi.org/10.5281/zenodo.24222329)
 
 
-**Published documentation:** [Technology Strategy, Execution & Governance](https://a13xandr0.github.io/A13xandr0/).
+**Published documentation:** [Technology Frameworks](https://a13xandr0.github.io/A13xandr0/).
 
 Technology decisions rarely stand in isolation. Strategy, architecture, investment, delivery, risk, ecosystems, digital assets, infrastructure and operational ownership interact, while choices made in one area often create dependencies somewhere else.
 
@@ -192,7 +195,7 @@ If you use or reference this repository, please cite the version-specific releas
 ```bibtex
 @misc{Sances_Technology_Strategy_Execution_2026,
   author       = {Sances, Alexandro},
-  title        = {{Technology Strategy, Execution \\& Governance}},
+  title        = {{Technology Frameworks}},
   year         = {2026},
   month        = nov,
   version      = {1.2.0},
