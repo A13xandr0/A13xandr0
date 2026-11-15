@@ -2,11 +2,11 @@
 version: 1.2.0
 status: reference
 license: CC-BY-4.0
-last_reviewed: 2026-11-14
+last_reviewed: 2026-11-15
 description: "A practical guide for adopting the Technology Strategy, Execution & Governance frameworks progressively, proportionately and with measurable evidence."
 keywords: "technology governance adoption, governance readiness, technology strategy, AI governance, open source governance, portfolio governance, operating model, pilot"
 datePublished: "2026-11-14"
-dateModified: "2026-11-14"
+dateModified: "2026-11-15"
 ---
 
 # Adopting the Frameworks
@@ -202,12 +202,29 @@ Skills development should cover literacy, technical and operational capability, 
 
 The method repeatedly reinforces a few connected disciplines. Establish the mandate before selecting a solution, and discover the evidence and dependencies before committing investment. In AI/RAG, clarify source authority and access before retrieval design; in every domain, use a bounded pilot to produce evidence before scaling. Reuse should follow verification of quality, ownership and maintenance, while internal capability must keep pace with external dependency. Operational ownership, measurement and explicit stop conditions should be agreed before a capability is extended. These are not sequential compliance steps, but mutually reinforcing safeguards to apply in proportion to the decision.
 
-## 9. Related resources
+## 9. Minimum viable adoption
+
+If the organisation does only the following, it can begin without a programme:
+
+1. Select one real initiative.
+2. Identify the outcome and baseline.
+3. Name the decision owner and Benefit owner.
+4. Complete an [Initiative Canvas](../templates/initiative-canvas.md).
+5. Compare at least two realistic alternatives.
+6. Identify material strategic dependencies.
+7. Record the decision and assumptions in a [Decision Record](../templates/decision-record.md).
+8. Establish three to five meaningful measures.
+9. Define a review trigger and a stop condition.
+10. Review what improved before expanding the model.
+
+> **Governance is not the objective. Organisational capability to make better decisions under uncertainty is.**
+
+## 10. Related resources
 
 - Frameworks: [Technology Strategy & Execution Governance](../frameworks/technology-strategy-execution-governance.md), [Executive Playbook](../frameworks/strategy-execution-governance-playbook.md), [Digital Portfolio Governance](../frameworks/digital-portfolio-governance.md).
 - Worked examples: [Initiative Canvas](../templates/initiative-canvas-example.md), [Decision Record](../templates/decision-record-example.md), [AI/RAG Use-Case Assessment](../templates/ai-rag-use-case-assessment-example.md) and [Open-Source Assessment](../templates/open-source-assessment-example.md), all fictional.
 - Quick answers: the [Frequently Asked Questions](../faq.md) and the [Glossary](../glossary.md).
 
-## 10. Boundaries
+## 11. Boundaries
 
 This guide is independent professional guidance. Durations, levels and thresholds are indicative and must be adapted to context rather than copied mechanically. It is not a maturity certification, an assessment scheme or an official standard, and it does not constitute legal, financial, security or regulatory advice.

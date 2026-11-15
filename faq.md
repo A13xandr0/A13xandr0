@@ -2,11 +2,11 @@
 version: 1.2.0
 status: reference
 license: CC-BY-4.0
-last_reviewed: 2026-11-14
+last_reviewed: 2026-11-15
 description: "Answers to common questions on technology strategy governance, decision rights, prioritisation, benefits, enterprise AI and RAG, open source and digital infrastructure."
 keywords: "technology governance FAQ, decision rights, prioritisation, RAG governance, open source dependency, benefits realisation, data centre capacity"
 datePublished: "2026-11-14"
-dateModified: "2026-11-14"
+dateModified: "2026-11-15"
 ---
 
 # Frequently Asked Questions — Technology Strategy, Execution & Governance
@@ -107,7 +107,7 @@ No. The legal possibility of forking is not the same as the operational ability 
 
 ### Is there a worked example of an open-source assessment?
 
-Yes. The [fictional Open-Source Assessment example](templates/open-source-assessment-example.md) shows an open-source product becoming a strategic dependency: governance-health findings, supply-chain checks, a participation-level decision and a continuity exercise whose partial result shows that the right to fork is not the same as fork readiness.
+Yes. The [fictional Open-Source Assessment example](templates/open-source-assessment-example.md) shows an open-source product becoming a strategic dependency: governance-health findings, supply-chain checks, a participation-level decision and a continuity exercise whose failed emergency-release test shows that the right to fork is not the same as fork readiness.
 
 ### Which measures should not be used on their own to judge open-source value?
 

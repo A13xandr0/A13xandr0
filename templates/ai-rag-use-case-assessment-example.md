@@ -2,7 +2,7 @@
 version: 1.2.0
 status: example
 license: CC-BY-4.0
-last_reviewed: 2026-11-14
+last_reviewed: 2026-11-15
 description: "A fictional worked example showing how to assess an AI/RAG use case: alternatives, source governance, evaluation, pilot evidence, decision gates and a conditional decision."
 keywords: "AI RAG example, RAG assessment, AI governance, information readiness, evaluation, decision gates, fictional example"
 ---
@@ -28,19 +28,20 @@ The problem is not a lack of content. It is fragmentation across repositories, c
 | User and task | Operational staff locating and interpreting current guidance |
 | Current friction | Too long to find an authoritative source; no uniform access point; risk of using obsolete versions |
 | Consequence of error | Moderate: staff may act on outdated guidance; a human validates before any operational action |
-| Intended outcome | Reduce the median time to reach an authoritative source from 12 to under 4 minutes, without increasing wrong answers or unauthorised access |
+| Intended outcome | Enable authorised staff to find and understand current operational guidance more quickly, with explicit evidence of sources, without weakening access controls |
+| Time baseline and targets | Baseline median time: 12 minutes. Pilot target: below 7 minutes. Longer-term ambition: below 4 minutes |
 | Value measure | Median time to an accepted useful answer, from a representative task study |
 
 **Alternatives compared**
 
 | Option | Assessment |
 |---|---|
-| Improve conventional search | Low risk, but insufficient for complex questions |
-| Rationalise documents and metadata | Necessary in every scenario |
-| RAG assistant on selected sources | Option to take to a pilot |
-| Generative assistant over the whole document estate | Excluded: insufficient information readiness |
+| 1. Improve conventional enterprise search | Low risk and part of the baseline; insufficient on its own for complex questions |
+| 2. Improve information architecture and metadata | Necessary in every scenario |
+| 3. Introduce targeted deterministic workflow automation | Preferable for some repeatable tasks; does not address open-ended questions |
+| 4. Pilot RAG over governed sources | Option to take to a bounded pilot |
 
-The case does not set out to show that "AI is needed". It shows that AI was compared with simpler alternatives, and that rationalising information is valuable whatever happens next.
+**Decision: information remediation, an improved search baseline and a bounded RAG pilot.** The case does not set out to show that "AI is needed". It shows that AI was compared with simpler alternatives, and that rationalising information is valuable whatever happens next.
 
 ## 2. Source collection register
 
@@ -82,7 +83,7 @@ The pilot's threat model covers identity, access control, permission inheritance
 
 ## 5. Evaluation plan
 
-**Pilot boundary.** Twelve weeks; three collections; 60 representative users; 150 evaluation questions; unclassified or low-sensitivity content; permission-aware retrieval; mandatory source citation; abstention when evidence is insufficient; no automated action on any system; structured user feedback; immediate rollback.
+**Pilot boundary.** Twelve weeks; three collections comprising about 2,400 documents; 60 representative users; 150 evaluation questions; unclassified or low-sensitivity content; permission-aware retrieval; mandatory source citation; abstention when evidence is insufficient; no automated action on any system; structured user feedback; immediate rollback.
 
 | Test class | Questions |
 |---|---:|
@@ -112,7 +113,7 @@ Retrieval and generation are evaluated separately, then end to end. **Retrieval:
 | Median task-time reduction | ≥ 40% | 47% | Pass |
 | Critical security incidents | 0 | 0 | Pass |
 
-Two requirements are **non-compensable**: permission-boundary violations and critical security incidents must both be zero. Excellent usability cannot offset a failure in either. Median time to a validated answer fell from 12 to 6.4 minutes, which exceeds the pilot target but remains above the longer-term ambition of under 4 minutes. The main weakness is on ambiguous questions: the system sometimes attempts an answer when evidence is insufficient instead of asking for clarification or abstaining.
+Two requirements are **non-compensable**: permission-boundary violations and critical security incidents must both be zero. Excellent usability cannot offset a failure in either. Median time to a validated answer fell from 12 to 6.4 minutes, which meets the pilot target of below 7 minutes but remains above the longer-term ambition of under 4 minutes. The main weakness is on ambiguous questions: the system sometimes attempts an answer when evidence is insufficient instead of asking for clarification or abstaining.
 
 ## 6. What the pilot demonstrated
 
