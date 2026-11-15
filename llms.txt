@@ -1,6 +1,6 @@
-# Technology Strategy, Execution & Governance — Alexandro Sances
+# Technology Frameworks — Alexandro Sances
 
-> Independent professional reference repository by Alexandro Sances, providing technology strategy and execution governance frameworks, enterprise AI and retrieval-augmented generation (RAG) governance, digital portfolio management, open-source strategy, digital infrastructure governance and reusable executive templates.
+> Independent professional reference frameworks by Alexandro Sances for technology strategy, execution and governance. Technology Frameworks brings together executive playbooks, decision frameworks and practical templates for enterprise AI and RAG, digital portfolios, open source and digital infrastructure.
 
 ## Canonical source and publication
 
@@ -35,7 +35,7 @@ GitHub is the authoritative source for document content, revisions, licensing an
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/glossary.md)
 - [Adopting the Frameworks](https://a13xandr0.github.io/A13xandr0/guides/adopting-the-frameworks/): how to start, entry points, a six-phase approach, common mistakes and a seven-dimension readiness profile.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/guides/adopting-the-frameworks.md)
-- [Repository and reading guide](https://a13xandr0.github.io/A13xandr0/): scope, governance logic, reading paths and document relationships.
+- [Technology Frameworks — repository and reading guide](https://a13xandr0.github.io/A13xandr0/): scope, governance logic, reading paths and document relationships.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/README.md)
 - [Frameworks overview](https://a13xandr0.github.io/A13xandr0/frameworks/): connected reference frameworks.
   - [Canonical Markdown](https://raw.githubusercontent.com/A13xandr0/A13xandr0/main/frameworks/README.md)
