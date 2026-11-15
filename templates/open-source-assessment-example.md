@@ -59,7 +59,9 @@ The following scores apply the seven dimensions and weights in the assessment te
 | Internal capability and stewardship | 10% | 2 | 0.20 | Internal engineering capability below target; independent emergency-release authority absent — Medium |
 | **Weighted total** | **100%** |  | **3.25 / 5** | **Low–medium overall confidence** |
 
-The weighted total is a structured summary, not an approval threshold. The low scores for ecosystem health and internal capability remain visible and cannot be offset by functional fit or favourable economics. They explain why adoption is conditional on capability development, formalised emergency-release authority and a completed continuity exercise.
+The weighted total is calculated as (4 × 0.20) + (2 × 0.15) + (3 × 0.15) + (4 × 0.15) + (3 × 0.10) + (4 × 0.15) + (2 × 0.10) = **3.25 / 5**. It is a structured summary, not an approval threshold and not a substitute for a decision gate. The ratings are provisional scenario judgements: the confidence label describes the strength of the illustrative evidence, not a statistical confidence interval. The low ratings for ecosystem health and internal capability remain visible and cannot be offset by functional fit or favourable economics. They explain why adoption is conditional on capability development, formalised emergency-release authority and a completed continuity exercise.
+
+**Rating interpretation used in this example:** 1 = materially inadequate; 2 = significant gaps; 3 = partially adequate / material controls still required; 4 = good fit with limited, manageable gaps; 5 = strong fit supported by verified evidence. A rating of 4 for economics means the scenario is comparatively favourable under the stated assumptions; it does not mean the cost estimate is procurement-ready. No minimum weighted score automatically authorises adoption.
 
 ## 2. Ecosystem and governance health
 
@@ -87,6 +89,21 @@ Popularity and commit activity are not offered as evidence of sustainable govern
 
 Distinguishing automated checks, self-declarations and manual verification matters: the assessment favours criteria that can be verified and records the level of evidence for each.
 
+**Illustrative evidence and verification register.** The following separates scenario assumptions from evidence that would be required before a real decision. No item below should be read as an independently verified CivicFlow finding.
+
+| Control area | Evidence assumed in this scenario | Verification required before commitment | Status |
+|---|---|---|---|
+| SBOM and dependency transparency | SBOM can be produced for the assessed release | Generate and inspect an SBOM; reconcile direct and transitive dependencies | To verify |
+| Release signing and provenance | Release-signing process is described by the project | Verify signatures, key ownership, rotation and provenance for a selected release | To verify |
+| Reproducible builds | Build process is documented | Independently reproduce a clean build and compare artefacts | Not yet demonstrated |
+| Vulnerability handling | A security-reporting process exists | Review disclosure policy, response history, patch timelines and escalation route | To verify |
+| Dependency scanning | Automated scanning is available | Run scans against the pinned release and record findings, severity and remediation | To verify |
+| Container integrity | Container images are available | Verify image provenance, digest pinning, base-image maintenance and scanning | To verify |
+| Patch responsibility | Responsibilities can be allocated across consortium and suppliers | Approve a RACI, response targets and tested patch deployment procedure | To define |
+| Deployment and recovery | Deployment automation is a target capability | Perform an independent deployment and recovery exercise using documented artefacts | Not yet demonstrated |
+
+A control is not marked as passed merely because a tool, policy or process is said to exist. Evidence must be produced for the selected version and operating context.
+
 ## 4. Participation decision
 
 The decision is not limited to "adopt or reject". It selects a participation level, as a deliberate choice rather than a ladder to climb.
@@ -110,21 +127,39 @@ The legal right to fork is not the same as the operational ability to sustain a 
 
 ## 6. Lifecycle economics
 
-Illustrative five-year totals:
+Illustrative five-year totals, using the same service scope and planning horizon:
 
-| Option | Five-year total |
-|---|---:|
-| Current platform | EUR 8.2m |
-| Proprietary SaaS | EUR 8.0m |
-| CivicFlow | EUR 6.1m |
+| Option | Five-year total | Estimate status |
+|---|---:|---|
+| Current platform | EUR 8.2m | Illustrative baseline estimate |
+| Proprietary SaaS | EUR 8.0m | Illustrative comparative estimate |
+| CivicFlow | EUR 6.1m | Illustrative comparative estimate |
+| Internal build | Not estimated | Excluded from the cost comparison and any economic ranking |
 
-The CivicFlow scenario deliberately includes investment in internal capability, ecosystem contribution and exit readiness. The figures are fictional and illustrate a method, not a typical saving.
+**Illustrative cost composition (EUR million, five years).** These allocations are invented to make the arithmetic inspectable; they are not supplier quotations, audited accounts or market benchmarks.
+
+| Cost component | Current platform | Proprietary SaaS | CivicFlow |
+|---|---:|---:|---:|
+| Licence / subscription / supplier support | 2.4 | 3.4 | 0.5 |
+| Implementation, migration and transition | 0.8 | 0.9 | 1.3 |
+| Integration, configuration and change | 1.2 | 0.5 | 1.0 |
+| Infrastructure and hosting | 1.1 | 0.4 | 0.8 |
+| Internal operations and engineering capability | 1.5 | 1.2 | 1.6 |
+| Security, assurance and compliance | 0.5 | 0.5 | 0.4 |
+| Training and organisational change | 0.4 | 0.3 | — |
+| Ecosystem contribution | — | — | 0.2 |
+| Exit readiness and portability | 0.3 | 0.8 | 0.3 |
+| **Total** | **8.2** | **8.0** | **6.1** |
+
+The component allocations reconcile to the stated totals. The comparison assumes equivalent service scope, five-year horizon, comparable treatment of internal labour and no discounting or inflation adjustment. Those assumptions would need to be replaced with a documented cost model before procurement or investment approval. The CivicFlow estimate includes internal capability, contribution and exit-readiness costs; excluding them would materially overstate its advantage. Conversely, the internal-build alternative has not been costed and cannot be described as economically inferior or superior on the evidence shown.
+
+The illustrative CivicFlow difference is EUR 2.1m against the current platform and EUR 1.9m against SaaS over five years. These are scenario deltas, not validated savings or a business-case commitment. The economics rating of 4/5 is therefore provisional and must be revisited when estimates are supported by supplier inputs, internal effort estimates, risk allowances and sensitivity analysis.
 
 ## 7. Assessment result and decision
 
-Most criteria pass, but internal engineering capability and the complete continuity exercise remain below target.
+The scorecard does not support a blanket statement that "most criteria pass": it contains provisional ratings, while several controls and the continuity exercise remain unverified or incomplete. The decision is therefore a **conditional direction for further adoption**, not an unconditional approval to deploy.
 
-**Adopt and contribute, with conditions. Do not yet assume stewardship responsibility or migrate the highest-criticality services.**
+**Decision: proceed with a bounded adoption and contribution phase. Do not yet assume stewardship responsibility or migrate the highest-criticality services.** The decision is conditional on closing the capability and continuity gaps and completing the verification activities below. The comparative TCO is indicative only and is not, by itself, a basis for procurement approval.
 
 Conditions:
 
